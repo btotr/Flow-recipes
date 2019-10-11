@@ -64,7 +64,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="risottofri11oct201920:24:07%20GMT-fijnsnijden">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <core:depVariationInstruction></core:depVariationInstruction>
     <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
     <core:hasComponentUnit rdf:nodeID="f000f9eec03b7480f999e9ed522546515b2"/>
     <core:hasMethod rdf:resource="fs:Fri,%2011%20Oct%202019%2020:24:07%20GMT-fijnsnijden"/>
