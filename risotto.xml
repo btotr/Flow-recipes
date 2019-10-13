@@ -6,142 +6,137 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2008/05/skos#"
 >
-  <rdf:Description rdf:about="fs:Fri,%2011%20Oct%202019%2008:28:23%20GMT-afblussen">
-    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
-    <skos:prefLabel>afblussen</skos:prefLabel>
+  <rdf:Description rdf:nodeID="f000f9eec03b7480f999e9ed522546515b4">
+    <core:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">400</core:weight>
+    <core:hasComponent rdf:resource="fs:Fri,%2011%20Oct%202019%2020:24:07%20GMT-risottorijst"/>
   </rdf:Description>
-  <rdf:Description rdf:about="risotto:Fri,%2011%20Oct%202019%2008:28:23%20GMT">
+  <rdf:Description rdf:about="risottofri11oct201920:24:07%20GMT-fruiten">
+    <core:depVariationInstruction rdf:resource="risottofri11oct201920:24:07%20GMT-fijnsnijden"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <core:instructions rdf:nodeID="f08148efcb1514841b97313ade8b41f8bb11"/>
-    <core:instructions rdf:nodeID="f08148efcb1514841b97313ade8b41f8bb5"/>
-    <core:instructions rdf:nodeID="f08148efcb1514841b97313ade8b41f8bb9"/>
-    <core:instructions rdf:nodeID="f08148efcb1514841b97313ade8b41f8bb1"/>
-    <core:instructions rdf:nodeID="f08148efcb1514841b97313ade8b41f8bb7"/>
+    <core:hasMethod rdf:resource="fs:Fri,%2011%20Oct%202019%2020:24:07%20GMT-fruiten"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <core:hasComponentUnit rdf:nodeID="f000f9eec03b7480f999e9ed522546515b4"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f000f9eec03b7480f999e9ed522546515b11">
+    <rdfs:member rdf:resource="risottofri11oct201920:24:07%20GMT-toevoegen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="risottofri11oct201920:24:07%20GMT">
     <rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <core:instructions rdf:nodeID="f000f9eec03b7480f999e9ed522546515b7"/>
+    <core:instructions rdf:nodeID="f000f9eec03b7480f999e9ed522546515b3"/>
     <rdfs:label>Risotto</rdfs:label>
-    <core:instructions rdf:nodeID="f08148efcb1514841b97313ade8b41f8bb13"/>
-    <core:instructions rdf:nodeID="f08148efcb1514841b97313ade8b41f8bb3"/>
+    <core:instructions rdf:nodeID="f000f9eec03b7480f999e9ed522546515b11"/>
+    <core:instructions rdf:nodeID="f000f9eec03b7480f999e9ed522546515b5"/>
+    <core:instructions rdf:nodeID="f000f9eec03b7480f999e9ed522546515b1"/>
+    <core:instructions rdf:nodeID="f000f9eec03b7480f999e9ed522546515b9"/>
   </rdf:Description>
-  <rdf:Description rdf:about="risotto:Fri,%2011%20Oct%202019%2008:28:23%20GMT-afblussen">
-    <core:hasComponentUnit rdf:nodeID="f08148efcb1514841b97313ade8b41f8bb8"/>
-    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <core:hasMethod rdf:resource="fs:Fri,%2011%20Oct%202019%2008:28:23%20GMT-afblussen"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="fs:Fri,%2011%20Oct%202019%2008:28:23%20GMT-kippenbouilion">
-    <skos:prefLabel>kippenbouilion</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="risotto:Fri,%2011%20Oct%202019%2008:28:23%20GMT-fruiten">
-    <core:hasComponentUnit rdf:nodeID="f08148efcb1514841b97313ade8b41f8bb6"/>
-    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <core:hasComponentUnit rdf:nodeID="f08148efcb1514841b97313ade8b41f8bb4"/>
-    <core:hasMethod rdf:resource="fs:Fri,%2011%20Oct%202019%2008:28:23%20GMT-fruiten"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="fs:Fri,%2011%20Oct%202019%2008:28:23%20GMT-fruiten">
-    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
-    <skos:prefLabel>fruiten</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="f08148efcb1514841b97313ade8b41f8bb13">
-    <rdfs:member rdf:resource="risotto:Fri,%2011%20Oct%202019%2008:28:23%20GMT-toevoegen"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="fs:Fri,%2011%20Oct%202019%2008:28:23%20GMT-boter">
-    <skos:prefLabel>boter</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="f08148efcb1514841b97313ade8b41f8bb2">
-    <core:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</core:weight>
-    <core:hasComponent rdf:resource="fs:Fri,%2011%20Oct%202019%2008:28:23%20GMT-ui"/>
-    <core:componentAddition>1</core:componentAddition>
-  </rdf:Description>
-  <rdf:Description rdf:about="fs:Fri,%2011%20Oct%202019%2008:28:23%20GMT-toevoegen">
-    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
-    <skos:prefLabel>toevoegen</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="f08148efcb1514841b97313ade8b41f8bb6">
-    <core:hasComponent rdf:resource="fs:Fri,%2011%20Oct%202019%2008:28:23%20GMT-boter"/>
-    <core:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</core:weight>
-  </rdf:Description>
-  <rdf:Description rdf:about="fs:Fri,%2011%20Oct%202019%2008:28:23%20GMT-koken">
+  <rdf:Description rdf:about="fs:Fri,%2011%20Oct%202019%2020:24:07%20GMT-koken">
     <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
     <skos:prefLabel>koken</skos:prefLabel>
   </rdf:Description>
-  <rdf:Description rdf:about="risotto:Fri,%2011%20Oct%202019%2008:28:23%20GMT-fijnsnijden">
-    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <core:hasMethod rdf:resource="fs:Fri,%2011%20Oct%202019%2008:28:23%20GMT-fijnsnijden"/>
-    <core:hasComponentUnit rdf:nodeID="f08148efcb1514841b97313ade8b41f8bb2"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="fs:Fri,%2011%20Oct%202019%2008:28:23%20GMT-fijnsnijden">
+  <rdf:Description rdf:about="fs:Fri,%2011%20Oct%202019%2020:24:07%20GMT-kippenbouilion">
     <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
-    <skos:prefLabel>fijnsnijden</skos:prefLabel>
+    <skos:prefLabel>kippenbouilion</skos:prefLabel>
   </rdf:Description>
-  <rdf:Description rdf:about="risotto:Fri,%2011%20Oct%202019%2008:28:23%20GMT-koken">
+  <rdf:Description rdf:nodeID="f000f9eec03b7480f999e9ed522546515b9">
+    <rdfs:member rdf:resource="risottofri11oct201920:24:07%20GMT-toevoegen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="risottofri11oct201920:24:07%20GMT-toevoegen">
+    <core:hasComponentUnit rdf:nodeID="f000f9eec03b7480f999e9ed522546515b12"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <core:hasMethod rdf:resource="fs:Fri,%2011%20Oct%202019%2008:28:23%20GMT-koken"/>
+    <core:hasComponentUnit rdf:nodeID="f000f9eec03b7480f999e9ed522546515b10"/>
+    <core:depVariationInstruction rdf:resource="risottofri11oct201920:24:07%20GMT-koken"/>
+    <core:hasMethod rdf:resource="fs:Fri,%2011%20Oct%202019%2020:24:07%20GMT-toevoegen"/>
     <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
-    <core:hasComponentUnit rdf:nodeID="f08148efcb1514841b97313ade8b41f8bb10"/>
   </rdf:Description>
-  <rdf:Description rdf:about="fs:Fri,%2011%20Oct%202019%2008:28:23%20GMT-parmazaansekaas">
+  <rdf:Description rdf:about="fs:Fri,%2011%20Oct%202019%2020:24:07%20GMT-toevoegen">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>toevoegen</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Fri,%2011%20Oct%202019%2020:24:07%20GMT-afblussen">
+    <skos:prefLabel>afblussen</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Fri,%2011%20Oct%202019%2020:24:07%20GMT-parmazaansekaas">
     <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
     <skos:prefLabel>parmazaansekaas</skos:prefLabel>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="f08148efcb1514841b97313ade8b41f8bb11">
-    <rdfs:member rdf:resource="risotto:Fri,%2011%20Oct%202019%2008:28:23%20GMT-toevoegen"/>
+  <rdf:Description rdf:about="risottofri11oct201920:24:07%20GMT-fijnsnijden">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <core:hasComponentUnit rdf:nodeID="f000f9eec03b7480f999e9ed522546515b2"/>
+    <core:hasMethod rdf:resource="fs:Fri,%2011%20Oct%202019%2020:24:07%20GMT-fijnsnijden"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="f08148efcb1514841b97313ade8b41f8bb14">
-    <core:weight>30</core:weight>
-    <core:hasComponent rdf:resource="fs:Fri,%2011%20Oct%202019%2008:28:23%20GMT-boter"/>
+  <rdf:Description rdf:about="risottofri11oct201920:24:07%20GMT-afblussen">
+    <core:hasMethod rdf:resource="fs:Fri,%2011%20Oct%202019%2020:24:07%20GMT-afblussen"/>
+    <core:depVariationInstruction rdf:resource="risottofri11oct201920:24:07%20GMT-fruiten"/>
+    <core:hasComponentUnit rdf:nodeID="f000f9eec03b7480f999e9ed522546515b6"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="f08148efcb1514841b97313ade8b41f8bb9">
-    <rdfs:member rdf:resource="risotto:Fri,%2011%20Oct%202019%2008:28:23%20GMT-koken"/>
+  <rdf:Description rdf:nodeID="f000f9eec03b7480f999e9ed522546515b8">
+    <core:weight>1,5L</core:weight>
+    <core:hasComponent rdf:resource="fs:Fri,%2011%20Oct%202019%2020:24:07%20GMT-kippenbouilion"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="f08148efcb1514841b97313ade8b41f8bb12">
-    <core:weight>75</core:weight>
-    <core:hasComponent rdf:resource="fs:Fri,%2011%20Oct%202019%2008:28:23%20GMT-parmazaansekaas"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="fs:Fri,%2011%20Oct%202019%2008:28:23%20GMT-wijn">
+  <rdf:Description rdf:about="fs:Fri,%2011%20Oct%202019%2020:24:07%20GMT-wijn">
     <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
     <skos:prefLabel>wijn</skos:prefLabel>
   </rdf:Description>
-  <rdf:Description rdf:about="risotto:Fri,%2011%20Oct%202019%2008:28:23%20GMT-toevoegen">
-    <core:hasMethod rdf:resource="fs:Fri,%2011%20Oct%202019%2008:28:23%20GMT-toevoegen"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
-    <core:hasComponentUnit rdf:nodeID="f08148efcb1514841b97313ade8b41f8bb14"/>
-    <core:hasComponentUnit rdf:nodeID="f08148efcb1514841b97313ade8b41f8bb12"/>
+  <rdf:Description rdf:nodeID="f000f9eec03b7480f999e9ed522546515b3">
+    <rdfs:member rdf:resource="risottofri11oct201920:24:07%20GMT-fruiten"/>
   </rdf:Description>
-  <rdf:Description rdf:about="fs:Fri,%2011%20Oct%202019%2008:28:23%20GMT-risottorijst">
+  <rdf:Description rdf:about="risottofri11oct201920:24:07%20GMT-koken">
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <core:hasComponentUnit rdf:nodeID="f000f9eec03b7480f999e9ed522546515b8"/>
+    <core:depVariationInstruction rdf:resource="risottofri11oct201920:24:07%20GMT-afblussen"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <core:hasMethod rdf:resource="fs:Fri,%2011%20Oct%202019%2020:24:07%20GMT-koken"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f000f9eec03b7480f999e9ed522546515b6">
+    <core:hasComponent rdf:resource="fs:Fri,%2011%20Oct%202019%2020:24:07%20GMT-wijn"/>
+    <core:weight>100</core:weight>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Fri,%2011%20Oct%202019%2020:24:07%20GMT-risottorijst">
     <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
     <skos:prefLabel>risottorijst</skos:prefLabel>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="f08148efcb1514841b97313ade8b41f8bb8">
-    <core:hasComponent rdf:resource="fs:Fri,%2011%20Oct%202019%2008:28:23%20GMT-wijn"/>
-    <core:weight>100</core:weight>
+  <rdf:Description rdf:about="fs:Fri,%2011%20Oct%202019%2020:24:07%20GMT-boter">
+    <skos:prefLabel>boter</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="f08148efcb1514841b97313ade8b41f8bb10">
-    <core:hasComponent rdf:resource="fs:Fri,%2011%20Oct%202019%2008:28:23%20GMT-kippenbouilion"/>
-    <core:weight>1,5L</core:weight>
+  <rdf:Description rdf:nodeID="f000f9eec03b7480f999e9ed522546515b12">
+    <core:hasComponent rdf:resource="fs:Fri,%2011%20Oct%202019%2020:24:07%20GMT-boter"/>
+    <core:weight>30</core:weight>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="f08148efcb1514841b97313ade8b41f8bb7">
-    <rdfs:member rdf:resource="risotto:Fri,%2011%20Oct%202019%2008:28:23%20GMT-afblussen"/>
+  <rdf:Description rdf:about="fs:Fri,%2011%20Oct%202019%2020:24:07%20GMT-fruiten">
+    <skos:prefLabel>fruiten</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="f08148efcb1514841b97313ade8b41f8bb5">
-    <rdfs:member rdf:resource="risotto:Fri,%2011%20Oct%202019%2008:28:23%20GMT-fruiten"/>
+  <rdf:Description rdf:nodeID="f000f9eec03b7480f999e9ed522546515b10">
+    <core:hasComponent rdf:resource="fs:Fri,%2011%20Oct%202019%2020:24:07%20GMT-parmazaansekaas"/>
+    <core:weight>75</core:weight>
   </rdf:Description>
-  <rdf:Description rdf:about="fs:Fri,%2011%20Oct%202019%2008:28:23%20GMT-ui">
+  <rdf:Description rdf:nodeID="f000f9eec03b7480f999e9ed522546515b7">
+    <rdfs:member rdf:resource="risottofri11oct201920:24:07%20GMT-koken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Fri,%2011%20Oct%202019%2020:24:07%20GMT-ui">
     <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
     <skos:prefLabel>ui</skos:prefLabel>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="f08148efcb1514841b97313ade8b41f8bb1">
-    <rdfs:member rdf:resource="risotto:Fri,%2011%20Oct%202019%2008:28:23%20GMT-fijnsnijden"/>
+  <rdf:Description rdf:about="fs:Fri,%2011%20Oct%202019%2020:24:07%20GMT-fijnsnijden">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>fijnsnijden</skos:prefLabel>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="f08148efcb1514841b97313ade8b41f8bb4">
-    <core:hasComponent rdf:resource="fs:Fri,%2011%20Oct%202019%2008:28:23%20GMT-risottorijst"/>
-    <core:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">400</core:weight>
+  <rdf:Description rdf:nodeID="f000f9eec03b7480f999e9ed522546515b2">
+    <core:hasComponent rdf:resource="fs:Fri,%2011%20Oct%202019%2020:24:07%20GMT-ui"/>
+    <core:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</core:weight>
+    <core:componentAddition>1</core:componentAddition>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="f08148efcb1514841b97313ade8b41f8bb3">
-    <rdfs:member rdf:resource="risotto:Fri,%2011%20Oct%202019%2008:28:23%20GMT-fruiten"/>
+  <rdf:Description rdf:nodeID="f000f9eec03b7480f999e9ed522546515b1">
+    <rdfs:member rdf:resource="risottofri11oct201920:24:07%20GMT-fijnsnijden"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f000f9eec03b7480f999e9ed522546515b5">
+    <rdfs:member rdf:resource="risottofri11oct201920:24:07%20GMT-afblussen"/>
   </rdf:Description>
 </rdf:RDF>
