@@ -57,7 +57,7 @@ WHERE {
 ```
 
 
-## generate recipe
+### generate recipe
 
 In the following example we make use of comunica files module (npm install comunica-sparql-file) and a rdf-translator webservice
 
@@ -65,11 +65,46 @@ In the following example we make use of comunica files module (npm install comun
 sed -e 's/<rdf:RDF/<?xml-stylesheet type="text\/xsl" href="flow-visualizer\/flow-visualiser.xsl" ?>\n<rdf:RDF/' <((echo "@prefix core:  <https://flow.recipes/ns/core#> .  @prefix skos: <http://www.w3.org/2008/05/skos#> ." &  comunica-sparql-file https://flow.recipes/ns/core https://flow.recipes/ns/schemes -f risotto.sp ) | curl  --data-urlencode content@-  http://rdf-translator.appspot.com/convert/n3/xml/content) > example.xml
 ```
 
-
-
-## open the generated file 
+### open the generated file 
 
 you could use your webbrowser with the generate file or use xsltptoc
 ```
 xsltproc example.xml
 ```
+
+## create a variation
+
+Follow the same steps as a creation and perform the folowing additional steps but add the folling lines to the sparql query
+
+Inthe construct
+```
+?instruction core:variation ?variation ;
+
+```
+
+in the where 
+```
+BIND(IRI("baseinstruction") AS ?variation) .
+```
+
+
+
+## add a basefile
+
+in example.xml add the following content and namespace
+
+```
+xmlns:xi="http://www.w3.org/2001/XInclude"
+```
+
+```
+<xi:include href="baserecipe.xml"  xpointer="xpointer(*/*)" />
+
+```
+
+## combine with the basefile
+
+```
+xmllint --xinclude example.xml > variationexample.xml
+```
+

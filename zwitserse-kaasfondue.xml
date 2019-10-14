@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://flow.recipes/flow-visualizer/flow-visualiser.xsl" ?>
+<rdf:RDF xmlns:core="https://flow.recipes/ns/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2008/05/skos#" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="fs:Mon,%2014%20Oct%202019%2007:59:01%20GMT-koken" xml:base="recipes/kaasfondue.xml">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>koken</skos:prefLabel>
+  </rdf:Description><rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:core="https://flow.recipes/ns/core#" rdf:nodeID="faad8d57a4036449baccadafbc634a03bb8" xml:base="recipes/kaasfondue.xml">
+    <core:hasComponent rdf:resource="fs:Mon,%2014%20Oct%202019%2007:59:01%20GMT-Noodmuskaat"/>
+    <core:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</core:weight>
+  </rdf:Description><rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="fs:Mon,%2014%20Oct%202019%2007:59:01%20GMT-doorroeren" xml:base="recipes/kaasfondue.xml">
+    <skos:prefLabel>doorroeren</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description><rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:core="https://flow.recipes/ns/core#" rdf:about="risottomon14oct201907:59:01%20GMT-doorroeren" xml:base="recipes/kaasfondue.xml">
+    <core:hasMethod rdf:resource="fs:Mon,%2014%20Oct%202019%2007:59:01%20GMT-doorroeren"/>
+    <core:hasComponentUnit rdf:nodeID="faad8d57a4036449baccadafbc634a03bb10"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <core:hasComponentUnit rdf:nodeID="faad8d57a4036449baccadafbc634a03bb8"/>
+    <core:hasComponentUnit rdf:nodeID="faad8d57a4036449baccadafbc634a03bb6"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <core:depVariationInstruction rdf:resource="risottomon14oct201907:59:01%20GMT-toevoegen"/>
+  </rdf:Description><rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="faad8d57a4036449baccadafbc634a03bb3" xml:base="recipes/kaasfondue.xml">
+    <rdfs:member rdf:resource="risottomon14oct201907:59:01%20GMT-toevoegen"/>
+  </rdf:Description><rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="fs:Mon,%2014%20Oct%202019%2007:59:01%20GMT-witte%20wijn" xml:base="recipes/kaasfondue.xml">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>witte wijn</skos:prefLabel>
+  </rdf:Description><rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:core="https://flow.recipes/ns/core#" rdf:nodeID="faad8d57a4036449baccadafbc634a03bb4" xml:base="recipes/kaasfondue.xml">
+    <core:hasComponent rdf:resource="fs:Mon,%2014%20Oct%202019%2007:59:01%20GMT-kaas"/>
+    <core:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300</core:weight>
+    <core:componentAddition>Langzaam in delen</core:componentAddition>
+  </rdf:Description><rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="fs:Mon,%2014%20Oct%202019%2007:59:01%20GMT-Noodmuskaat" xml:base="recipes/kaasfondue.xml">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>Noodmuskaat</skos:prefLabel>
+  </rdf:Description><rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:core="https://flow.recipes/ns/core#" rdf:nodeID="faad8d57a4036449baccadafbc634a03bb2" xml:base="recipes/kaasfondue.xml">
+    <core:hasComponent rdf:resource="fs:Mon,%2014%20Oct%202019%2007:59:01%20GMT-witte%20wijn"/>
+    <core:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">150</core:weight>
+  </rdf:Description><rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="fs:Mon,%2014%20Oct%202019%2007:59:01%20GMT-maizena" xml:base="recipes/kaasfondue.xml">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>maizena</skos:prefLabel>
+  </rdf:Description><rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:core="https://flow.recipes/ns/core#" rdf:about="risottomon14oct201907:59:01%20GMT" xml:base="recipes/kaasfondue.xml">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label>Risotto</rdfs:label>
+    <core:instructions rdf:nodeID="faad8d57a4036449baccadafbc634a03bb7"/>
+    <core:instructions rdf:nodeID="faad8d57a4036449baccadafbc634a03bb5"/>
+    <core:instructions rdf:nodeID="faad8d57a4036449baccadafbc634a03bb3"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+    <core:instructions rdf:nodeID="faad8d57a4036449baccadafbc634a03bb1"/>
+    <core:instructions rdf:nodeID="faad8d57a4036449baccadafbc634a03bb9"/>
+  </rdf:Description>
+  <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+  xmlns:core="https://flow.recipes/ns/core#" 
+  rdf:about="risottomon14oct201907:59:01%20GMT-toevoegen" 
+  xml:base="recipes/kaasfondue.xml">
+    <core:hasComponentUnit rdf:nodeID="faad8d57a4036449baccadafbc634a03bb4"/>
+    <core:hasMethod rdf:resource="fs:Mon,%2014%20Oct%202019%2007:59:01%20GMT-toevoegen"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <core:depVariationInstruction rdf:resource="risottomon14oct201907:59:01%20GMT-koken"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+  </rdf:Description><rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="fs:Mon,%2014%20Oct%202019%2007:59:01%20GMT-toevoegen" xml:base="recipes/kaasfondue.xml">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>toevoegen</skos:prefLabel>
+  </rdf:Description><rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="faad8d57a4036449baccadafbc634a03bb1" xml:base="recipes/kaasfondue.xml">
+    <rdfs:member rdf:resource="risottomon14oct201907:59:01%20GMT-koken"/>
+  </rdf:Description><rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="faad8d57a4036449baccadafbc634a03bb5" xml:base="recipes/kaasfondue.xml">
+    <rdfs:member rdf:resource="risottomon14oct201907:59:01%20GMT-doorroeren"/>
+  </rdf:Description><rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:core="https://flow.recipes/ns/core#" rdf:about="risottomon14oct201907:59:01%20GMT-koken" xml:base="recipes/kaasfondue.xml">
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <core:hasComponentUnit rdf:nodeID="faad8d57a4036449baccadafbc634a03bb2"/>
+    <core:hasMethod rdf:resource="fs:Mon,%2014%20Oct%202019%2007:59:01%20GMT-koken"/>
+  </rdf:Description><rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="faad8d57a4036449baccadafbc634a03bb7" xml:base="recipes/kaasfondue.xml">
+    <rdfs:member rdf:resource="risottomon14oct201907:59:01%20GMT-doorroeren"/>
+  </rdf:Description><rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="fs:Mon,%2014%20Oct%202019%2007:59:01%20GMT-peper" xml:base="recipes/kaasfondue.xml">
+    <skos:prefLabel>peper</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description><rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="fs:Mon,%2014%20Oct%202019%2007:59:01%20GMT-kaas" xml:base="recipes/kaasfondue.xml">
+    <skos:prefLabel>kaas</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description><rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="faad8d57a4036449baccadafbc634a03bb9" xml:base="recipes/kaasfondue.xml">
+    <rdfs:member rdf:resource="risottomon14oct201907:59:01%20GMT-doorroeren"/>
+  </rdf:Description><rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:core="https://flow.recipes/ns/core#" rdf:nodeID="faad8d57a4036449baccadafbc634a03bb10" xml:base="recipes/kaasfondue.xml">
+    <core:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</core:weight>
+    <core:hasComponent rdf:resource="fs:Mon,%2014%20Oct%202019%2007:59:01%20GMT-maizena"/>
+  </rdf:Description><rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:core="https://flow.recipes/ns/core#" rdf:nodeID="faad8d57a4036449baccadafbc634a03bb6" xml:base="recipes/kaasfondue.xml">
+    <core:hasComponent rdf:resource="fs:Mon,%2014%20Oct%202019%2007:59:01%20GMT-peper"/>
+    <core:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</core:weight>
+  </rdf:Description>
+  <rdf:Description rdf:about="zwitsersekaasfonduemon14oct201909:25:24%20GMT">
+    <core:instructions rdf:nodeID="fefc58f3df531489a8cd808b72c7cbfbab1"/>
+    <core:instructions rdf:nodeID="fefc58f3df531489a8cd808b72c7cbfbab5"/>
+    <rdfs:label>Zwitserse Kaas Fondue</rdfs:label>
+    <core:instructions rdf:nodeID="fefc58f3df531489a8cd808b72c7cbfbab7"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <core:instructions rdf:nodeID="fefc58f3df531489a8cd808b72c7cbfbab3"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fefc58f3df531489a8cd808b72c7cbfbab2">
+    <core:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">125</core:weight>
+    <core:hasComponent rdf:resource="fs:Mon,%2014%20Oct%202019%2009:25:24%20GMT-Emmentaler%20"/>
+    <core:componentAddition>Langzaam in delen</core:componentAddition>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fefc58f3df531489a8cd808b72c7cbfbab1">
+    <rdfs:member rdf:resource="zwitsersekaasfonduemon14oct201909:25:24%20GMT-toevoegen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="zwitsersekaasfonduemon14oct201909:25:24%20GMT-toevoegen">
+    <core:hasComponentUnit rdf:nodeID="fefc58f3df531489a8cd808b72c7cbfbab4"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <core:hasComponentUnit rdf:nodeID="fefc58f3df531489a8cd808b72c7cbfbab2"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <core:variation rdf:resource="risottomon14oct201907:59:01%20GMT-toevoegen"/>
+    <core:hasComponentUnit rdf:nodeID="fefc58f3df531489a8cd808b72c7cbfbab6"/>
+    <core:hasMethod rdf:resource="fs:Mon,%2014%20Oct%202019%2009:25:24%20GMT-toevoegen"/>
+    <core:hasComponentUnit rdf:nodeID="fefc58f3df531489a8cd808b72c7cbfbab8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Mon,%2014%20Oct%202019%2009:25:24%20GMT-toevoegen">
+    <skos:prefLabel>toevoegen</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Mon,%2014%20Oct%202019%2009:25:24%20GMT-appenzeller">
+    <skos:prefLabel>appenzeller</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fefc58f3df531489a8cd808b72c7cbfbab4">
+    <core:hasComponent rdf:resource="fs:Mon,%2014%20Oct%202019%2009:25:24%20GMT-appenzeller"/>
+    <core:componentAddition/>
+    <core:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">125</core:weight>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Mon,%2014%20Oct%202019%2009:25:24%20GMT-Emmentaler%20">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>Emmentaler </skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fefc58f3df531489a8cd808b72c7cbfbab6">
+    <core:hasComponent rdf:resource="fs:Mon,%2014%20Oct%202019%2009:25:24%20GMT-gruyere"/>
+    <core:componentAddition/>
+    <core:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</core:weight>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fefc58f3df531489a8cd808b72c7cbfbab3">
+    <rdfs:member rdf:resource="zwitsersekaasfonduemon14oct201909:25:24%20GMT-toevoegen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Mon,%2014%20Oct%202019%2009:25:24%20GMT-gruyere">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>gruyere</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fefc58f3df531489a8cd808b72c7cbfbab5">
+    <rdfs:member rdf:resource="zwitsersekaasfonduemon14oct201909:25:24%20GMT-toevoegen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Mon,%2014%20Oct%202019%2009:25:24%20GMT-kirsch">
+    <skos:prefLabel>kirsch</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fefc58f3df531489a8cd808b72c7cbfbab8">
+    <core:hasComponent rdf:resource="fs:Mon,%2014%20Oct%202019%2009:25:24%20GMT-kirsch"/>
+    <core:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</core:weight>
+    <core:componentAddition/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fefc58f3df531489a8cd808b72c7cbfbab7">
+    <rdfs:member rdf:resource="zwitsersekaasfonduemon14oct201909:25:24%20GMT-toevoegen"/>
+  </rdf:Description>
+</rdf:RDF>
