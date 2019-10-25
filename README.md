@@ -51,7 +51,7 @@ WHERE {
 	} .
 	BIND(IF(BOUND(?ingredientConcept), ?ingredientConcept, IRI(CONCAT("fs:",STR(NOW()), "-", ?ingredient))) AS ?ingredientConceptInstance) .
 	BIND( IRI(CONCAT(?recipeName,STR(NOW()), "-", ?method)) AS ?instruction) .
-	BIND(IF(!BOUND(?dep), "", IRI(CONCAT(?recipeName,STR(NOW()), "-", ?dep))) AS ?depVariationInstruction) .
+	BIND(IF(!BOUND(?dep), ?dummy, IRI(CONCAT(?recipeName,STR(NOW()), "-", ?dep))) AS ?depVariationInstruction) .
 	BIND( IRI(CONCAT(?recipeName,STR(NOW()))) AS ?recipeInstance) .
 }
 ```

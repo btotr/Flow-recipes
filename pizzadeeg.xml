@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://flow.recipes/flow-visualizer/flow-visualiser.xsl" ?>
+<rdf:RDF
+   xmlns:core="https://flow.recipes/ns/core#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2008/05/skos#"
+>
+  <rdf:Description rdf:about="fs:Fri,%2025%20Oct%202019%2019:12:16%20GMT-gist">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>gist</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="pizzadeegfri25oct201919:12:16%20GMT-kneden">
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <core:hasMethod rdf:resource="fs:Fri,%2025%20Oct%202019%2019:12:16%20GMT-kneden"/>
+    <core:hasComponentUnit rdf:nodeID="f4d31777e2d284b53bbd9c60d1c1bdf08b6"/>
+    <core:hasComponentUnit rdf:nodeID="f4d31777e2d284b53bbd9c60d1c1bdf08b2"/>
+    <core:hasComponentUnit rdf:nodeID="f4d31777e2d284b53bbd9c60d1c1bdf08b4"/>
+    <core:hasComponentUnit rdf:nodeID="f4d31777e2d284b53bbd9c60d1c1bdf08b8"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f4d31777e2d284b53bbd9c60d1c1bdf08b1">
+    <rdfs:member rdf:resource="pizzadeegfri25oct201919:12:16%20GMT-kneden"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f4d31777e2d284b53bbd9c60d1c1bdf08b3">
+    <rdfs:member rdf:resource="pizzadeegfri25oct201919:12:16%20GMT-kneden"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="pizzadeegfri25oct201919:12:16%20GMT">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <core:instructions rdf:nodeID="f4d31777e2d284b53bbd9c60d1c1bdf08b3"/>
+    <rdfs:label>Pizzadeeg</rdfs:label>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+    <core:instructions rdf:nodeID="f4d31777e2d284b53bbd9c60d1c1bdf08b1"/>
+    <core:instructions rdf:nodeID="f4d31777e2d284b53bbd9c60d1c1bdf08b7"/>
+    <core:instructions rdf:nodeID="f4d31777e2d284b53bbd9c60d1c1bdf08b5"/>
+    <core:instructions rdf:nodeID="f4d31777e2d284b53bbd9c60d1c1bdf08b9"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f4d31777e2d284b53bbd9c60d1c1bdf08b4">
+    <core:hasComponent rdf:resource="fs:Fri,%2025%20Oct%202019%2019:12:16%20GMT-water"/>
+    <core:weight>200</core:weight>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Fri,%2025%20Oct%202019%2019:12:16%20GMT-zout">
+    <skos:prefLabel>zout</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Fri,%2025%20Oct%202019%2019:12:16%20GMT-uitrollen">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>uitrollen</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f4d31777e2d284b53bbd9c60d1c1bdf08b9">
+    <rdfs:member rdf:resource="pizzadeegfri25oct201919:12:16%20GMT-uitrollen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Fri,%2025%20Oct%202019%2019:12:16%20GMT-water">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>water</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f4d31777e2d284b53bbd9c60d1c1bdf08b8">
+    <core:hasComponent rdf:resource="fs:Fri,%2025%20Oct%202019%2019:12:16%20GMT-gist"/>
+    <core:weight>5</core:weight>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f4d31777e2d284b53bbd9c60d1c1bdf08b2">
+    <core:componentAddition>tipo 00</core:componentAddition>
+    <core:weight>350</core:weight>
+    <core:hasComponent rdf:resource="fs:Fri,%2025%20Oct%202019%2019:12:16%20GMT-bloem"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f4d31777e2d284b53bbd9c60d1c1bdf08b10">
+    <core:weight>2</core:weight>
+    <core:hasComponent rdf:resource="fs:Fri,%2025%20Oct%202019%2019:12:16%20GMT-bloem"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f4d31777e2d284b53bbd9c60d1c1bdf08b6">
+    <core:hasComponent rdf:resource="fs:Fri,%2025%20Oct%202019%2019:12:16%20GMT-zout"/>
+    <core:weight>5</core:weight>
+  </rdf:Description>
+  <rdf:Description rdf:about="pizzadeegfri25oct201919:12:16%20GMT-uitrollen">
+    <core:hasMethod rdf:resource="fs:Fri,%2025%20Oct%202019%2019:12:16%20GMT-uitrollen"/>
+    <core:hasComponentUnit rdf:nodeID="f4d31777e2d284b53bbd9c60d1c1bdf08b10"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <core:depVariationInstruction rdf:resource="pizzadeegfri25oct201919:12:16%20GMT-kneden"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Fri,%2025%20Oct%202019%2019:12:16%20GMT-kneden">
+    <skos:prefLabel>kneden</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f4d31777e2d284b53bbd9c60d1c1bdf08b5">
+    <rdfs:member rdf:resource="pizzadeegfri25oct201919:12:16%20GMT-kneden"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Fri,%2025%20Oct%202019%2019:12:16%20GMT-bloem">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>bloem</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f4d31777e2d284b53bbd9c60d1c1bdf08b7">
+    <rdfs:member rdf:resource="pizzadeegfri25oct201919:12:16%20GMT-kneden"/>
+  </rdf:Description>
+</rdf:RDF>
