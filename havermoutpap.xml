@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="flow-visualizer/flow-visualiser.xsl" ?>
+<rdf:RDF
+   xmlns:core="https://flow.recipes/ns/core#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2008/05/skos#"
+>
+  <rdf:Description rdf:about="havermoutpapfri25oct201919:49:35%20GMT-mengen">
+    <core:hasComponentUnit rdf:nodeID="f3be7a17b49c14457ab28919c7f0e18bbb4"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <core:hasMethod rdf:resource="fs:Fri,%2025%20Oct%202019%2019:49:35%20GMT-mengen"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <core:hasComponentUnit rdf:nodeID="f3be7a17b49c14457ab28919c7f0e18bbb2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="havermoutpapfri25oct201919:49:35%20GMT">
+    <core:instructions rdf:nodeID="f3be7a17b49c14457ab28919c7f0e18bbb1"/>
+    <core:instructions rdf:nodeID="f3be7a17b49c14457ab28919c7f0e18bbb5"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <core:instructions rdf:nodeID="f3be7a17b49c14457ab28919c7f0e18bbb3"/>
+    <core:instructions rdf:nodeID="f3be7a17b49c14457ab28919c7f0e18bbb6"/>
+    <rdfs:label>Havermoutpap</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="havermoutpapfri25oct201919:49:35%20GMT-verhitten">
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <core:hasMethod rdf:resource="fs:Fri,%2025%20Oct%202019%2019:49:35%20GMT-verhitten"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <core:depVariationInstruction rdf:resource="havermoutpapfri25oct201919:49:35%20GMT-koelen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Fri,%2025%20Oct%202019%2019:49:35%20GMT-havermoutvlokken">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>havermoutvlokken</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="havermoutpapfri25oct201919:49:35%20GMT-koelen">
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <core:depVariationInstruction rdf:resource="havermoutpapfri25oct201919:49:35%20GMT-mengen"/>
+    <core:hasMethod rdf:resource="fs:Fri,%2025%20Oct%202019%2019:49:35%20GMT-koelen"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f3be7a17b49c14457ab28919c7f0e18bbb4">
+    <core:weight>250</core:weight>
+    <core:hasComponent rdf:resource="fs:Fri,%2025%20Oct%202019%2019:49:35%20GMT-havermoutvlokken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Fri,%2025%20Oct%202019%2019:49:35%20GMT-melk">
+    <skos:prefLabel>melk</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f3be7a17b49c14457ab28919c7f0e18bbb5">
+    <rdfs:member rdf:resource="havermoutpapfri25oct201919:49:35%20GMT-koelen"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f3be7a17b49c14457ab28919c7f0e18bbb2">
+    <core:weight>1l</core:weight>
+    <core:hasComponent rdf:resource="fs:Fri,%2025%20Oct%202019%2019:49:35%20GMT-melk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Fri,%2025%20Oct%202019%2019:49:35%20GMT-mengen">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>mengen</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f3be7a17b49c14457ab28919c7f0e18bbb6">
+    <rdfs:member rdf:resource="havermoutpapfri25oct201919:49:35%20GMT-verhitten"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Fri,%2025%20Oct%202019%2019:49:35%20GMT-koelen">
+    <skos:prefLabel>koelen</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Fri,%2025%20Oct%202019%2019:49:35%20GMT-verhitten">
+    <skos:prefLabel>verhitten</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f3be7a17b49c14457ab28919c7f0e18bbb3">
+    <rdfs:member rdf:resource="havermoutpapfri25oct201919:49:35%20GMT-mengen"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f3be7a17b49c14457ab28919c7f0e18bbb1">
+    <rdfs:member rdf:resource="havermoutpapfri25oct201919:49:35%20GMT-mengen"/>
+  </rdf:Description>
+</rdf:RDF>
