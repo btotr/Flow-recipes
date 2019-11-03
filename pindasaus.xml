@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://flow.recipes/flow-visualizer/flow-visualiser.xsl" ?>
+<rdf:RDF
+   xmlns:core="https://flow.recipes/ns/core#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2008/05/skos#"
+>
+  <rdf:Description rdf:about="pindasaussun03nov201908:29:04%20GMT-sudderen">
+    <core:time>4min</core:time>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <core:hasMethod rdf:resource="fs:Sun,%2003%20Nov%202019%2008:29:04%20GMT-sudderen"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <core:depVariationInstruction rdf:resource="pindasaussun03nov201908:29:04%20GMT-doorroeren"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f6182914a41a8484c82e08745efb92db5b17">
+    <core:weight>1tl</core:weight>
+    <core:componentAddition>oelek</core:componentAddition>
+    <core:hasComponent rdf:resource="fs:Sun,%2003%20Nov%202019%2008:29:04%20GMT-sambal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Sun,%2003%20Nov%202019%2008:29:04%20GMT-pindakaas">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>pindakaas</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f6182914a41a8484c82e08745efb92db5b15">
+    <core:weight>200ml</core:weight>
+    <core:hasComponent rdf:resource="fs:Sun,%2003%20Nov%202019%2008:29:04%20GMT-kokosmelk"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f6182914a41a8484c82e08745efb92db5b13">
+    <core:hasComponent rdf:resource="fs:Sun,%2003%20Nov%202019%2008:29:04%20GMT-pindakaas"/>
+    <core:weight>3el</core:weight>
+  </rdf:Description>
+  <rdf:Description rdf:about="pindasaussun03nov201908:29:04%20GMT-meebakken">
+    <core:hasComponentUnit rdf:nodeID="f6182914a41a8484c82e08745efb92db5b11"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <core:hasComponentUnit rdf:nodeID="f6182914a41a8484c82e08745efb92db5b9"/>
+    <core:depVariationInstruction rdf:resource="pindasaussun03nov201908:29:04%20GMT-fijnsnijden"/>
+    <core:direction>tot het gaat ruiken</core:direction>
+    <core:time>2min</core:time>
+    <core:hasMethod rdf:resource="fs:Sun,%2003%20Nov%202019%2008:29:04%20GMT-meebakken"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="pindasaussun03nov201908:29:04%20GMT-fijnsnijden">
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <core:hasComponentUnit rdf:nodeID="f6182914a41a8484c82e08745efb92db5b2"/>
+    <core:hasMethod rdf:resource="fs:Sun,%2003%20Nov%202019%2008:29:04%20GMT-fijnsnijden"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <core:hasComponentUnit rdf:nodeID="f6182914a41a8484c82e08745efb92db5b4"/>
+    <core:hasComponentUnit rdf:nodeID="f6182914a41a8484c82e08745efb92db5b6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="pindasaussun03nov201908:29:04%20GMT">
+    <core:instructions rdf:nodeID="f6182914a41a8484c82e08745efb92db5b10"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+    <core:instructions rdf:nodeID="f6182914a41a8484c82e08745efb92db5b18"/>
+    <core:instructions rdf:nodeID="f6182914a41a8484c82e08745efb92db5b5"/>
+    <core:instructions rdf:nodeID="f6182914a41a8484c82e08745efb92db5b1"/>
+    <core:instructions rdf:nodeID="f6182914a41a8484c82e08745efb92db5b7"/>
+    <core:instructions rdf:nodeID="f6182914a41a8484c82e08745efb92db5b3"/>
+    <core:instructions rdf:nodeID="f6182914a41a8484c82e08745efb92db5b21"/>
+    <core:instructions rdf:nodeID="f6182914a41a8484c82e08745efb92db5b8"/>
+    <core:instructions rdf:nodeID="f6182914a41a8484c82e08745efb92db5b12"/>
+    <rdfs:label>pindasaus</rdfs:label>
+    <core:instructions rdf:nodeID="f6182914a41a8484c82e08745efb92db5b14"/>
+    <core:instructions rdf:nodeID="f6182914a41a8484c82e08745efb92db5b16"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <core:instructions rdf:nodeID="f6182914a41a8484c82e08745efb92db5b19"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f6182914a41a8484c82e08745efb92db5b14">
+    <rdfs:member rdf:resource="pindasaussun03nov201908:29:04%20GMT-doorroeren"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Sun,%2003%20Nov%202019%2008:29:04%20GMT-komijn">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>komijn</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Sun,%2003%20Nov%202019%2008:29:04%20GMT-fijnsnijden">
+    <skos:prefLabel>fijnsnijden</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Sun,%2003%20Nov%202019%2008:29:04%20GMT-sambal">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>sambal</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Sun,%2003%20Nov%202019%2008:29:04%20GMT-limoensap">
+    <skos:prefLabel>limoensap</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f6182914a41a8484c82e08745efb92db5b2">
+    <core:weight>40g</core:weight>
+    <core:hasComponent rdf:resource="fs:Sun,%2003%20Nov%202019%2008:29:04%20GMT-sjalot"/>
+    <core:componentAddition>1</core:componentAddition>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Sun,%2003%20Nov%202019%2008:29:04%20GMT-doorroeren">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>doorroeren</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="pindasaussun03nov201908:29:04%20GMT-doorroeren">
+    <core:hasComponentUnit rdf:nodeID="f6182914a41a8484c82e08745efb92db5b15"/>
+    <core:hasComponentUnit rdf:nodeID="f6182914a41a8484c82e08745efb92db5b17"/>
+    <core:hasComponentUnit rdf:nodeID="f6182914a41a8484c82e08745efb92db5b13"/>
+    <core:hasMethod rdf:resource="fs:Sun,%2003%20Nov%202019%2008:29:04%20GMT-doorroeren"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <core:depVariationInstruction rdf:resource="pindasaussun03nov201908:29:04%20GMT-meebakken"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Sun,%2003%20Nov%202019%2008:29:04%20GMT-ketjap">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>ketjap</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Sun,%2003%20Nov%202019%2008:29:04%20GMT-korianderzaad">
+    <skos:prefLabel>korianderzaad</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="pindasaussun03nov201908:29:04%20GMT-toevoegen">
+    <core:hasMethod rdf:resource="fs:Sun,%2003%20Nov%202019%2008:29:04%20GMT-toevoegen"/>
+    <core:hasComponentUnit rdf:nodeID="f6182914a41a8484c82e08745efb92db5b20"/>
+    <core:hasComponentUnit rdf:nodeID="f6182914a41a8484c82e08745efb92db5b22"/>
+    <core:depVariationInstruction rdf:resource="pindasaussun03nov201908:29:04%20GMT-sudderen"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Sun,%2003%20Nov%202019%2008:29:04%20GMT-sudderen">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>sudderen</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f6182914a41a8484c82e08745efb92db5b4">
+    <core:weight>20g</core:weight>
+    <core:hasComponent rdf:resource="fs:Sun,%2003%20Nov%202019%2008:29:04%20GMT-knoflook"/>
+    <core:componentAddition>1</core:componentAddition>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Sun,%2003%20Nov%202019%2008:29:04%20GMT-toevoegen">
+    <skos:prefLabel>toevoegen</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f6182914a41a8484c82e08745efb92db5b8">
+    <rdfs:member rdf:resource="pindasaussun03nov201908:29:04%20GMT-meebakken"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f6182914a41a8484c82e08745efb92db5b20">
+    <core:hasComponent rdf:resource="fs:Sun,%2003%20Nov%202019%2008:29:04%20GMT-ketjap"/>
+    <core:weight>1el</core:weight>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f6182914a41a8484c82e08745efb92db5b11">
+    <core:weight>1tl</core:weight>
+    <core:hasComponent rdf:resource="fs:Sun,%2003%20Nov%202019%2008:29:04%20GMT-komijn"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f6182914a41a8484c82e08745efb92db5b9">
+    <core:hasComponent rdf:resource="fs:Sun,%2003%20Nov%202019%2008:29:04%20GMT-korianderzaad"/>
+    <core:weight>2tl</core:weight>
+  </rdf:Description>
+  <rdf:Description rdf:about="pindasaussun03nov201908:29:04%20GMT-fruiten">
+    <core:depVariationInstruction rdf:resource="pindasaussun03nov201908:29:04%20GMT-fijnsnijden"/>
+    <core:hasMethod rdf:resource="fs:Sun,%2003%20Nov%202019%2008:29:04%20GMT-fruiten"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Sun,%2003%20Nov%202019%2008:29:04%20GMT-knoflook">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>knoflook</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Sun,%2003%20Nov%202019%2008:29:04%20GMT-kokosmelk">
+    <skos:prefLabel>kokosmelk</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f6182914a41a8484c82e08745efb92db5b18">
+    <rdfs:member rdf:resource="pindasaussun03nov201908:29:04%20GMT-sudderen"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f6182914a41a8484c82e08745efb92db5b22">
+    <core:hasComponent rdf:resource="fs:Sun,%2003%20Nov%202019%2008:29:04%20GMT-limoensap"/>
+    <core:weight>1el</core:weight>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f6182914a41a8484c82e08745efb92db5b3">
+    <rdfs:member rdf:resource="pindasaussun03nov201908:29:04%20GMT-fijnsnijden"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Sun,%2003%20Nov%202019%2008:29:04%20GMT-fruiten">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>fruiten</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Sun,%2003%20Nov%202019%2008:29:04%20GMT-meebakken">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>meebakken</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f6182914a41a8484c82e08745efb92db5b12">
+    <rdfs:member rdf:resource="pindasaussun03nov201908:29:04%20GMT-doorroeren"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Sun,%2003%20Nov%202019%2008:29:04%20GMT-sjalot">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>sjalot</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f6182914a41a8484c82e08745efb92db5b19">
+    <rdfs:member rdf:resource="pindasaussun03nov201908:29:04%20GMT-toevoegen"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f6182914a41a8484c82e08745efb92db5b6">
+    <core:weight>20g</core:weight>
+    <core:hasComponent rdf:resource="fs:Sun,%2003%20Nov%202019%2008:29:04%20GMT-gember"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f6182914a41a8484c82e08745efb92db5b10">
+    <rdfs:member rdf:resource="pindasaussun03nov201908:29:04%20GMT-meebakken"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f6182914a41a8484c82e08745efb92db5b5">
+    <rdfs:member rdf:resource="pindasaussun03nov201908:29:04%20GMT-fijnsnijden"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f6182914a41a8484c82e08745efb92db5b7">
+    <rdfs:member rdf:resource="pindasaussun03nov201908:29:04%20GMT-fruiten"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Sun,%2003%20Nov%202019%2008:29:04%20GMT-gember">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>gember</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f6182914a41a8484c82e08745efb92db5b16">
+    <rdfs:member rdf:resource="pindasaussun03nov201908:29:04%20GMT-doorroeren"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f6182914a41a8484c82e08745efb92db5b21">
+    <rdfs:member rdf:resource="pindasaussun03nov201908:29:04%20GMT-toevoegen"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f6182914a41a8484c82e08745efb92db5b1">
+    <rdfs:member rdf:resource="pindasaussun03nov201908:29:04%20GMT-fijnsnijden"/>
+  </rdf:Description>
+</rdf:RDF>
