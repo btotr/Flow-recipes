@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="flow-visualizer/flow-visualiser.xsl" ?>
+<?xml-stylesheet type="text/xsl" href="https://flow.recipes/flow-visualizer/flow-visualiser.xsl" ?>
 <rdf:RDF
    xmlns:core="https://flow.recipes/ns/core#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
