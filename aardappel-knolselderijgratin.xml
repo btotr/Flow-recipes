@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="flow-visualizer/flow-visualiser.xsl" ?>
+<rdf:RDF
+   xmlns:core="https://flow.recipes/ns/core#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2008/05/skos#"
+>
+  <rdf:Description rdf:nodeID="f37e4556c0d244ce1981d96a98bf5fbf5b11">
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2008:48:31%20GMT-slagroom"/>
+    <core:weight>500g</core:weight>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f37e4556c0d244ce1981d96a98bf5fbf5b12">
+    <rdfs:member rdf:resource="aardappel-knolselderijgratintue24dec201908:48:31%20GMT-toevoegen"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f37e4556c0d244ce1981d96a98bf5fbf5b9">
+    <core:weight>4g</core:weight>
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2008:48:31%20GMT-tijm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="aardappel-knolselderijgratintue24dec201908:48:31%20GMT">
+    <core:instructions rdf:nodeID="f37e4556c0d244ce1981d96a98bf5fbf5b6"/>
+    <core:instructions rdf:nodeID="f37e4556c0d244ce1981d96a98bf5fbf5b3"/>
+    <rdfs:label>aardappel-knolselderijgratin</rdfs:label>
+    <core:instructions rdf:nodeID="f37e4556c0d244ce1981d96a98bf5fbf5b14"/>
+    <core:instructions rdf:nodeID="f37e4556c0d244ce1981d96a98bf5fbf5b5"/>
+    <core:instructions rdf:nodeID="f37e4556c0d244ce1981d96a98bf5fbf5b8"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+    <core:instructions rdf:nodeID="f37e4556c0d244ce1981d96a98bf5fbf5b1"/>
+    <core:instructions rdf:nodeID="f37e4556c0d244ce1981d96a98bf5fbf5b16"/>
+    <core:instructions rdf:nodeID="f37e4556c0d244ce1981d96a98bf5fbf5b12"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <core:instructions rdf:nodeID="f37e4556c0d244ce1981d96a98bf5fbf5b10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2008:48:31%20GMT-bakken">
+    <skos:prefLabel>bakken</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2008:48:31%20GMT-mengen">
+    <skos:prefLabel>mengen</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f37e4556c0d244ce1981d96a98bf5fbf5b13">
+    <core:weight>300g</core:weight>
+    <core:componentAddition>geraspt</core:componentAddition>
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2008:48:31%20GMT-gruyerekaas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2008:48:31%20GMT-snijden">
+    <skos:prefLabel>snijden</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f37e4556c0d244ce1981d96a98bf5fbf5b4">
+    <core:weight>1kg</core:weight>
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2008:48:31%20GMT-knokselderij"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f37e4556c0d244ce1981d96a98bf5fbf5b5">
+    <rdfs:member rdf:resource="aardappel-knolselderijgratintue24dec201908:48:31%20GMT-snijden"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f37e4556c0d244ce1981d96a98bf5fbf5b17">
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2008:48:31%20GMT-aluminiumfolie"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="aardappel-knolselderijgratintue24dec201908:48:31%20GMT-bakken">
+    <core:depVariationInstruction rdf:resource="aardappel-knolselderijgratintue24dec201908:48:31%20GMT-toevoegen"/>
+    <core:hasMethod rdf:resource="fs:Tue,%2024%20Dec%202019%2008:48:31%20GMT-bakken"/>
+    <core:hasComponentUnit rdf:nodeID="f37e4556c0d244ce1981d96a98bf5fbf5b17"/>
+    <core:time>75 min/175℃</core:time>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <core:direction>afdekken na 30 min. met aluminiumfolie </core:direction>
+  </rdf:Description>
+  <rdf:Description rdf:about="aardappel-knolselderijgratintue24dec201908:48:31%20GMT-toevoegen">
+    <core:depVariationInstruction rdf:resource="aardappel-knolselderijgratintue24dec201908:48:31%20GMT-mengen"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <core:hasComponentUnit rdf:nodeID="f37e4556c0d244ce1981d96a98bf5fbf5b13"/>
+    <core:hasComponentUnit rdf:nodeID="f37e4556c0d244ce1981d96a98bf5fbf5b11"/>
+    <core:hasComponentUnit rdf:nodeID="f37e4556c0d244ce1981d96a98bf5fbf5b15"/>
+    <core:hasMethod rdf:resource="fs:Tue,%2024%20Dec%202019%2008:48:31%20GMT-toevoegen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="aardappel-knolselderijgratintue24dec201908:48:31%20GMT-schillen">
+    <core:hasComponentUnit rdf:nodeID="f37e4556c0d244ce1981d96a98bf5fbf5b2"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <core:hasComponentUnit rdf:nodeID="f37e4556c0d244ce1981d96a98bf5fbf5b4"/>
+    <core:hasMethod rdf:resource="fs:Tue,%2024%20Dec%202019%2008:48:31%20GMT-schillen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2008:48:31%20GMT-knokselderij">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>knokselderij</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2008:48:31%20GMT-aardappel">
+    <skos:prefLabel>aardappel</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2008:48:31%20GMT-toevoegen">
+    <skos:prefLabel>toevoegen</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2008:48:31%20GMT-slagroom">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>slagroom</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2008:48:31%20GMT-aluminiumfolie">
+    <skos:prefLabel>aluminiumfolie</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f37e4556c0d244ce1981d96a98bf5fbf5b10">
+    <rdfs:member rdf:resource="aardappel-knolselderijgratintue24dec201908:48:31%20GMT-toevoegen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="aardappel-knolselderijgratintue24dec201908:48:31%20GMT-mengen">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <core:hasComponentUnit rdf:nodeID="f37e4556c0d244ce1981d96a98bf5fbf5b9"/>
+    <core:hasMethod rdf:resource="fs:Tue,%2024%20Dec%202019%2008:48:31%20GMT-mengen"/>
+    <core:depVariationInstruction rdf:resource="aardappel-knolselderijgratintue24dec201908:48:31%20GMT-snijden"/>
+    <core:hasComponentUnit rdf:nodeID="f37e4556c0d244ce1981d96a98bf5fbf5b7"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <core:direction>in ovenschaal</core:direction>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f37e4556c0d244ce1981d96a98bf5fbf5b8">
+    <rdfs:member rdf:resource="aardappel-knolselderijgratintue24dec201908:48:31%20GMT-mengen"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f37e4556c0d244ce1981d96a98bf5fbf5b15">
+    <core:weight>4g</core:weight>
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2008:48:31%20GMT-tijm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2008:48:31%20GMT-tijm">
+    <skos:prefLabel>tijm</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2008:48:31%20GMT-schillen">
+    <skos:prefLabel>schillen</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2008:48:31%20GMT-zout">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>zout</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f37e4556c0d244ce1981d96a98bf5fbf5b1">
+    <rdfs:member rdf:resource="aardappel-knolselderijgratintue24dec201908:48:31%20GMT-schillen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="aardappel-knolselderijgratintue24dec201908:48:31%20GMT-snijden">
+    <core:hasMethod rdf:resource="fs:Tue,%2024%20Dec%202019%2008:48:31%20GMT-snijden"/>
+    <core:depVariationInstruction rdf:resource="aardappel-knolselderijgratintue24dec201908:48:31%20GMT-schillen"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <core:direction>dunne plakken</core:direction>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f37e4556c0d244ce1981d96a98bf5fbf5b14">
+    <rdfs:member rdf:resource="aardappel-knolselderijgratintue24dec201908:48:31%20GMT-toevoegen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2008:48:31%20GMT-gruyerekaas">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>gruyerekaas</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f37e4556c0d244ce1981d96a98bf5fbf5b7">
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2008:48:31%20GMT-zout"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f37e4556c0d244ce1981d96a98bf5fbf5b2">
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2008:48:31%20GMT-aardappel"/>
+    <core:weight>1kg</core:weight>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f37e4556c0d244ce1981d96a98bf5fbf5b6">
+    <rdfs:member rdf:resource="aardappel-knolselderijgratintue24dec201908:48:31%20GMT-mengen"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f37e4556c0d244ce1981d96a98bf5fbf5b16">
+    <rdfs:member rdf:resource="aardappel-knolselderijgratintue24dec201908:48:31%20GMT-bakken"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f37e4556c0d244ce1981d96a98bf5fbf5b3">
+    <rdfs:member rdf:resource="aardappel-knolselderijgratintue24dec201908:48:31%20GMT-schillen"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="flow-visualizer/flow-visualiser.xsl" ?>
+<rdf:RDF
+   xmlns:core="https://flow.recipes/ns/core#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2008/05/skos#"
+>
+  <rdf:Description rdf:about="wildzwijnrollademetgekarameliseerdeappeltjesenkastanjestue24dec201907:49:32%20GMT-insmeren">
+    <core:hasMethod rdf:resource="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-insmeren"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <core:depVariationInstruction rdf:resource="wildzwijnrollademetgekarameliseerdeappeltjesenkastanjestue24dec201907:49:32%20GMT-opensnijden"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-bakken">
+    <skos:prefLabel>bakken</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b21">
+    <rdfs:member rdf:resource="wildzwijnrollademetgekarameliseerdeappeltjesenkastanjestue24dec201907:49:32%20GMT-kruiden"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b12">
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-knoflook"/>
+    <core:weight>5g</core:weight>
+    <core:componentAddition>1</core:componentAddition>
+  </rdf:Description>
+  <rdf:Description rdf:about="wildzwijnrollademetgekarameliseerdeappeltjesenkastanjestue24dec201907:49:32%20GMT-karameliseren">
+    <core:hasComponentUnit rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b6"/>
+    <core:hasMethod rdf:resource="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-karameliseren"/>
+    <core:hasComponentUnit rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b4"/>
+    <core:time>10 min.</core:time>
+    <core:depVariationInstruction rdf:resource="wildzwijnrollademetgekarameliseerdeappeltjesenkastanjestue24dec201907:49:32%20GMT-snijden"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="wildzwijnrollademetgekarameliseerdeappeltjesenkastanjestue24dec201907:49:32%20GMT-snijden">
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <core:direction>in dunne plakjes</core:direction>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <core:hasComponentUnit rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b2"/>
+    <core:hasMethod rdf:resource="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-snijden"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-tijm">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>tijm</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b11">
+    <rdfs:member rdf:resource="wildzwijnrollademetgekarameliseerdeappeltjesenkastanjestue24dec201907:49:32%20GMT-malen"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b23">
+    <rdfs:member rdf:resource="wildzwijnrollademetgekarameliseerdeappeltjesenkastanjestue24dec201907:49:32%20GMT-aanbakken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="wildzwijnrollademetgekarameliseerdeappeltjesenkastanjestue24dec201907:49:32%20GMT-inpakken">
+    <core:hasComponentUnit rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b29"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <core:hasMethod rdf:resource="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-inpakken"/>
+    <core:depVariationInstruction rdf:resource="wildzwijnrollademetgekarameliseerdeappeltjesenkastanjestue24dec201907:49:32%20GMT-bakken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-rozemarijn">
+    <skos:prefLabel>rozemarijn</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="wildzwijnrollademetgekarameliseerdeappeltjesenkastanjestue24dec201907:49:32%20GMT-aanbakken">
+    <core:time>5 min.</core:time>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <core:depVariationInstruction rdf:resource="wildzwijnrollademetgekarameliseerdeappeltjesenkastanjestue24dec201907:49:32%20GMT-kruiden"/>
+    <core:hasMethod rdf:resource="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-aanbakken"/>
+    <core:hasComponentUnit rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b24"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-kastanjes">
+    <skos:prefLabel>kastanjes</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-snijden">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>snijden</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="wildzwijnrollademetgekarameliseerdeappeltjesenkastanjestue24dec201907:49:32%20GMT">
+    <core:instructions rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b23"/>
+    <core:instructions rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b3"/>
+    <core:instructions rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b19"/>
+    <core:instructions rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b13"/>
+    <core:instructions rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b1"/>
+    <core:instructions rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b27"/>
+    <rdfs:label>wild zwijn rollade met gekarameliseerde appeltjes en kastanjes</rdfs:label>
+    <core:instructions rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b21"/>
+    <core:instructions rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b7"/>
+    <core:instructions rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b28"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <core:instructions rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b25"/>
+    <core:instructions rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b11"/>
+    <core:instructions rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b15"/>
+    <core:instructions rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b18"/>
+    <core:instructions rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b5"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+    <core:instructions rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b17"/>
+    <core:instructions rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b9"/>
+    <core:instructions rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="wildzwijnrollademetgekarameliseerdeappeltjesenkastanjestue24dec201907:49:32%20GMT-rusten">
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <core:hasMethod rdf:resource="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-rusten"/>
+    <core:depVariationInstruction rdf:resource="wildzwijnrollademetgekarameliseerdeappeltjesenkastanjestue24dec201907:49:32%20GMT-inpakken"/>
+    <core:time>10 min.</core:time>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-basterdsuiker">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>basterdsuiker</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b17">
+    <rdfs:member rdf:resource="wildzwijnrollademetgekarameliseerdeappeltjesenkastanjestue24dec201907:49:32%20GMT-insmeren"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="wildzwijnrollademetgekarameliseerdeappeltjesenkastanjestue24dec201907:49:32%20GMT-malen">
+    <core:hasComponentUnit rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b10"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <core:hasComponentUnit rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b14"/>
+    <core:hasComponentUnit rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b12"/>
+    <core:hasMethod rdf:resource="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-malen"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <core:depVariationInstruction rdf:resource="wildzwijnrollademetgekarameliseerdeappeltjesenkastanjestue24dec201907:49:32%20GMT-karameliseren"/>
+    <core:hasComponentUnit rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b8"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b26">
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-hertenjus"/>
+    <core:weight>350g</core:weight>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b3">
+    <rdfs:member rdf:resource="wildzwijnrollademetgekarameliseerdeappeltjesenkastanjestue24dec201907:49:32%20GMT-karameliseren"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b4">
+    <core:weight>20g</core:weight>
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-roomboter"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b8">
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-tijm"/>
+    <core:weight>10g</core:weight>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-zout">
+    <skos:prefLabel>zout</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b5">
+    <rdfs:member rdf:resource="wildzwijnrollademetgekarameliseerdeappeltjesenkastanjestue24dec201907:49:32%20GMT-karameliseren"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="wildzwijnrollademetgekarameliseerdeappeltjesenkastanjestue24dec201907:49:32%20GMT-kruiden">
+    <core:hasComponentUnit rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b20"/>
+    <core:hasMethod rdf:resource="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-kruiden"/>
+    <core:hasComponentUnit rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b22"/>
+    <core:depVariationInstruction rdf:resource="wildzwijnrollademetgekarameliseerdeappeltjesenkastanjestue24dec201907:49:32%20GMT-brideren"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b28">
+    <rdfs:member rdf:resource="wildzwijnrollademetgekarameliseerdeappeltjesenkastanjestue24dec201907:49:32%20GMT-inpakken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-malen">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>malen</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b24">
+    <core:weight>20g</core:weight>
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-boter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-karameliseren">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>karameliseren</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-hertenjus">
+    <skos:prefLabel>hertenjus</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b7">
+    <rdfs:member rdf:resource="wildzwijnrollademetgekarameliseerdeappeltjesenkastanjestue24dec201907:49:32%20GMT-malen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-toevoegen">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>toevoegen</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-elstar">
+    <skos:prefLabel>elstar</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-insmeren">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>insmeren</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b16">
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-rollade"/>
+    <core:weight>1.5kg</core:weight>
+    <core:componentAddition>wildzwijn</core:componentAddition>
+  </rdf:Description>
+  <rdf:Description rdf:about="wildzwijnrollademetgekarameliseerdeappeltjesenkastanjestue24dec201907:49:32%20GMT-opensnijden">
+    <core:hasComponentUnit rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b16"/>
+    <core:hasMethod rdf:resource="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-opensnijden"/>
+    <core:depVariationInstruction rdf:resource="wildzwijnrollademetgekarameliseerdeappeltjesenkastanjestue24dec201907:49:32%20GMT-karameliseren"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-opensnijden">
+    <skos:prefLabel>opensnijden</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b13">
+    <rdfs:member rdf:resource="wildzwijnrollademetgekarameliseerdeappeltjesenkastanjestue24dec201907:49:32%20GMT-malen"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b29">
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-aluminiumfolie"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-knoflook">
+    <skos:prefLabel>knoflook</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b18">
+    <rdfs:member rdf:resource="wildzwijnrollademetgekarameliseerdeappeltjesenkastanjestue24dec201907:49:32%20GMT-brideren"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-aanbakken">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>aanbakken</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="wildzwijnrollademetgekarameliseerdeappeltjesenkastanjestue24dec201907:49:32%20GMT-toevoegen">
+    <core:hasMethod rdf:resource="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-toevoegen"/>
+    <core:depVariationInstruction rdf:resource="wildzwijnrollademetgekarameliseerdeappeltjesenkastanjestue24dec201907:49:32%20GMT-aanbakken"/>
+    <core:hasComponentUnit rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b26"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b19">
+    <rdfs:member rdf:resource="wildzwijnrollademetgekarameliseerdeappeltjesenkastanjestue24dec201907:49:32%20GMT-kruiden"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="wildzwijnrollademetgekarameliseerdeappeltjesenkastanjestue24dec201907:49:32%20GMT-brideren">
+    <core:hasMethod rdf:resource="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-brideren"/>
+    <core:depVariationInstruction rdf:resource="wildzwijnrollademetgekarameliseerdeappeltjesenkastanjestue24dec201907:49:32%20GMT-insmeren"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <core:direction>met keukentouw</core:direction>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="wildzwijnrollademetgekarameliseerdeappeltjesenkastanjestue24dec201907:49:32%20GMT-bakken">
+    <core:hasMethod rdf:resource="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-bakken"/>
+    <core:direction>Keer halverwege en besprenkel met het kookvocht. kerntemperatuur 60℃</core:direction>
+    <core:time>2 uur/150℃</core:time>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <core:depVariationInstruction rdf:resource="wildzwijnrollademetgekarameliseerdeappeltjesenkastanjestue24dec201907:49:32%20GMT-toevoegen"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-rusten">
+    <skos:prefLabel>rusten</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b27">
+    <rdfs:member rdf:resource="wildzwijnrollademetgekarameliseerdeappeltjesenkastanjestue24dec201907:49:32%20GMT-bakken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-inpakken">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>inpakken</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b20">
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-zout"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b22">
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-peper"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b2">
+    <core:weight>1</core:weight>
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-elstar"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b10">
+    <core:weight>10g</core:weight>
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-rozemarijn"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-boter">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>boter</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b14">
+    <core:componentAddition>gekookt</core:componentAddition>
+    <core:weight>100g</core:weight>
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-kastanjes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-roomboter">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>roomboter</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b1">
+    <rdfs:member rdf:resource="wildzwijnrollademetgekarameliseerdeappeltjesenkastanjestue24dec201907:49:32%20GMT-snijden"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b30">
+    <rdfs:member rdf:resource="wildzwijnrollademetgekarameliseerdeappeltjesenkastanjestue24dec201907:49:32%20GMT-rusten"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b15">
+    <rdfs:member rdf:resource="wildzwijnrollademetgekarameliseerdeappeltjesenkastanjestue24dec201907:49:32%20GMT-opensnijden"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-kruiden">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>kruiden</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-brideren">
+    <skos:prefLabel>brideren</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-rollade">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>rollade</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b6">
+    <core:weight>20g</core:weight>
+    <core:componentAddition>bruin</core:componentAddition>
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-basterdsuiker"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-aluminiumfolie">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>aluminiumfolie</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2007:49:32%20GMT-peper">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>peper</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b25">
+    <rdfs:member rdf:resource="wildzwijnrollademetgekarameliseerdeappeltjesenkastanjestue24dec201907:49:32%20GMT-toevoegen"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f7ad876fc560e4e609d0e894a73502fb6b9">
+    <rdfs:member rdf:resource="wildzwijnrollademetgekarameliseerdeappeltjesenkastanjestue24dec201907:49:32%20GMT-malen"/>
+  </rdf:Description>
+</rdf:RDF>
