@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://flow.recipes/flow-visualizer/flow-visualiser.xsl" ?>
+<rdf:RDF
+   xmlns:core="https://flow.recipes/ns/core#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2008/05/skos#"
+>
+  <rdf:Description rdf:nodeID="f3cc23da8ad764525bc8fea92469ca4f0b6">
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2019:39:53%20GMT-peterselie"/>
+    <core:weight>20g</core:weight>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f3cc23da8ad764525bc8fea92469ca4f0b2">
+    <core:weight>120g</core:weight>
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2019:39:53%20GMT-chorizo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2019:39:53%20GMT-peterselie">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>peterselie</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="chorizomadeleinestue24dec201919:39:53%20GMT">
+    <core:instructions rdf:nodeID="f3cc23da8ad764525bc8fea92469ca4f0b22"/>
+    <core:instructions rdf:nodeID="f3cc23da8ad764525bc8fea92469ca4f0b19"/>
+    <rdfs:label>chorizo madeleines</rdfs:label>
+    <core:instructions rdf:nodeID="f3cc23da8ad764525bc8fea92469ca4f0b17"/>
+    <core:instructions rdf:nodeID="f3cc23da8ad764525bc8fea92469ca4f0b11"/>
+    <core:instructions rdf:nodeID="f3cc23da8ad764525bc8fea92469ca4f0b5"/>
+    <core:instructions rdf:nodeID="f3cc23da8ad764525bc8fea92469ca4f0b9"/>
+    <core:instructions rdf:nodeID="f3cc23da8ad764525bc8fea92469ca4f0b3"/>
+    <core:instructions rdf:nodeID="f3cc23da8ad764525bc8fea92469ca4f0b21"/>
+    <core:instructions rdf:nodeID="f3cc23da8ad764525bc8fea92469ca4f0b1"/>
+    <core:instructions rdf:nodeID="f3cc23da8ad764525bc8fea92469ca4f0b13"/>
+    <core:instructions rdf:nodeID="f3cc23da8ad764525bc8fea92469ca4f0b15"/>
+    <core:instructions rdf:nodeID="f3cc23da8ad764525bc8fea92469ca4f0b7"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2019:39:53%20GMT-melk">
+    <skos:prefLabel>melk</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2019:39:53%20GMT-chorizo">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>chorizo</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2019:39:53%20GMT-mengen">
+    <skos:prefLabel>mengen</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2019:39:53%20GMT-tomatenpuree">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>tomatenpuree</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="chorizomadeleinestue24dec201919:39:53%20GMT-snijden">
+    <core:hasComponentUnit rdf:nodeID="f3cc23da8ad764525bc8fea92469ca4f0b2"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <core:hasMethod rdf:resource="fs:Tue,%2024%20Dec%202019%2019:39:53%20GMT-snijden"/>
+    <core:direction>brunoise</core:direction>
+  </rdf:Description>
+  <rdf:Description rdf:about="chorizomadeleinestue24dec201919:39:53%20GMT-mengen">
+    <core:hasComponentUnit rdf:nodeID="f3cc23da8ad764525bc8fea92469ca4f0b8"/>
+    <core:hasComponentUnit rdf:nodeID="f3cc23da8ad764525bc8fea92469ca4f0b20"/>
+    <core:depVariationInstruction rdf:resource="chorizomadeleinestue24dec201919:39:53%20GMT-fijnsnijden"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <core:hasMethod rdf:resource="fs:Tue,%2024%20Dec%202019%2019:39:53%20GMT-mengen"/>
+    <core:hasComponentUnit rdf:nodeID="f3cc23da8ad764525bc8fea92469ca4f0b18"/>
+    <core:hasComponentUnit rdf:nodeID="f3cc23da8ad764525bc8fea92469ca4f0b10"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <core:hasComponentUnit rdf:nodeID="f3cc23da8ad764525bc8fea92469ca4f0b12"/>
+    <core:hasComponentUnit rdf:nodeID="f3cc23da8ad764525bc8fea92469ca4f0b16"/>
+    <core:hasComponentUnit rdf:nodeID="f3cc23da8ad764525bc8fea92469ca4f0b14"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f3cc23da8ad764525bc8fea92469ca4f0b17">
+    <rdfs:member rdf:resource="chorizomadeleinestue24dec201919:39:53%20GMT-mengen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="chorizomadeleinestue24dec201919:39:53%20GMT-raspen">
+    <core:hasComponentUnit rdf:nodeID="f3cc23da8ad764525bc8fea92469ca4f0b4"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <core:hasMethod rdf:resource="fs:Tue,%2024%20Dec%202019%2019:39:53%20GMT-raspen"/>
+    <core:depVariationInstruction rdf:resource="chorizomadeleinestue24dec201919:39:53%20GMT-snijden"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2019:39:53%20GMT-opspuiten">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>opspuiten</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2019:39:53%20GMT-fijnsnijden">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>fijnsnijden</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2019:39:53%20GMT-bakpoeder">
+    <skos:prefLabel>bakpoeder</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="chorizomadeleinestue24dec201919:39:53%20GMT-opspuiten">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <core:depVariationInstruction rdf:resource="chorizomadeleinestue24dec201919:39:53%20GMT-mengen"/>
+    <core:hasMethod rdf:resource="fs:Tue,%2024%20Dec%202019%2019:39:53%20GMT-opspuiten"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <core:direction>in madeleinevorm</core:direction>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f3cc23da8ad764525bc8fea92469ca4f0b7">
+    <rdfs:member rdf:resource="chorizomadeleinestue24dec201919:39:53%20GMT-mengen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2019:39:53%20GMT-boter">
+    <skos:prefLabel>boter</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="chorizomadeleinestue24dec201919:39:53%20GMT-bakken">
+    <core:depVariationInstruction rdf:resource="chorizomadeleinestue24dec201919:39:53%20GMT-opspuiten"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <core:hasMethod rdf:resource="fs:Tue,%2024%20Dec%202019%2019:39:53%20GMT-bakken"/>
+    <core:time>12 min/200℃</core:time>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2019:39:53%20GMT-bloem">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>bloem</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="chorizomadeleinestue24dec201919:39:53%20GMT-fijnsnijden">
+    <core:hasComponentUnit rdf:nodeID="f3cc23da8ad764525bc8fea92469ca4f0b6"/>
+    <core:depVariationInstruction rdf:resource="chorizomadeleinestue24dec201919:39:53%20GMT-raspen"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <core:hasMethod rdf:resource="fs:Tue,%2024%20Dec%202019%2019:39:53%20GMT-fijnsnijden"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f3cc23da8ad764525bc8fea92469ca4f0b8">
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2019:39:53%20GMT-ei"/>
+    <core:componentAddition>3</core:componentAddition>
+    <core:weight>60g</core:weight>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2019:39:53%20GMT-maizena">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>maizena</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f3cc23da8ad764525bc8fea92469ca4f0b18">
+    <core:weight>15g</core:weight>
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2019:39:53%20GMT-bakpoeder"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f3cc23da8ad764525bc8fea92469ca4f0b4">
+    <core:weight>80g</core:weight>
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2019:39:53%20GMT-gruy%C3%A8re"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f3cc23da8ad764525bc8fea92469ca4f0b3">
+    <rdfs:member rdf:resource="chorizomadeleinestue24dec201919:39:53%20GMT-raspen"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f3cc23da8ad764525bc8fea92469ca4f0b20">
+    <core:weight>2el</core:weight>
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2019:39:53%20GMT-tomatenpuree"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2019:39:53%20GMT-gruy%C3%A8re">
+    <skos:prefLabel>gruyère</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2019:39:53%20GMT-bakken">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>bakken</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2019:39:53%20GMT-snijden">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>snijden</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f3cc23da8ad764525bc8fea92469ca4f0b10">
+    <core:weight>100g</core:weight>
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2019:39:53%20GMT-melk"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f3cc23da8ad764525bc8fea92469ca4f0b14">
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2019:39:53%20GMT-boter"/>
+    <core:weight>30g</core:weight>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f3cc23da8ad764525bc8fea92469ca4f0b21">
+    <rdfs:member rdf:resource="chorizomadeleinestue24dec201919:39:53%20GMT-opspuiten"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f3cc23da8ad764525bc8fea92469ca4f0b13">
+    <rdfs:member rdf:resource="chorizomadeleinestue24dec201919:39:53%20GMT-mengen"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f3cc23da8ad764525bc8fea92469ca4f0b19">
+    <rdfs:member rdf:resource="chorizomadeleinestue24dec201919:39:53%20GMT-mengen"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f3cc23da8ad764525bc8fea92469ca4f0b22">
+    <rdfs:member rdf:resource="chorizomadeleinestue24dec201919:39:53%20GMT-bakken"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f3cc23da8ad764525bc8fea92469ca4f0b12">
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2019:39:53%20GMT-bloem"/>
+    <core:weight>100g</core:weight>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f3cc23da8ad764525bc8fea92469ca4f0b11">
+    <rdfs:member rdf:resource="chorizomadeleinestue24dec201919:39:53%20GMT-mengen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2019:39:53%20GMT-ei">
+    <skos:prefLabel>ei</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f3cc23da8ad764525bc8fea92469ca4f0b16">
+    <core:weight>30g</core:weight>
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2019:39:53%20GMT-maizena"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f3cc23da8ad764525bc8fea92469ca4f0b1">
+    <rdfs:member rdf:resource="chorizomadeleinestue24dec201919:39:53%20GMT-snijden"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f3cc23da8ad764525bc8fea92469ca4f0b9">
+    <rdfs:member rdf:resource="chorizomadeleinestue24dec201919:39:53%20GMT-mengen"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f3cc23da8ad764525bc8fea92469ca4f0b15">
+    <rdfs:member rdf:resource="chorizomadeleinestue24dec201919:39:53%20GMT-mengen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2019:39:53%20GMT-raspen">
+    <skos:prefLabel>raspen</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f3cc23da8ad764525bc8fea92469ca4f0b5">
+    <rdfs:member rdf:resource="chorizomadeleinestue24dec201919:39:53%20GMT-fijnsnijden"/>
+  </rdf:Description>
+</rdf:RDF>

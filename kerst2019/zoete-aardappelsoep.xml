@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://flow.recipes/flow-visualizer/flow-visualiser.xsl" ?>
+<rdf:RDF
+   xmlns:core="https://flow.recipes/ns/core#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2008/05/skos#"
+>
+  <rdf:Description rdf:about="zoete-aardappelsoeptue24dec201919:01:34%20GMT-opmaken">
+    <core:hasComponentUnit rdf:nodeID="f1ccf46fca4f348ec95f2ebbbf5b8be1fb16"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <core:hasComponentUnit rdf:nodeID="f1ccf46fca4f348ec95f2ebbbf5b8be1fb18"/>
+    <core:depVariationInstruction rdf:resource="zoete-aardappelsoeptue24dec201919:01:34%20GMT-pureren"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <core:hasMethod rdf:resource="fs:Tue,%2024%20Dec%202019%2019:01:34%20GMT-opmaken"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f1ccf46fca4f348ec95f2ebbbf5b8be1fb10">
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2019:01:34%20GMT-paprika"/>
+    <core:weight>180g</core:weight>
+    <core:componentAddition>1</core:componentAddition>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f1ccf46fca4f348ec95f2ebbbf5b8be1fb13">
+    <core:weight>1l</core:weight>
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2019:01:34%20GMT-bouillon"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="zoete-aardappelsoeptue24dec201919:01:34%20GMT-concasseren">
+    <core:hasComponentUnit rdf:nodeID="f1ccf46fca4f348ec95f2ebbbf5b8be1fb6"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <core:hasMethod rdf:resource="fs:Tue,%2024%20Dec%202019%2019:01:34%20GMT-concasseren"/>
+    <core:hasComponentUnit rdf:nodeID="f1ccf46fca4f348ec95f2ebbbf5b8be1fb8"/>
+    <core:hasComponentUnit rdf:nodeID="f1ccf46fca4f348ec95f2ebbbf5b8be1fb10"/>
+    <core:depVariationInstruction rdf:resource="zoete-aardappelsoeptue24dec201919:01:34%20GMT-snipperen"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="zoete-aardappelsoeptue24dec201919:01:34%20GMT-snipperen">
+    <core:hasComponentUnit rdf:nodeID="f1ccf46fca4f348ec95f2ebbbf5b8be1fb2"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <core:hasMethod rdf:resource="fs:Tue,%2024%20Dec%202019%2019:01:34%20GMT-snipperen"/>
+    <core:hasComponentUnit rdf:nodeID="f1ccf46fca4f348ec95f2ebbbf5b8be1fb4"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f1ccf46fca4f348ec95f2ebbbf5b8be1fb2">
+    <core:weight>60g</core:weight>
+    <core:componentAddition>2</core:componentAddition>
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2019:01:34%20GMT-ui"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f1ccf46fca4f348ec95f2ebbbf5b8be1fb3">
+    <rdfs:member rdf:resource="zoete-aardappelsoeptue24dec201919:01:34%20GMT-snipperen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="zoete-aardappelsoeptue24dec201919:01:34%20GMT-koken">
+    <core:time>15 min.</core:time>
+    <core:depVariationInstruction rdf:resource="zoete-aardappelsoeptue24dec201919:01:34%20GMT-concasseren"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <core:hasComponentUnit rdf:nodeID="f1ccf46fca4f348ec95f2ebbbf5b8be1fb13"/>
+    <core:hasMethod rdf:resource="fs:Tue,%2024%20Dec%202019%2019:01:34%20GMT-koken"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f1ccf46fca4f348ec95f2ebbbf5b8be1fb6">
+    <core:componentAddition>2</core:componentAddition>
+    <core:weight>400g</core:weight>
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2019:01:34%20GMT-winterpeen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="zoete-aardappelsoeptue24dec201919:01:34%20GMT-fruiten">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <core:depVariationInstruction rdf:resource="zoete-aardappelsoeptue24dec201919:01:34%20GMT-snipperen"/>
+    <core:hasMethod rdf:resource="fs:Tue,%2024%20Dec%202019%2019:01:34%20GMT-fruiten"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2019:01:34%20GMT-ui">
+    <skos:prefLabel>ui</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f1ccf46fca4f348ec95f2ebbbf5b8be1fb8">
+    <core:componentAddition>2 geschild</core:componentAddition>
+    <core:weight>400g</core:weight>
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2019:01:34%20GMT-zoete%20aardappel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2019:01:34%20GMT-concasseren">
+    <skos:prefLabel>concasseren</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f1ccf46fca4f348ec95f2ebbbf5b8be1fb14">
+    <rdfs:member rdf:resource="zoete-aardappelsoeptue24dec201919:01:34%20GMT-pureren"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f1ccf46fca4f348ec95f2ebbbf5b8be1fb1">
+    <rdfs:member rdf:resource="zoete-aardappelsoeptue24dec201919:01:34%20GMT-snipperen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2019:01:34%20GMT-paprika">
+    <skos:prefLabel>paprika</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f1ccf46fca4f348ec95f2ebbbf5b8be1fb4">
+    <core:componentAddition>2</core:componentAddition>
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2019:01:34%20GMT-knoflook"/>
+    <core:weight>15g</core:weight>
+  </rdf:Description>
+  <rdf:Description rdf:about="zoete-aardappelsoeptue24dec201919:01:34%20GMT">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <core:instructions rdf:nodeID="f1ccf46fca4f348ec95f2ebbbf5b8be1fb15"/>
+    <core:instructions rdf:nodeID="f1ccf46fca4f348ec95f2ebbbf5b8be1fb3"/>
+    <core:instructions rdf:nodeID="f1ccf46fca4f348ec95f2ebbbf5b8be1fb14"/>
+    <core:instructions rdf:nodeID="f1ccf46fca4f348ec95f2ebbbf5b8be1fb7"/>
+    <core:instructions rdf:nodeID="f1ccf46fca4f348ec95f2ebbbf5b8be1fb11"/>
+    <rdfs:label>zoete-aardappelsoep</rdfs:label>
+    <core:instructions rdf:nodeID="f1ccf46fca4f348ec95f2ebbbf5b8be1fb17"/>
+    <core:instructions rdf:nodeID="f1ccf46fca4f348ec95f2ebbbf5b8be1fb9"/>
+    <core:instructions rdf:nodeID="f1ccf46fca4f348ec95f2ebbbf5b8be1fb12"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+    <core:instructions rdf:nodeID="f1ccf46fca4f348ec95f2ebbbf5b8be1fb1"/>
+    <core:instructions rdf:nodeID="f1ccf46fca4f348ec95f2ebbbf5b8be1fb5"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f1ccf46fca4f348ec95f2ebbbf5b8be1fb9">
+    <rdfs:member rdf:resource="zoete-aardappelsoeptue24dec201919:01:34%20GMT-concasseren"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2019:01:34%20GMT-cr%C3%A8me%20fra%C3%AEche">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>crème fraîche</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2019:01:34%20GMT-koken">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>koken</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="zoete-aardappelsoeptue24dec201919:01:34%20GMT-pureren">
+    <core:depVariationInstruction rdf:resource="zoete-aardappelsoeptue24dec201919:01:34%20GMT-koken"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <core:hasMethod rdf:resource="fs:Tue,%2024%20Dec%202019%2019:01:34%20GMT-pureren"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f1ccf46fca4f348ec95f2ebbbf5b8be1fb16">
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2019:01:34%20GMT-cr%C3%A8me%20fra%C3%AEche"/>
+    <core:weight>40g</core:weight>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2019:01:34%20GMT-zoete%20aardappel">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>zoete aardappel</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2019:01:34%20GMT-knoflook">
+    <skos:prefLabel>knoflook</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2019:01:34%20GMT-fruiten">
+    <skos:prefLabel>fruiten</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2019:01:34%20GMT-winterpeen">
+    <skos:prefLabel>winterpeen</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f1ccf46fca4f348ec95f2ebbbf5b8be1fb5">
+    <rdfs:member rdf:resource="zoete-aardappelsoeptue24dec201919:01:34%20GMT-concasseren"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2019:01:34%20GMT-pureren">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>pureren</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2019:01:34%20GMT-peterselie">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>peterselie</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f1ccf46fca4f348ec95f2ebbbf5b8be1fb17">
+    <rdfs:member rdf:resource="zoete-aardappelsoeptue24dec201919:01:34%20GMT-opmaken"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f1ccf46fca4f348ec95f2ebbbf5b8be1fb12">
+    <rdfs:member rdf:resource="zoete-aardappelsoeptue24dec201919:01:34%20GMT-koken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2019:01:34%20GMT-opmaken">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>opmaken</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f1ccf46fca4f348ec95f2ebbbf5b8be1fb18">
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2019:01:34%20GMT-peterselie"/>
+    <core:weight>5g</core:weight>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2019:01:34%20GMT-bouillon">
+    <skos:prefLabel>bouillon</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2019:01:34%20GMT-snipperen">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>snipperen</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f1ccf46fca4f348ec95f2ebbbf5b8be1fb15">
+    <rdfs:member rdf:resource="zoete-aardappelsoeptue24dec201919:01:34%20GMT-opmaken"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f1ccf46fca4f348ec95f2ebbbf5b8be1fb11">
+    <rdfs:member rdf:resource="zoete-aardappelsoeptue24dec201919:01:34%20GMT-fruiten"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f1ccf46fca4f348ec95f2ebbbf5b8be1fb7">
+    <rdfs:member rdf:resource="zoete-aardappelsoeptue24dec201919:01:34%20GMT-concasseren"/>
+  </rdf:Description>
+</rdf:RDF>

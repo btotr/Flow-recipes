@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://flow.recipes/flow-visualizer/flow-visualiser.xsl" ?>
+<rdf:RDF
+   xmlns:core="https://flow.recipes/ns/core#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2008/05/skos#"
+>
+  <rdf:Description rdf:about="lemon-curd-gebakjetue24dec201920:26:10%20GMT">
+    <core:instructions rdf:nodeID="fd20251e6b9dc46159150709fd28dbe32b21"/>
+    <core:instructions rdf:nodeID="fd20251e6b9dc46159150709fd28dbe32b1"/>
+    <core:instructions rdf:nodeID="fd20251e6b9dc46159150709fd28dbe32b3"/>
+    <core:instructions rdf:nodeID="fd20251e6b9dc46159150709fd28dbe32b20"/>
+    <core:instructions rdf:nodeID="fd20251e6b9dc46159150709fd28dbe32b14"/>
+    <core:instructions rdf:nodeID="fd20251e6b9dc46159150709fd28dbe32b5"/>
+    <core:instructions rdf:nodeID="fd20251e6b9dc46159150709fd28dbe32b16"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+    <core:instructions rdf:nodeID="fd20251e6b9dc46159150709fd28dbe32b9"/>
+    <core:instructions rdf:nodeID="fd20251e6b9dc46159150709fd28dbe32b13"/>
+    <core:instructions rdf:nodeID="fd20251e6b9dc46159150709fd28dbe32b23"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <core:instructions rdf:nodeID="fd20251e6b9dc46159150709fd28dbe32b7"/>
+    <core:instructions rdf:nodeID="fd20251e6b9dc46159150709fd28dbe32b18"/>
+    <rdfs:label>lemon-curd-gebakje</rdfs:label>
+    <core:instructions rdf:nodeID="fd20251e6b9dc46159150709fd28dbe32b11"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="lemon-curd-gebakjetue24dec201920:26:10%20GMT-bakken">
+    <core:hasMethod rdf:resource="fs:Tue,%2024%20Dec%202019%2020:26:10%20GMT-bakken"/>
+    <core:depVariationInstruction rdf:resource="lemon-curd-gebakjetue24dec201920:26:10%20GMT-bekleden"/>
+    <core:time>20min/180℃</core:time>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2020:26:10%20GMT-mengen">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>mengen</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fd20251e6b9dc46159150709fd28dbe32b18">
+    <rdfs:member rdf:resource="lemon-curd-gebakjetue24dec201920:26:10%20GMT-mengen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2020:26:10%20GMT-lemon%20curd">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>lemon curd</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="lemon-curd-gebakjetue24dec201920:26:10%20GMT-smelten">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <core:hasComponentUnit rdf:nodeID="fd20251e6b9dc46159150709fd28dbe32b8"/>
+    <core:hasMethod rdf:resource="fs:Tue,%2024%20Dec%202019%2020:26:10%20GMT-smelten"/>
+    <core:depVariationInstruction rdf:resource="lemon-curd-gebakjetue24dec201920:26:10%20GMT-snijden"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fd20251e6b9dc46159150709fd28dbe32b6">
+    <core:weight>75g</core:weight>
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2020:26:10%20GMT-dadels"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fd20251e6b9dc46159150709fd28dbe32b3">
+    <rdfs:member rdf:resource="lemon-curd-gebakjetue24dec201920:26:10%20GMT-fijnmalen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2020:26:10%20GMT-bakken">
+    <skos:prefLabel>bakken</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2020:26:10%20GMT-havermout">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>havermout</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fd20251e6b9dc46159150709fd28dbe32b13">
+    <rdfs:member rdf:resource="lemon-curd-gebakjetue24dec201920:26:10%20GMT-bakken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2020:26:10%20GMT-garneren">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>garneren</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="lemon-curd-gebakjetue24dec201920:26:10%20GMT-bekleden">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <core:hasComponentUnit rdf:nodeID="fd20251e6b9dc46159150709fd28dbe32b12"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <core:depVariationInstruction rdf:resource="lemon-curd-gebakjetue24dec201920:26:10%20GMT-samenvoegen"/>
+    <core:hasMethod rdf:resource="fs:Tue,%2024%20Dec%202019%2020:26:10%20GMT-bekleden"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="lemon-curd-gebakjetue24dec201920:26:10%20GMT-mengen">
+    <core:depVariationInstruction rdf:resource="lemon-curd-gebakjetue24dec201920:26:10%20GMT-bekleden"/>
+    <core:hasComponentUnit rdf:nodeID="fd20251e6b9dc46159150709fd28dbe32b19"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <core:hasMethod rdf:resource="fs:Tue,%2024%20Dec%202019%2020:26:10%20GMT-mengen"/>
+    <core:hasComponentUnit rdf:nodeID="fd20251e6b9dc46159150709fd28dbe32b17"/>
+    <core:hasComponentUnit rdf:nodeID="fd20251e6b9dc46159150709fd28dbe32b15"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fd20251e6b9dc46159150709fd28dbe32b4">
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2020:26:10%20GMT-notenmix"/>
+    <core:componentAddition>ongebrand</core:componentAddition>
+    <core:weight>50g</core:weight>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fd20251e6b9dc46159150709fd28dbe32b19">
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2020:26:10%20GMT-kokos"/>
+    <core:componentAddition>geraspt</core:componentAddition>
+    <core:weight>75g</core:weight>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2020:26:10%20GMT-honing">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>honing</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2020:26:10%20GMT-notenmix">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>notenmix</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fd20251e6b9dc46159150709fd28dbe32b10">
+    <core:weight>2el</core:weight>
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2020:26:10%20GMT-honing"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fd20251e6b9dc46159150709fd28dbe32b24">
+    <core:weight>15g</core:weight>
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2020:26:10%20GMT-munt"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fd20251e6b9dc46159150709fd28dbe32b15">
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2020:26:10%20GMT-mascarpone"/>
+    <core:weight>500g</core:weight>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2020:26:10%20GMT-samenvoegen">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>samenvoegen</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="lemon-curd-gebakjetue24dec201920:26:10%20GMT-garneren">
+    <core:hasMethod rdf:resource="fs:Tue,%2024%20Dec%202019%2020:26:10%20GMT-garneren"/>
+    <core:hasComponentUnit rdf:nodeID="fd20251e6b9dc46159150709fd28dbe32b24"/>
+    <core:hasComponentUnit rdf:nodeID="fd20251e6b9dc46159150709fd28dbe32b22"/>
+    <core:depVariationInstruction rdf:resource="lemon-curd-gebakjetue24dec201920:26:10%20GMT-verdelen"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2020:26:10%20GMT-verdelen">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>verdelen</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="lemon-curd-gebakjetue24dec201920:26:10%20GMT-snijden">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <core:hasMethod rdf:resource="fs:Tue,%2024%20Dec%202019%2020:26:10%20GMT-snijden"/>
+    <core:direction>in kleine stukjes</core:direction>
+    <core:depVariationInstruction rdf:resource="lemon-curd-gebakjetue24dec201920:26:10%20GMT-fijnmalen"/>
+    <core:hasComponentUnit rdf:nodeID="fd20251e6b9dc46159150709fd28dbe32b6"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="lemon-curd-gebakjetue24dec201920:26:10%20GMT-samenvoegen">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <core:depVariationInstruction rdf:resource="lemon-curd-gebakjetue24dec201920:26:10%20GMT-smelten"/>
+    <core:hasComponentUnit rdf:nodeID="fd20251e6b9dc46159150709fd28dbe32b10"/>
+    <core:hasMethod rdf:resource="fs:Tue,%2024%20Dec%202019%2020:26:10%20GMT-samenvoegen"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fd20251e6b9dc46159150709fd28dbe32b2">
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2020:26:10%20GMT-havermout"/>
+    <core:weight>100g</core:weight>
+  </rdf:Description>
+  <rdf:Description rdf:about="lemon-curd-gebakjetue24dec201920:26:10%20GMT-fijnmalen">
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <core:hasComponentUnit rdf:nodeID="fd20251e6b9dc46159150709fd28dbe32b2"/>
+    <core:hasMethod rdf:resource="fs:Tue,%2024%20Dec%202019%2020:26:10%20GMT-fijnmalen"/>
+    <core:hasComponentUnit rdf:nodeID="fd20251e6b9dc46159150709fd28dbe32b4"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fd20251e6b9dc46159150709fd28dbe32b1">
+    <rdfs:member rdf:resource="lemon-curd-gebakjetue24dec201920:26:10%20GMT-fijnmalen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2020:26:10%20GMT-mascarpone">
+    <skos:prefLabel>mascarpone</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="lemon-curd-gebakjetue24dec201920:26:10%20GMT-verdelen">
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <core:depVariationInstruction rdf:resource="lemon-curd-gebakjetue24dec201920:26:10%20GMT-mengen"/>
+    <core:hasMethod rdf:resource="fs:Tue,%2024%20Dec%202019%2020:26:10%20GMT-verdelen"/>
+    <core:direction>over afgekoelde springvorm</core:direction>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2020:26:10%20GMT-kokos">
+    <skos:prefLabel>kokos</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fd20251e6b9dc46159150709fd28dbe32b14">
+    <rdfs:member rdf:resource="lemon-curd-gebakjetue24dec201920:26:10%20GMT-mengen"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fd20251e6b9dc46159150709fd28dbe32b8">
+    <core:weight>2el</core:weight>
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2020:26:10%20GMT-kokosolie"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fd20251e6b9dc46159150709fd28dbe32b20">
+    <rdfs:member rdf:resource="lemon-curd-gebakjetue24dec201920:26:10%20GMT-verdelen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2020:26:10%20GMT-dadels">
+    <skos:prefLabel>dadels</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fd20251e6b9dc46159150709fd28dbe32b5">
+    <rdfs:member rdf:resource="lemon-curd-gebakjetue24dec201920:26:10%20GMT-snijden"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2020:26:10%20GMT-fijnmalen">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>fijnmalen</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fd20251e6b9dc46159150709fd28dbe32b16">
+    <rdfs:member rdf:resource="lemon-curd-gebakjetue24dec201920:26:10%20GMT-mengen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2020:26:10%20GMT-bekleden">
+    <skos:prefLabel>bekleden</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2020:26:10%20GMT-snijden">
+    <skos:prefLabel>snijden</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fd20251e6b9dc46159150709fd28dbe32b7">
+    <rdfs:member rdf:resource="lemon-curd-gebakjetue24dec201920:26:10%20GMT-smelten"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2020:26:10%20GMT-kokosolie">
+    <skos:prefLabel>kokosolie</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fd20251e6b9dc46159150709fd28dbe32b11">
+    <rdfs:member rdf:resource="lemon-curd-gebakjetue24dec201920:26:10%20GMT-bekleden"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fd20251e6b9dc46159150709fd28dbe32b22">
+    <core:componentAddition>geraspt</core:componentAddition>
+    <core:weight>25g</core:weight>
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2020:26:10%20GMT-kokos"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2020:26:10%20GMT-munt">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>munt</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2020:26:10%20GMT-smelten">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>smelten</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fd20251e6b9dc46159150709fd28dbe32b23">
+    <rdfs:member rdf:resource="lemon-curd-gebakjetue24dec201920:26:10%20GMT-garneren"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fd20251e6b9dc46159150709fd28dbe32b9">
+    <rdfs:member rdf:resource="lemon-curd-gebakjetue24dec201920:26:10%20GMT-samenvoegen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2020:26:10%20GMT-bakvorm">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>bakvorm</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fd20251e6b9dc46159150709fd28dbe32b12">
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2020:26:10%20GMT-bakvorm"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fd20251e6b9dc46159150709fd28dbe32b21">
+    <rdfs:member rdf:resource="lemon-curd-gebakjetue24dec201920:26:10%20GMT-garneren"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fd20251e6b9dc46159150709fd28dbe32b17">
+    <core:weight>8el</core:weight>
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2020:26:10%20GMT-lemon%20curd"/>
+  </rdf:Description>
+</rdf:RDF>

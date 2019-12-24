@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="flow-visualizer/flow-visualiser.xsl" ?>
+<rdf:RDF
+   xmlns:core="https://flow.recipes/ns/core#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2008/05/skos#"
+>
+  <rdf:Description rdf:about="chocolademoussemetkersentue24dec201920:05:03%20GMT-opstijven">
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <core:time>1 uur</core:time>
+    <core:depVariationInstruction rdf:resource="chocolademoussemetkersentue24dec201920:05:03%20GMT-verdelen"/>
+    <core:hasMethod rdf:resource="fs:Tue,%2024%20Dec%202019%2020:05:03%20GMT-opstijven"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f031f8268057c4686b6bb1342adbd8a06b8">
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2020:05:03%20GMT-melk"/>
+    <core:weight>150g</core:weight>
+  </rdf:Description>
+  <rdf:Description rdf:about="chocolademoussemetkersentue24dec201920:05:03%20GMT">
+    <core:instructions rdf:nodeID="f031f8268057c4686b6bb1342adbd8a06b9"/>
+    <core:instructions rdf:nodeID="f031f8268057c4686b6bb1342adbd8a06b10"/>
+    <core:instructions rdf:nodeID="f031f8268057c4686b6bb1342adbd8a06b12"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <core:instructions rdf:nodeID="f031f8268057c4686b6bb1342adbd8a06b19"/>
+    <core:instructions rdf:nodeID="f031f8268057c4686b6bb1342adbd8a06b5"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+    <core:instructions rdf:nodeID="f031f8268057c4686b6bb1342adbd8a06b7"/>
+    <core:instructions rdf:nodeID="f031f8268057c4686b6bb1342adbd8a06b3"/>
+    <core:instructions rdf:nodeID="f031f8268057c4686b6bb1342adbd8a06b17"/>
+    <rdfs:label>chocolademousse met kersen</rdfs:label>
+    <core:instructions rdf:nodeID="f031f8268057c4686b6bb1342adbd8a06b1"/>
+    <core:instructions rdf:nodeID="f031f8268057c4686b6bb1342adbd8a06b15"/>
+    <core:instructions rdf:nodeID="f031f8268057c4686b6bb1342adbd8a06b13"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="chocolademoussemetkersentue24dec201920:05:03%20GMT-opmaken">
+    <core:depVariationInstruction rdf:resource="chocolademoussemetkersentue24dec201920:05:03%20GMT-maceren"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <core:hasMethod rdf:resource="fs:Tue,%2024%20Dec%202019%2020:05:03%20GMT-opmaken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="chocolademoussemetkersentue24dec201920:05:03%20GMT-verwarmen">
+    <core:hasMethod rdf:resource="fs:Tue,%2024%20Dec%202019%2020:05:03%20GMT-verwarmen"/>
+    <core:hasComponentUnit rdf:nodeID="f031f8268057c4686b6bb1342adbd8a06b8"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <core:direction>al roerend</core:direction>
+    <core:hasComponentUnit rdf:nodeID="f031f8268057c4686b6bb1342adbd8a06b6"/>
+    <core:hasComponentUnit rdf:nodeID="f031f8268057c4686b6bb1342adbd8a06b4"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <core:depVariationInstruction rdf:resource="chocolademoussemetkersentue24dec201920:05:03%20GMT-stijfkloppen"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f031f8268057c4686b6bb1342adbd8a06b16">
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2020:05:03%20GMT-piment"/>
+    <core:weight>1tl</core:weight>
+  </rdf:Description>
+  <rdf:Description rdf:about="chocolademoussemetkersentue24dec201920:05:03%20GMT-samenvoegen">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <core:depVariationInstruction rdf:resource="chocolademoussemetkersentue24dec201920:05:03%20GMT-verwarmen"/>
+    <core:hasMethod rdf:resource="fs:Tue,%2024%20Dec%202019%2020:05:03%20GMT-samenvoegen"/>
+    <core:direction>luchtig spatelen</core:direction>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2020:05:03%20GMT-opstijven">
+    <skos:prefLabel>opstijven</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f031f8268057c4686b6bb1342adbd8a06b14">
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2020:05:03%20GMT-sinaasappellikeur"/>
+    <core:weight>4el</core:weight>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2020:05:03%20GMT-slagroom">
+    <skos:prefLabel>slagroom</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f031f8268057c4686b6bb1342adbd8a06b1">
+    <rdfs:member rdf:resource="chocolademoussemetkersentue24dec201920:05:03%20GMT-stijfkloppen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="chocolademoussemetkersentue24dec201920:05:03%20GMT-maceren">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <core:hasComponentUnit rdf:nodeID="f031f8268057c4686b6bb1342adbd8a06b18"/>
+    <core:time>1 uur</core:time>
+    <core:hasComponentUnit rdf:nodeID="f031f8268057c4686b6bb1342adbd8a06b16"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <core:hasComponentUnit rdf:nodeID="f031f8268057c4686b6bb1342adbd8a06b14"/>
+    <core:depVariationInstruction rdf:resource="chocolademoussemetkersentue24dec201920:05:03%20GMT-verdelen"/>
+    <core:hasMethod rdf:resource="fs:Tue,%2024%20Dec%202019%2020:05:03%20GMT-maceren"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f031f8268057c4686b6bb1342adbd8a06b10">
+    <rdfs:member rdf:resource="chocolademoussemetkersentue24dec201920:05:03%20GMT-verdelen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="chocolademoussemetkersentue24dec201920:05:03%20GMT-stijfkloppen">
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <core:hasComponentUnit rdf:nodeID="f031f8268057c4686b6bb1342adbd8a06b2"/>
+    <core:direction>apart zetten</core:direction>
+    <core:hasMethod rdf:resource="fs:Tue,%2024%20Dec%202019%2020:05:03%20GMT-stijfkloppen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2020:05:03%20GMT-maceren">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>maceren</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="chocolademoussemetkersentue24dec201920:05:03%20GMT-verdelen">
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <core:hasComponentUnit rdf:nodeID="f031f8268057c4686b6bb1342adbd8a06b11"/>
+    <core:hasMethod rdf:resource="fs:Tue,%2024%20Dec%202019%2020:05:03%20GMT-verdelen"/>
+    <core:depVariationInstruction rdf:resource="chocolademoussemetkersentue24dec201920:05:03%20GMT-samenvoegen"/>
+    <core:direction>gladstrijken</core:direction>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2020:05:03%20GMT-piment">
+    <skos:prefLabel>piment</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f031f8268057c4686b6bb1342adbd8a06b17">
+    <rdfs:member rdf:resource="chocolademoussemetkersentue24dec201920:05:03%20GMT-maceren"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f031f8268057c4686b6bb1342adbd8a06b5">
+    <rdfs:member rdf:resource="chocolademoussemetkersentue24dec201920:05:03%20GMT-verwarmen"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f031f8268057c4686b6bb1342adbd8a06b4">
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2020:05:03%20GMT-sinaasappel"/>
+    <core:componentAddition>geraspt</core:componentAddition>
+    <core:weight>1tl</core:weight>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2020:05:03%20GMT-verdelen">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>verdelen</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f031f8268057c4686b6bb1342adbd8a06b13">
+    <rdfs:member rdf:resource="chocolademoussemetkersentue24dec201920:05:03%20GMT-maceren"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2020:05:03%20GMT-kersen">
+    <skos:prefLabel>kersen</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2020:05:03%20GMT-opmaken">
+    <skos:prefLabel>opmaken</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2020:05:03%20GMT-chocolade">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>chocolade</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2020:05:03%20GMT-coupe">
+    <skos:prefLabel>coupe</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2020:05:03%20GMT-verwarmen">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>verwarmen</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f031f8268057c4686b6bb1342adbd8a06b11">
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2020:05:03%20GMT-coupe"/>
+    <core:componentAddition>4</core:componentAddition>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f031f8268057c4686b6bb1342adbd8a06b6">
+    <core:componentAddition>gebroken, 70% cacao</core:componentAddition>
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2020:05:03%20GMT-chocolade"/>
+    <core:weight>200g</core:weight>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2020:05:03%20GMT-sinaasappellikeur">
+    <skos:prefLabel>sinaasappellikeur</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2020:05:03%20GMT-sinaasappel">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos:prefLabel>sinaasappel</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2020:05:03%20GMT-samenvoegen">
+    <skos:prefLabel>samenvoegen</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2020:05:03%20GMT-stijfkloppen">
+    <skos:prefLabel>stijfkloppen</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:Tue,%2024%20Dec%202019%2020:05:03%20GMT-melk">
+    <skos:prefLabel>melk</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f031f8268057c4686b6bb1342adbd8a06b2">
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2020:05:03%20GMT-slagroom"/>
+    <core:weight>250g</core:weight>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f031f8268057c4686b6bb1342adbd8a06b3">
+    <rdfs:member rdf:resource="chocolademoussemetkersentue24dec201920:05:03%20GMT-verwarmen"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f031f8268057c4686b6bb1342adbd8a06b19">
+    <rdfs:member rdf:resource="chocolademoussemetkersentue24dec201920:05:03%20GMT-opmaken"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f031f8268057c4686b6bb1342adbd8a06b9">
+    <rdfs:member rdf:resource="chocolademoussemetkersentue24dec201920:05:03%20GMT-samenvoegen"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f031f8268057c4686b6bb1342adbd8a06b18">
+    <core:hasComponent rdf:resource="fs:Tue,%2024%20Dec%202019%2020:05:03%20GMT-kersen"/>
+    <core:weight>720ml</core:weight>
+    <core:componentAddition>op siroop</core:componentAddition>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f031f8268057c4686b6bb1342adbd8a06b15">
+    <rdfs:member rdf:resource="chocolademoussemetkersentue24dec201920:05:03%20GMT-maceren"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f031f8268057c4686b6bb1342adbd8a06b12">
+    <rdfs:member rdf:resource="chocolademoussemetkersentue24dec201920:05:03%20GMT-opstijven"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f031f8268057c4686b6bb1342adbd8a06b7">
+    <rdfs:member rdf:resource="chocolademoussemetkersentue24dec201920:05:03%20GMT-verwarmen"/>
+  </rdf:Description>
+</rdf:RDF>
