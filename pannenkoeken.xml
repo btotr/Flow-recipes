@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://flow.recipes/flow-visualizer/flow-visualiser.xsl"?>
+<rdf:RDF
+   xmlns:ns1="https://flow.recipes/ns/core#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos08="http://www.w3.org/2008/05/skos#"
+>
+  <rdf:Description rdf:about="objecthtmlinputelement2020-08-08t08:19:00.809Z">
+    <ns1:instructions rdf:nodeID="fcac4792d581f4f5c8507a2eb9272af78b3"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+    <ns1:instructions rdf:nodeID="fcac4792d581f4f5c8507a2eb9272af78b1"/>
+    <rdfs:label>[object HTMLInputElement]</rdfs:label>
+    <ns1:instructions rdf:nodeID="fcac4792d581f4f5c8507a2eb9272af78b9"/>
+    <ns1:instructions rdf:nodeID="fcac4792d581f4f5c8507a2eb9272af78b5"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:instructions rdf:nodeID="fcac4792d581f4f5c8507a2eb9272af78b7"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fcac4792d581f4f5c8507a2eb9272af78b8">
+    <ns1:hasComponent rdf:resource="fs:2020-08-08T08:19:00.809Z-zout"/>
+    <ns1:weight>1g</ns1:weight>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fcac4792d581f4f5c8507a2eb9272af78b9">
+    <rdfs:member rdf:resource="objecthtmlinputelement2020-08-08t08:19:00.809Z-bakken"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fcac4792d581f4f5c8507a2eb9272af78b3">
+    <rdfs:member rdf:resource="objecthtmlinputelement2020-08-08t08:19:00.809Z-mengen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-08-08T08:19:00.809Z-melk">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos08:prefLabel>melk</skos08:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-08-08T08:19:00.809Z-zout">
+    <skos08:prefLabel>zout</skos08:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-08-08T08:19:00.809Z-bakken">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos08:prefLabel>bakken</skos08:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="objecthtmlinputelement2020-08-08t08:19:00.809Z-mengen">
+    <ns1:hasMethod rdf:resource="fs:2020-08-08T08:19:00.809Z-mengen"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <ns1:hasComponentUnit rdf:nodeID="fcac4792d581f4f5c8507a2eb9272af78b2"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:hasComponentUnit rdf:nodeID="fcac4792d581f4f5c8507a2eb9272af78b4"/>
+    <ns1:hasComponentUnit rdf:nodeID="fcac4792d581f4f5c8507a2eb9272af78b8"/>
+    <ns1:hasComponentUnit rdf:nodeID="fcac4792d581f4f5c8507a2eb9272af78b6"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fcac4792d581f4f5c8507a2eb9272af78b7">
+    <rdfs:member rdf:resource="objecthtmlinputelement2020-08-08t08:19:00.809Z-mengen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-08-08T08:19:00.809Z-ei">
+    <skos08:prefLabel>ei</skos08:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="objecthtmlinputelement2020-08-08t08:19:00.809Z-bakken">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:hasMethod rdf:resource="fs:2020-08-08T08:19:00.809Z-bakken"/>
+    <ns1:hasComponentUnit rdf:nodeID="fcac4792d581f4f5c8507a2eb9272af78b10"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <ns1:depVariationInstruction rdf:resource="objecthtmlinputelement2020-08-08t08:19:00.809Z-mengen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-08-08T08:19:00.809Z-bloem">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos08:prefLabel>bloem</skos08:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-08-08T08:19:00.809Z-boter">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos08:prefLabel>boter</skos08:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fcac4792d581f4f5c8507a2eb9272af78b4">
+    <ns1:weight>4</ns1:weight>
+    <ns1:hasComponent rdf:resource="fs:2020-08-08T08:19:00.809Z-ei"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fcac4792d581f4f5c8507a2eb9272af78b2">
+    <ns1:weight>300g</ns1:weight>
+    <ns1:hasComponent rdf:resource="fs:2020-08-08T08:19:00.809Z-bloem"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fcac4792d581f4f5c8507a2eb9272af78b6">
+    <ns1:weight>500ml</ns1:weight>
+    <ns1:hasComponent rdf:resource="fs:2020-08-08T08:19:00.809Z-melk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-08-08T08:19:00.809Z-mengen">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos08:prefLabel>mengen</skos08:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fcac4792d581f4f5c8507a2eb9272af78b1">
+    <rdfs:member rdf:resource="objecthtmlinputelement2020-08-08t08:19:00.809Z-mengen"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fcac4792d581f4f5c8507a2eb9272af78b10">
+    <ns1:hasComponent rdf:resource="fs:2020-08-08T08:19:00.809Z-boter"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fcac4792d581f4f5c8507a2eb9272af78b5">
+    <rdfs:member rdf:resource="objecthtmlinputelement2020-08-08t08:19:00.809Z-mengen"/>
+  </rdf:Description>
+</rdf:RDF>
