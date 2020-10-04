@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://flow.recipes/flow-visualizer/flow-visualiser.xsl"?>
+<rdf:RDF
+   xmlns:ns1="https://flow.recipes/ns/core#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos08="http://www.w3.org/2008/05/skos#"
+>
+  <rdf:Description rdf:nodeID="f4c376ce37e534525ac637801041d5d27b1">
+    <rdfs:member rdf:resource="mayonaise2020-08-10t07:09:54.490Z-Mix"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-08-10T07:09:54.490Z-Wei">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos08:prefLabel>Wei</skos08:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="mayonaise2020-08-10t07:09:54.490Z">
+    <ns1:instructions rdf:nodeID="f4c376ce37e534525ac637801041d5d27b7"/>
+    <ns1:instructions rdf:nodeID="f4c376ce37e534525ac637801041d5d27b5"/>
+    <ns1:instructions rdf:nodeID="f4c376ce37e534525ac637801041d5d27b1"/>
+    <ns1:instructions rdf:nodeID="f4c376ce37e534525ac637801041d5d27b9"/>
+    <rdfs:label>Mayonaise</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:instructions rdf:nodeID="f4c376ce37e534525ac637801041d5d27b3"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+    <ns1:instructions rdf:nodeID="f4c376ce37e534525ac637801041d5d27b13"/>
+    <ns1:instructions rdf:nodeID="f4c376ce37e534525ac637801041d5d27b11"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mayonaise2020-08-10t07:09:54.490Z-Mix">
+    <ns1:hasComponentUnit rdf:nodeID="f4c376ce37e534525ac637801041d5d27b14"/>
+    <ns1:direction>olie in kleine delen toevoegen</ns1:direction>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <ns1:hasComponentUnit rdf:nodeID="f4c376ce37e534525ac637801041d5d27b2"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:hasComponentUnit rdf:nodeID="f4c376ce37e534525ac637801041d5d27b4"/>
+    <ns1:hasComponentUnit rdf:nodeID="f4c376ce37e534525ac637801041d5d27b8"/>
+    <ns1:hasComponentUnit rdf:nodeID="f4c376ce37e534525ac637801041d5d27b6"/>
+    <ns1:hasComponentUnit rdf:nodeID="f4c376ce37e534525ac637801041d5d27b12"/>
+    <ns1:hasMethod rdf:resource="fs:2020-08-10T07:09:54.490Z-Mix"/>
+    <ns1:hasComponentUnit rdf:nodeID="f4c376ce37e534525ac637801041d5d27b10"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f4c376ce37e534525ac637801041d5d27b10">
+    <ns1:hasComponent rdf:resource="fs:2020-08-10T07:09:54.490Z-Peper"/>
+    <ns1:weight>1g</ns1:weight>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f4c376ce37e534525ac637801041d5d27b6">
+    <ns1:hasComponent rdf:resource="fs:2020-08-10T07:09:54.490Z-Mosterd"/>
+    <ns1:weight>1el</ns1:weight>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-08-10T07:09:54.490Z-Arachideolie">
+    <skos08:prefLabel>Arachideolie</skos08:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-08-10T07:09:54.490Z-Zout">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos08:prefLabel>Zout</skos08:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-08-10T07:09:54.490Z-Eigeel">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos08:prefLabel>Eigeel</skos08:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f4c376ce37e534525ac637801041d5d27b9">
+    <rdfs:member rdf:resource="mayonaise2020-08-10t07:09:54.490Z-Mix"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-08-10T07:09:54.490Z-Peper">
+    <skos08:prefLabel>Peper</skos08:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f4c376ce37e534525ac637801041d5d27b2">
+    <ns1:weight>300g</ns1:weight>
+    <ns1:hasComponent rdf:resource="fs:2020-08-10T07:09:54.490Z-Arachideolie"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f4c376ce37e534525ac637801041d5d27b13">
+    <rdfs:member rdf:resource="mayonaise2020-08-10t07:09:54.490Z-Mix"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-08-10T07:09:54.490Z-Mix">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos08:prefLabel>Mix</skos08:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f4c376ce37e534525ac637801041d5d27b3">
+    <rdfs:member rdf:resource="mayonaise2020-08-10t07:09:54.490Z-Mix"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-08-10T07:09:54.490Z-Mosterd">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos08:prefLabel>Mosterd</skos08:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f4c376ce37e534525ac637801041d5d27b8">
+    <ns1:hasComponent rdf:resource="fs:2020-08-10T07:09:54.490Z-Zout"/>
+    <ns1:weight>1g</ns1:weight>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f4c376ce37e534525ac637801041d5d27b12">
+    <ns1:weight>1tl</ns1:weight>
+    <ns1:hasComponent rdf:resource="fs:2020-08-10T07:09:54.490Z-Wei"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-08-10T07:09:54.490Z-Citroensap">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos08:prefLabel>Citroensap</skos08:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f4c376ce37e534525ac637801041d5d27b5">
+    <rdfs:member rdf:resource="mayonaise2020-08-10t07:09:54.490Z-Mix"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f4c376ce37e534525ac637801041d5d27b4">
+    <ns1:hasComponent rdf:resource="fs:2020-08-10T07:09:54.490Z-Citroensap"/>
+    <ns1:weight>1tl</ns1:weight>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f4c376ce37e534525ac637801041d5d27b7">
+    <rdfs:member rdf:resource="mayonaise2020-08-10t07:09:54.490Z-Mix"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f4c376ce37e534525ac637801041d5d27b14">
+    <ns1:hasComponent rdf:resource="fs:2020-08-10T07:09:54.490Z-Eigeel"/>
+    <ns1:weight>1</ns1:weight>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f4c376ce37e534525ac637801041d5d27b11">
+    <rdfs:member rdf:resource="mayonaise2020-08-10t07:09:54.490Z-Mix"/>
+  </rdf:Description>
+</rdf:RDF>

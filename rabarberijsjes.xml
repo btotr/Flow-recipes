@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://flow.recipes/flow-visualizer/flow-visualiser.xsl"?>
+<rdf:RDF
+   xmlns:ns1="https://flow.recipes/ns/core#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos08="http://www.w3.org/2008/05/skos#"
+>
+  <rdf:Description rdf:about="fs:2020-08-11T12:49:42.480Z-vriezen">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos08:prefLabel>vriezen</skos08:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="rabarberijsjes2020-08-11t12:49:42.480Z">
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+    <ns1:instructions rdf:nodeID="fb52fc68db7474cd6b521d788ffa9c06cb1"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:instructions rdf:nodeID="fb52fc68db7474cd6b521d788ffa9c06cb7"/>
+    <rdfs:label>Rabarberijsjes</rdfs:label>
+    <ns1:instructions rdf:nodeID="fb52fc68db7474cd6b521d788ffa9c06cb5"/>
+    <ns1:instructions rdf:nodeID="fb52fc68db7474cd6b521d788ffa9c06cb3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="rabarberijsjes2020-08-11t12:49:42.480Z-vullen">
+    <ns1:direction>in ijsvormpjes</ns1:direction>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:hasMethod rdf:resource="fs:2020-08-11T12:49:42.480Z-vullen"/>
+    <ns1:depVariationInstruction rdf:resource="rabarberijsjes2020-08-11t12:49:42.480Z-mengen"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <ns1:hasComponentUnit rdf:nodeID="fb52fc68db7474cd6b521d788ffa9c06cb6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-08-11T12:49:42.480Z-vullen">
+    <skos08:prefLabel>vullen</skos08:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="rabarberijsjes2020-08-11t12:49:42.480Z-mengen">
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <ns1:hasComponentUnit rdf:nodeID="fb52fc68db7474cd6b521d788ffa9c06cb4"/>
+    <ns1:hasMethod rdf:resource="fs:2020-08-11T12:49:42.480Z-mengen"/>
+    <ns1:hasComponentUnit rdf:nodeID="fb52fc68db7474cd6b521d788ffa9c06cb2"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="rabarberijsjes2020-08-11t12:49:42.480Z-vriezen">
+    <ns1:time>4uur</ns1:time>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <ns1:depVariationInstruction rdf:resource="rabarberijsjes2020-08-11t12:49:42.480Z-vullen"/>
+    <ns1:hasMethod rdf:resource="fs:2020-08-11T12:49:42.480Z-vriezen"/>
+    <ns1:hasComponentUnit rdf:nodeID="fb52fc68db7474cd6b521d788ffa9c06cb8"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fb52fc68db7474cd6b521d788ffa9c06cb4">
+    <ns1:weight>100g</ns1:weight>
+    <ns1:hasComponent rdf:resource="fs:2020-08-11T12:49:42.480Z-rabarbercompote"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-08-11T12:49:42.480Z-griekse%20yoghurt">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos08:prefLabel>griekse yoghurt</skos08:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-08-11T12:49:42.480Z-mengen">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos08:prefLabel>mengen</skos08:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fb52fc68db7474cd6b521d788ffa9c06cb3">
+    <rdfs:member rdf:resource="rabarberijsjes2020-08-11t12:49:42.480Z-mengen"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fb52fc68db7474cd6b521d788ffa9c06cb5">
+    <rdfs:member rdf:resource="rabarberijsjes2020-08-11t12:49:42.480Z-vullen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-08-11T12:49:42.480Z-rabarbercompote">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos08:prefLabel>rabarbercompote</skos08:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fb52fc68db7474cd6b521d788ffa9c06cb2">
+    <ns1:hasComponent rdf:resource="fs:2020-08-11T12:49:42.480Z-griekse%20yoghurt"/>
+    <ns1:weight>200g</ns1:weight>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fb52fc68db7474cd6b521d788ffa9c06cb1">
+    <rdfs:member rdf:resource="rabarberijsjes2020-08-11t12:49:42.480Z-mengen"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fb52fc68db7474cd6b521d788ffa9c06cb7">
+    <rdfs:member rdf:resource="rabarberijsjes2020-08-11t12:49:42.480Z-vriezen"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://flow.recipes/flow-visualizer/flow-visualiser.xsl"?>
+<rdf:RDF
+   xmlns:ns1="https://flow.recipes/ns/core#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos08="http://www.w3.org/2008/05/skos#"
+>
+  <rdf:Description rdf:about="fs:2020-08-11T12:43:13.949Z-snijden">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos08:prefLabel>snijden</skos08:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="rabarbercompote2020-08-11t12:43:13.949Z-vullen">
+    <ns1:hasMethod rdf:resource="fs:2020-08-11T12:43:13.949Z-vullen"/>
+    <ns1:depVariationInstruction rdf:resource="rabarbercompote2020-08-11t12:43:13.949Z-koken"/>
+    <ns1:direction>in weckpotten</ns1:direction>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <ns1:hasComponentUnit rdf:nodeID="f29b2719a0723491ea04d584c7276347db8"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f29b2719a0723491ea04d584c7276347db4">
+    <ns1:hasComponent rdf:resource="fs:2020-08-11T12:43:13.949Z-citroensap"/>
+    <ns1:weight>1/2</ns1:weight>
+  </rdf:Description>
+  <rdf:Description rdf:about="rabarbercompote2020-08-11t12:43:13.949Z">
+    <ns1:instructions rdf:nodeID="f29b2719a0723491ea04d584c7276347db3"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:instructions rdf:nodeID="f29b2719a0723491ea04d584c7276347db7"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+    <ns1:instructions rdf:nodeID="f29b2719a0723491ea04d584c7276347db1"/>
+    <rdfs:label>rabarbercompote</rdfs:label>
+    <ns1:instructions rdf:nodeID="f29b2719a0723491ea04d584c7276347db5"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f29b2719a0723491ea04d584c7276347db2">
+    <ns1:weight>500g</ns1:weight>
+    <ns1:hasComponent rdf:resource="fs:2020-08-11T12:43:13.949Z-rabarber"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f29b2719a0723491ea04d584c7276347db7">
+    <rdfs:member rdf:resource="rabarbercompote2020-08-11t12:43:13.949Z-vullen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="rabarbercompote2020-08-11t12:43:13.949Z-koken">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <ns1:hasMethod rdf:resource="fs:2020-08-11T12:43:13.949Z-koken"/>
+    <ns1:time>10min</ns1:time>
+    <ns1:hasComponentUnit rdf:nodeID="f29b2719a0723491ea04d584c7276347db6"/>
+    <ns1:hasComponentUnit rdf:nodeID="f29b2719a0723491ea04d584c7276347db4"/>
+    <ns1:depVariationInstruction rdf:resource="rabarbercompote2020-08-11t12:43:13.949Z-snijden"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-08-11T12:43:13.949Z-koken">
+    <skos08:prefLabel>koken</skos08:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-08-11T12:43:13.949Z-geleisuiker">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos08:prefLabel>geleisuiker</skos08:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f29b2719a0723491ea04d584c7276347db3">
+    <rdfs:member rdf:resource="rabarbercompote2020-08-11t12:43:13.949Z-koken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-08-11T12:43:13.949Z-citroensap">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos08:prefLabel>citroensap</skos08:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f29b2719a0723491ea04d584c7276347db1">
+    <rdfs:member rdf:resource="rabarbercompote2020-08-11t12:43:13.949Z-snijden"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f29b2719a0723491ea04d584c7276347db5">
+    <rdfs:member rdf:resource="rabarbercompote2020-08-11t12:43:13.949Z-koken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="rabarbercompote2020-08-11t12:43:13.949Z-snijden">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:hasComponentUnit rdf:nodeID="f29b2719a0723491ea04d584c7276347db2"/>
+    <ns1:hasMethod rdf:resource="fs:2020-08-11T12:43:13.949Z-snijden"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-08-11T12:43:13.949Z-rabarber">
+    <skos08:prefLabel>rabarber</skos08:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f29b2719a0723491ea04d584c7276347db6">
+    <ns1:weight>250g</ns1:weight>
+    <ns1:hasComponent rdf:resource="fs:2020-08-11T12:43:13.949Z-geleisuiker"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-08-11T12:43:13.949Z-vullen">
+    <skos08:prefLabel>vullen</skos08:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+</rdf:RDF>

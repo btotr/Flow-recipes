@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://flow.recipes/flow-visualizer/flow-visualiser.xsl"?>
+<rdf:RDF
+   xmlns:ns1="https://flow.recipes/ns/core#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos08="http://www.w3.org/2008/05/skos#"
+>
+  <rdf:Description rdf:nodeID="f0b2662027e34460583c19e34eb7b6075b2">
+    <ns1:weight>4</ns1:weight>
+    <ns1:hasComponent rdf:resource="fs:2020-08-12T12:35:01.945Z-limoen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="advocado-ijs2020-08-12t12:35:01.945Z">
+    <ns1:instructions rdf:nodeID="f0b2662027e34460583c19e34eb7b6075b7"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+    <ns1:instructions rdf:nodeID="f0b2662027e34460583c19e34eb7b6075b1"/>
+    <ns1:instructions rdf:nodeID="f0b2662027e34460583c19e34eb7b6075b3"/>
+    <rdfs:label>advocado-ijs</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:instructions rdf:nodeID="f0b2662027e34460583c19e34eb7b6075b5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-08-12T12:35:01.945Z-limoen">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos08:prefLabel>limoen</skos08:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f0b2662027e34460583c19e34eb7b6075b4">
+    <ns1:hasComponent rdf:resource="fs:2020-08-12T12:35:01.945Z-gecondenseerde%20kokosmelk"/>
+    <ns1:weight>365g</ns1:weight>
+  </rdf:Description>
+  <rdf:Description rdf:about="advocado-ijs2020-08-12t12:35:01.945Z-vriezen">
+    <ns1:depVariationInstruction rdf:resource="advocado-ijs2020-08-12t12:35:01.945Z-blenden"/>
+    <ns1:hasComponentUnit rdf:nodeID="f0b2662027e34460583c19e34eb7b6075b8"/>
+    <ns1:hasMethod rdf:resource="fs:2020-08-12T12:35:01.945Z-vriezen"/>
+    <ns1:time>4uur</ns1:time>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f0b2662027e34460583c19e34eb7b6075b1">
+    <rdfs:member rdf:resource="advocado-ijs2020-08-12t12:35:01.945Z-blenden"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f0b2662027e34460583c19e34eb7b6075b7">
+    <rdfs:member rdf:resource="advocado-ijs2020-08-12t12:35:01.945Z-vriezen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-08-12T12:35:01.945Z-gecondenseerde%20kokosmelk">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos08:prefLabel>gecondenseerde kokosmelk</skos08:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-08-12T12:35:01.945Z-blenden">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos08:prefLabel>blenden</skos08:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="advocado-ijs2020-08-12t12:35:01.945Z-blenden">
+    <ns1:hasComponentUnit rdf:nodeID="f0b2662027e34460583c19e34eb7b6075b2"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <ns1:hasMethod rdf:resource="fs:2020-08-12T12:35:01.945Z-blenden"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:hasComponentUnit rdf:nodeID="f0b2662027e34460583c19e34eb7b6075b6"/>
+    <ns1:hasComponentUnit rdf:nodeID="f0b2662027e34460583c19e34eb7b6075b4"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f0b2662027e34460583c19e34eb7b6075b5">
+    <rdfs:member rdf:resource="advocado-ijs2020-08-12t12:35:01.945Z-blenden"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-08-12T12:35:01.945Z-advocado">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos08:prefLabel>advocado</skos08:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-08-12T12:35:01.945Z-vriezen">
+    <skos08:prefLabel>vriezen</skos08:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f0b2662027e34460583c19e34eb7b6075b3">
+    <rdfs:member rdf:resource="advocado-ijs2020-08-12t12:35:01.945Z-blenden"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f0b2662027e34460583c19e34eb7b6075b6">
+    <ns1:weight>4</ns1:weight>
+    <ns1:hasComponent rdf:resource="fs:2020-08-12T12:35:01.945Z-advocado"/>
+  </rdf:Description>
+</rdf:RDF>

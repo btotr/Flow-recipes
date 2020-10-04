@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://flow.recipes/flow-visualizer/flow-visualiser.xsl"?>
+<rdf:RDF
+   xmlns:ns1="https://flow.recipes/ns/core#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos08="http://www.w3.org/2008/05/skos#"
+>
+  <rdf:Description rdf:about="tropischenectarineengemberijsjes2020-08-10t15:16:48.194Z">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:instructions rdf:nodeID="f6056314e07684c82a8f227f84990162fb7"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+    <rdfs:label>Tropische nectarine en gember ijsjes</rdfs:label>
+    <ns1:instructions rdf:nodeID="f6056314e07684c82a8f227f84990162fb13"/>
+    <ns1:instructions rdf:nodeID="f6056314e07684c82a8f227f84990162fb3"/>
+    <ns1:instructions rdf:nodeID="f6056314e07684c82a8f227f84990162fb5"/>
+    <ns1:instructions rdf:nodeID="f6056314e07684c82a8f227f84990162fb11"/>
+    <ns1:instructions rdf:nodeID="f6056314e07684c82a8f227f84990162fb1"/>
+    <ns1:instructions rdf:nodeID="f6056314e07684c82a8f227f84990162fb9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="tropischenectarineengemberijsjes2020-08-10t15:16:48.194Z-Blenden">
+    <ns1:hasComponentUnit rdf:nodeID="f6056314e07684c82a8f227f84990162fb4"/>
+    <ns1:hasMethod rdf:resource="fs:2020-08-10T15:16:48.194Z-Blenden"/>
+    <ns1:hasComponentUnit rdf:nodeID="f6056314e07684c82a8f227f84990162fb6"/>
+    <ns1:hasComponentUnit rdf:nodeID="f6056314e07684c82a8f227f84990162fb10"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <ns1:hasComponentUnit rdf:nodeID="f6056314e07684c82a8f227f84990162fb8"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:hasComponentUnit rdf:nodeID="f6056314e07684c82a8f227f84990162fb2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-08-10T15:16:48.194Z-kokosroom">
+    <skos08:prefLabel>kokosroom</skos08:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f6056314e07684c82a8f227f84990162fb4">
+    <ns1:weight>400ml</ns1:weight>
+    <ns1:hasComponent rdf:resource="fs:2020-08-10T15:16:48.194Z-kokosroom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="tropischenectarineengemberijsjes2020-08-10t15:16:48.194Z-vriezen">
+    <ns1:time>4uur</ns1:time>
+    <ns1:hasComponentUnit rdf:nodeID="f6056314e07684c82a8f227f84990162fb14"/>
+    <ns1:depVariationInstruction rdf:resource="tropischenectarineengemberijsjes2020-08-10t15:16:48.194Z-Vullen"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <ns1:hasMethod rdf:resource="fs:2020-08-10T15:16:48.194Z-vriezen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-08-10T15:16:48.194Z-nectarine">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos08:prefLabel>nectarine</skos08:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f6056314e07684c82a8f227f84990162fb8">
+    <ns1:hasComponent rdf:resource="fs:2020-08-10T15:16:48.194Z-honing"/>
+    <ns1:weight>2el</ns1:weight>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f6056314e07684c82a8f227f84990162fb2">
+    <ns1:weight>2el</ns1:weight>
+    <ns1:hasComponent rdf:resource="fs:2020-08-10T15:16:48.194Z-limoensap"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f6056314e07684c82a8f227f84990162fb6">
+    <ns1:hasComponent rdf:resource="fs:2020-08-10T15:16:48.194Z-Gember"/>
+    <ns1:weight>2tl</ns1:weight>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f6056314e07684c82a8f227f84990162fb9">
+    <rdfs:member rdf:resource="tropischenectarineengemberijsjes2020-08-10t15:16:48.194Z-Blenden"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="tropischenectarineengemberijsjes2020-08-10t15:16:48.194Z-Vullen">
+    <ns1:depVariationInstruction rdf:resource="tropischenectarineengemberijsjes2020-08-10t15:16:48.194Z-Blenden"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:hasComponentUnit rdf:nodeID="f6056314e07684c82a8f227f84990162fb12"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <ns1:direction>in ijsvormpjes</ns1:direction>
+    <ns1:hasMethod rdf:resource="fs:2020-08-10T15:16:48.194Z-Vullen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-08-10T15:16:48.194Z-honing">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos08:prefLabel>honing</skos08:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-08-10T15:16:48.194Z-limoensap">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos08:prefLabel>limoensap</skos08:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-08-10T15:16:48.194Z-Gember">
+    <skos08:prefLabel>Gember</skos08:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-08-10T15:16:48.194Z-Blenden">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos08:prefLabel>Blenden</skos08:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f6056314e07684c82a8f227f84990162fb5">
+    <rdfs:member rdf:resource="tropischenectarineengemberijsjes2020-08-10t15:16:48.194Z-Blenden"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-08-10T15:16:48.194Z-vriezen">
+    <skos08:prefLabel>vriezen</skos08:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f6056314e07684c82a8f227f84990162fb1">
+    <rdfs:member rdf:resource="tropischenectarineengemberijsjes2020-08-10t15:16:48.194Z-Blenden"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f6056314e07684c82a8f227f84990162fb11">
+    <rdfs:member rdf:resource="tropischenectarineengemberijsjes2020-08-10t15:16:48.194Z-Vullen"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f6056314e07684c82a8f227f84990162fb3">
+    <rdfs:member rdf:resource="tropischenectarineengemberijsjes2020-08-10t15:16:48.194Z-Blenden"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-08-10T15:16:48.194Z-Vullen">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos08:prefLabel>Vullen</skos08:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f6056314e07684c82a8f227f84990162fb13">
+    <rdfs:member rdf:resource="tropischenectarineengemberijsjes2020-08-10t15:16:48.194Z-vriezen"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f6056314e07684c82a8f227f84990162fb7">
+    <rdfs:member rdf:resource="tropischenectarineengemberijsjes2020-08-10t15:16:48.194Z-Blenden"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f6056314e07684c82a8f227f84990162fb10">
+    <ns1:hasComponent rdf:resource="fs:2020-08-10T15:16:48.194Z-nectarine"/>
+    <ns1:weight>4</ns1:weight>
+  </rdf:Description>
+</rdf:RDF>
