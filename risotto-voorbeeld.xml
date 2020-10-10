@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://flow.recipes/flow-visualizer/flow-visualiser.xsl"?>
+<rdf:RDF
+   xmlns:ns1="https://flow.recipes/ns/core#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos08="http://www.w3.org/2008/05/skos#"
+>
+  <rdf:Description rdf:about="risotto2020-10-10T19:29:43.411Z">
+    <rdfs:label>risotto</rdfs:label>
+    <ns1:instructions rdf:nodeID="fd67dce1e9134432f9ce4101ac04db11fb5"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:instructions rdf:nodeID="fd67dce1e9134432f9ce4101ac04db11fb3"/>
+    <ns1:instructions rdf:nodeID="fd67dce1e9134432f9ce4101ac04db11fb7"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+    <ns1:instructions rdf:nodeID="fd67dce1e9134432f9ce4101ac04db11fb1"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fd67dce1e9134432f9ce4101ac04db11fb2">
+    <ns1:weight>1  </ns1:weight>
+    <ns1:hasComponent rdf:resource="fs:2020-10-10T19:29:43.411Z-union "/>
+    <ns1:componentAddition>small</ns1:componentAddition>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fd67dce1e9134432f9ce4101ac04db11fb4">
+    <ns1:hasComponent rdf:resource="fs:2020-10-10T19:29:43.411Z-garlic glove "/>
+    <ns1:componentAddition>small</ns1:componentAddition>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-10-10T19:29:43.411Z-garlic glove ">
+    <skos08:prefLabel>garlic glove </skos08:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="risotto2020-10-10T19:29:43.411Z-stir">
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:depVariationInstruction rdf:resource="risotto2020-10-10T19:29:43.411Z-sweating"/>
+    <ns1:hasComponentUnit rdf:nodeID="fd67dce1e9134432f9ce4101ac04db11fb6"/>
+    <ns1:hasMethod rdf:resource="fs:2020-10-10T19:29:43.411Z-stir"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-10-10T19:29:43.411Z-broth ">
+    <skos08:prefLabel>broth </skos08:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-10-10T19:29:43.411Z-union ">
+    <skos08:prefLabel>union </skos08:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fd67dce1e9134432f9ce4101ac04db11fb5">
+    <rdfs:member rdf:resource="risotto2020-10-10T19:29:43.411Z-stir"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-10-10T19:29:43.411Z-sweating">
+    <skos08:prefLabel>sweating</skos08:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fd67dce1e9134432f9ce4101ac04db11fb8">
+    <ns1:weight>1l </ns1:weight>
+    <ns1:hasComponent rdf:resource="fs:2020-10-10T19:29:43.411Z-broth "/>
+  </rdf:Description>
+  <rdf:Description rdf:about="risotto2020-10-10T19:29:43.411Z-cook">
+    <ns1:depVariationInstruction rdf:resource="risotto2020-10-10T19:29:43.411Z-stir"/>
+    <ns1:time>20min</ns1:time>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:hasMethod rdf:resource="fs:2020-10-10T19:29:43.411Z-cook"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <ns1:direction>a ladleful until absorbed before more. </ns1:direction>
+    <ns1:hasComponentUnit rdf:nodeID="fd67dce1e9134432f9ce4101ac04db11fb8"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fd67dce1e9134432f9ce4101ac04db11fb1">
+    <rdfs:member rdf:resource="risotto2020-10-10T19:29:43.411Z-sweating"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fd67dce1e9134432f9ce4101ac04db11fb7">
+    <rdfs:member rdf:resource="risotto2020-10-10T19:29:43.411Z-cook"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-10-10T19:29:43.411Z-stir">
+    <skos08:prefLabel>stir</skos08:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-10-10T19:29:43.411Z-Arborio rice">
+    <skos08:prefLabel>Arborio rice</skos08:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="risotto2020-10-10T19:29:43.411Z-sweating">
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <ns1:hasComponentUnit rdf:nodeID="fd67dce1e9134432f9ce4101ac04db11fb2"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:hasMethod rdf:resource="fs:2020-10-10T19:29:43.411Z-sweating"/>
+    <ns1:hasComponentUnit rdf:nodeID="fd67dce1e9134432f9ce4101ac04db11fb4"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fd67dce1e9134432f9ce4101ac04db11fb3">
+    <rdfs:member rdf:resource="risotto2020-10-10T19:29:43.411Z-sweating"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-10-10T19:29:43.411Z-cook">
+    <skos08:prefLabel>cook</skos08:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fd67dce1e9134432f9ce4101ac04db11fb6">
+    <ns1:weight>500g </ns1:weight>
+    <ns1:hasComponent rdf:resource="fs:2020-10-10T19:29:43.411Z-Arborio rice"/>
+  </rdf:Description>
+</rdf:RDF>
