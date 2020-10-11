@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://flow.recipes/flow-visualizer/flow-visualiser.xsl"?>
+<rdf:RDF
+   xmlns:ns1="https://flow.recipes/ns/core#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos08="http://www.w3.org/2008/05/skos#"
+>
+  <rdf:Description rdf:about="Whole wheat bread2020-10-11T14:46:15.007Z">
+    <ns1:instructions rdf:nodeID="f4b90bb6936004d6fb66ca2fa0d04ce52b9"/>
+    <ns1:instructions rdf:nodeID="f4b90bb6936004d6fb66ca2fa0d04ce52b11"/>
+    <rdfs:label>Whole wheat bread</rdfs:label>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+    <ns1:instructions rdf:nodeID="f4b90bb6936004d6fb66ca2fa0d04ce52b7"/>
+    <ns1:instructions rdf:nodeID="f4b90bb6936004d6fb66ca2fa0d04ce52b3"/>
+    <ns1:instructions rdf:nodeID="f4b90bb6936004d6fb66ca2fa0d04ce52b13"/>
+    <ns1:instructions rdf:nodeID="f4b90bb6936004d6fb66ca2fa0d04ce52b17"/>
+    <ns1:instructions rdf:nodeID="f4b90bb6936004d6fb66ca2fa0d04ce52b5"/>
+    <ns1:instructions rdf:nodeID="f4b90bb6936004d6fb66ca2fa0d04ce52b15"/>
+    <ns1:instructions rdf:nodeID="f4b90bb6936004d6fb66ca2fa0d04ce52b1"/>
+    <ns1:instructions rdf:nodeID="f4b90bb6936004d6fb66ca2fa0d04ce52b19"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f4b90bb6936004d6fb66ca2fa0d04ce52b5">
+    <rdfs:member rdf:resource="Whole wheat bread2020-10-11T14:46:15.007Z-mix"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-10-11T14:46:15.007Z-shape">
+    <skos08:prefLabel>shape</skos08:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="Whole wheat bread2020-10-11T14:46:15.007Z-final rise">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:direction>in refrigerator</ns1:direction>
+    <ns1:hasMethod rdf:resource="fs:2020-10-11T14:46:15.007Z-final rise"/>
+    <ns1:hasComponentUnit rdf:nodeID="f4b90bb6936004d6fb66ca2fa0d04ce52b18"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <ns1:time>12h</ns1:time>
+    <ns1:depVariationInstruction rdf:resource="Whole wheat bread2020-10-11T14:46:15.007Z-shape"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-10-11T14:46:15.007Z-bench rest">
+    <skos08:prefLabel>bench rest</skos08:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="Whole wheat bread2020-10-11T14:46:15.007Z-220°C ">
+    <ns1:hasComponentUnit rdf:nodeID="f4b90bb6936004d6fb66ca2fa0d04ce52b20"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:hasMethod rdf:resource="fs:2020-10-11T14:46:15.007Z-220°C "/>
+    <ns1:depVariationInstruction rdf:resource="Whole wheat bread2020-10-11T14:46:15.007Z-final rise"/>
+    <ns1:time>35min </ns1:time>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-10-11T14:46:15.007Z-leaven">
+    <skos08:prefLabel>leaven</skos08:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="Whole wheat bread2020-10-11T14:46:15.007Z-stir">
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <ns1:hasComponentUnit rdf:nodeID="f4b90bb6936004d6fb66ca2fa0d04ce52b4"/>
+    <ns1:hasComponentUnit rdf:nodeID="f4b90bb6936004d6fb66ca2fa0d04ce52b2"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:hasMethod rdf:resource="fs:2020-10-11T14:46:15.007Z-stir"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f4b90bb6936004d6fb66ca2fa0d04ce52b2">
+    <ns1:weight>100g</ns1:weight>
+    <ns1:hasComponent rdf:resource="fs:2020-10-11T14:46:15.007Z-leaven"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-10-11T14:46:15.007Z-bulk rise">
+    <skos08:prefLabel>bulk rise</skos08:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="Whole wheat bread2020-10-11T14:46:15.007Z-mix">
+    <ns1:hasMethod rdf:resource="fs:2020-10-11T14:46:15.007Z-mix"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:depVariationInstruction rdf:resource="Whole wheat bread2020-10-11T14:46:15.007Z-stir"/>
+    <ns1:hasComponentUnit rdf:nodeID="f4b90bb6936004d6fb66ca2fa0d04ce52b6"/>
+    <ns1:hasComponentUnit rdf:nodeID="f4b90bb6936004d6fb66ca2fa0d04ce52b8"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f4b90bb6936004d6fb66ca2fa0d04ce52b4">
+    <ns1:hasComponent rdf:resource="fs:2020-10-11T14:46:15.007Z-water"/>
+    <ns1:weight>400g</ns1:weight>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f4b90bb6936004d6fb66ca2fa0d04ce52b11">
+    <rdfs:member rdf:resource="Whole wheat bread2020-10-11T14:46:15.007Z-shape"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="Whole wheat bread2020-10-11T14:46:15.007Z-bulk rise">
+    <ns1:hasMethod rdf:resource="fs:2020-10-11T14:46:15.007Z-bulk rise"/>
+    <ns1:hasComponentUnit rdf:nodeID="f4b90bb6936004d6fb66ca2fa0d04ce52b10"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:depVariationInstruction rdf:resource="Whole wheat bread2020-10-11T14:46:15.007Z-mix"/>
+    <ns1:time>3h</ns1:time>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <ns1:direction>give the dough some turns during the rest</ns1:direction>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-10-11T14:46:15.007Z-whole wheat flour">
+    <skos08:prefLabel>whole wheat flour</skos08:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="Whole wheat bread2020-10-11T14:46:15.007Z-shape">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:direction>final</ns1:direction>
+    <ns1:depVariationInstruction rdf:resource="Whole wheat bread2020-10-11T14:46:15.007Z-bench rest"/>
+    <ns1:depVariationInstruction rdf:resource="Whole wheat bread2020-10-11T14:46:15.007Z-bulk rise"/>
+    <ns1:hasComponentUnit rdf:nodeID="f4b90bb6936004d6fb66ca2fa0d04ce52b12"/>
+    <ns1:direction>initial</ns1:direction>
+    <ns1:hasComponentUnit rdf:nodeID="f4b90bb6936004d6fb66ca2fa0d04ce52b16"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+    <ns1:hasMethod rdf:resource="fs:2020-10-11T14:46:15.007Z-shape"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f4b90bb6936004d6fb66ca2fa0d04ce52b13">
+    <rdfs:member rdf:resource="Whole wheat bread2020-10-11T14:46:15.007Z-bench rest"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-10-11T14:46:15.007Z-salt">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos08:prefLabel>salt</skos08:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f4b90bb6936004d6fb66ca2fa0d04ce52b7">
+    <rdfs:member rdf:resource="Whole wheat bread2020-10-11T14:46:15.007Z-mix"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-10-11T14:46:15.007Z-final rise">
+    <skos08:prefLabel>final rise</skos08:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f4b90bb6936004d6fb66ca2fa0d04ce52b8">
+    <ns1:hasComponent rdf:resource="fs:2020-10-11T14:46:15.007Z-salt"/>
+    <ns1:weight>10g</ns1:weight>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f4b90bb6936004d6fb66ca2fa0d04ce52b15">
+    <rdfs:member rdf:resource="Whole wheat bread2020-10-11T14:46:15.007Z-shape"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-10-11T14:46:15.007Z-mix">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos08:prefLabel>mix</skos08:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-10-11T14:46:15.007Z-220°C ">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+    <skos08:prefLabel>220°C </skos08:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f4b90bb6936004d6fb66ca2fa0d04ce52b6">
+    <ns1:weight>500g</ns1:weight>
+    <ns1:hasComponent rdf:resource="fs:2020-10-11T14:46:15.007Z-whole wheat flour"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-10-11T14:46:15.007Z-water">
+    <skos08:prefLabel>water</skos08:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="Whole wheat bread2020-10-11T14:46:15.007Z-bench rest">
+    <ns1:hasComponentUnit rdf:nodeID="f4b90bb6936004d6fb66ca2fa0d04ce52b14"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:hasMethod rdf:resource="fs:2020-10-11T14:46:15.007Z-bench rest"/>
+    <ns1:depVariationInstruction rdf:resource="Whole wheat bread2020-10-11T14:46:15.007Z-shape"/>
+    <rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f4b90bb6936004d6fb66ca2fa0d04ce52b1">
+    <rdfs:member rdf:resource="Whole wheat bread2020-10-11T14:46:15.007Z-stir"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f4b90bb6936004d6fb66ca2fa0d04ce52b17">
+    <rdfs:member rdf:resource="Whole wheat bread2020-10-11T14:46:15.007Z-final rise"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f4b90bb6936004d6fb66ca2fa0d04ce52b9">
+    <rdfs:member rdf:resource="Whole wheat bread2020-10-11T14:46:15.007Z-bulk rise"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f4b90bb6936004d6fb66ca2fa0d04ce52b3">
+    <rdfs:member rdf:resource="Whole wheat bread2020-10-11T14:46:15.007Z-stir"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="fs:2020-10-11T14:46:15.007Z-stir">
+    <skos08:prefLabel>stir</skos08:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="f4b90bb6936004d6fb66ca2fa0d04ce52b19">
+    <rdfs:member rdf:resource="Whole wheat bread2020-10-11T14:46:15.007Z-220°C "/>
+  </rdf:Description>
+</rdf:RDF>
