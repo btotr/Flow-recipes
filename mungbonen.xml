@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://flow.recipes/flow-visualizer/flow-visualiser.xsl"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:core="https://flow.recipes/ns/core#"
+	xmlns:skos="http://www.w3.org/2008/05/skos#">
+
+	<rdf:Description rdf:about="mungbonen2020-12-29T09:42:14.793Z">
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list0"/>
+		<rdfs:label>mungbonen</rdfs:label>
+	</rdf:Description>
+
+	<rdf:Description rdf:nodeID="e_list0">
+		<rdfs:member rdf:resource="mungbonen2020-12-29T09:42:14.793Z-wassen"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="mungbonen2020-12-29T09:42:14.793Z-wassen">
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:resource="mungbonen2020-12-29T09:42:14.793Z-wassen2020-12-29T09:42:14.793Z-cu"/>
+		<core:hasMethod rdf:resource="fs:2020-12-29T09:42:14.793Z-wassen"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="mungbonen2020-12-29T09:42:14.793Z-wassen2020-12-29T09:42:14.793Z-cu">
+		<core:hasComponent rdf:resource="fs:2020-12-29T09:42:14.793Z-mungbonen"/>
+		<core:weight>200g</core:weight>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="fs:2020-12-29T09:42:14.793Z-wassen">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>wassen</skos:prefLabel>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="fs:2020-12-29T09:42:14.793Z-mungbonen">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>mungbonen</skos:prefLabel>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="mungbonen2020-12-29T09:42:14.793Z">
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list1"/>
+		<rdfs:label>mungbonen</rdfs:label>
+	</rdf:Description>
+
+	<rdf:Description rdf:nodeID="e_list1">
+		<rdfs:member rdf:resource="mungbonen2020-12-29T09:42:14.793Z-koken"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="mungbonen2020-12-29T09:42:14.793Z-koken">
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:resource="mungbonen2020-12-29T09:42:14.793Z-koken2020-12-29T09:42:14.793Z-cu"/>
+		<core:hasMethod rdf:resource="fs:2020-12-29T09:42:14.793Z-koken"/>
+		<core:time>30min.</core:time>
+		<core:depVariationInstruction rdf:resource="mungbonen2020-12-29T09:42:14.793Z-wassen"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="mungbonen2020-12-29T09:42:14.793Z-koken2020-12-29T09:42:14.793Z-cu">
+		<core:hasComponent rdf:resource="fs:2020-12-29T09:42:14.793Z-water"/>
+		<core:weight>800g</core:weight>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="fs:2020-12-29T09:42:14.793Z-koken">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>koken</skos:prefLabel>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="fs:2020-12-29T09:42:14.793Z-water">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>water</skos:prefLabel>
+	</rdf:Description>
+</rdf:RDF>
