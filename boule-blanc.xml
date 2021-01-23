@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://flow.recipes/flow-visualizer/flow-visualiser.xsl"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:core="https://flow.recipes/ns/core#" xmlns:skos="http://www.w3.org/2008/05/skos#">
+
+	<rdf:Description rdf:about="Boule-Blanc2021-01-23T11:23:24.984Z">
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list0"/>
+		<rdfs:label>Boule Blanc</rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list1"/>
+		<rdfs:label>Boule Blanc</rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list2"/>
+		<rdfs:label>Boule Blanc</rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list3"/>
+		<rdfs:label>Boule Blanc</rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list4"/>
+		<rdfs:label>Boule Blanc</rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list5"/>
+		<rdfs:label>Boule Blanc</rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list6"/>
+		<rdfs:label>Boule Blanc</rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list7"/>
+		<rdfs:label>Boule Blanc</rdfs:label>
+	</rdf:Description>
+
+	<rdf:Description rdf:nodeID="e_list0">
+		<rdfs:member rdf:resource="Boule-Blanc2021-01-23T11:23:24.984Z-autolyse"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="Boule-Blanc2021-01-23T11:23:24.984Z-autolyse">
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_00"/>
+	
+		<core:hasMethod rdf:resource="fs:2021-01-23T11:23:24.984Z-autolyse"/>
+		<core:time>12u</core:time>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_01"/>
+	
+		
+		<core:time>12u</core:time>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_02"/>
+	
+		
+		<core:time>12u</core:time>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_03"/>
+	
+		
+		<core:time>12u</core:time>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_04"/>
+	
+		
+		<core:time>12u</core:time>
+	</rdf:Description>
+
+	<rdf:Description rdf:nodeID="g_00">
+		<core:hasComponent rdf:resource="fs:2021-01-23T11:23:24.984Z-tarwebloem"/>
+		<core:weight>900g</core:weight>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:about="fs:2021-01-23T11:23:24.984Z-autolyse">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>autolyse</skos:prefLabel>
+	
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>autolyse</skos:prefLabel>
+	
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>autolyse</skos:prefLabel>
+	
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>autolyse</skos:prefLabel>
+	
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>autolyse</skos:prefLabel>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="fs:2021-01-23T11:23:24.984Z-tarwebloem">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>tarwebloem</skos:prefLabel>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="e_list1">
+		<rdfs:member rdf:resource="Boule-Blanc2021-01-23T11:23:24.984Z-autolyse"/>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="g_01">
+		<core:hasComponent rdf:resource="fs:2021-01-23T11:23:24.984Z-volkorenmeel"/>
+		<core:weight>100g</core:weight>
+	</rdf:Description>
+
+	
+
+	
+
+	<rdf:Description rdf:about="fs:2021-01-23T11:23:24.984Z-volkorenmeel">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>volkorenmeel</skos:prefLabel>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="e_list2">
+		<rdfs:member rdf:resource="Boule-Blanc2021-01-23T11:23:24.984Z-autolyse"/>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="g_02">
+		<core:hasComponent rdf:resource="fs:2021-01-23T11:23:24.984Z-water"/>
+		<core:weight>750</core:weight>
+	</rdf:Description>
+
+	
+
+	
+
+	<rdf:Description rdf:about="fs:2021-01-23T11:23:24.984Z-water">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>water</skos:prefLabel>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="e_list3">
+		<rdfs:member rdf:resource="Boule-Blanc2021-01-23T11:23:24.984Z-autolyse"/>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="g_03">
+		<core:hasComponent rdf:resource="fs:2021-01-23T11:23:24.984Z-zout"/>
+		<core:weight>15g</core:weight>
+	</rdf:Description>
+
+	
+
+	
+
+	<rdf:Description rdf:about="fs:2021-01-23T11:23:24.984Z-zout">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>zout</skos:prefLabel>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="e_list4">
+		<rdfs:member rdf:resource="Boule-Blanc2021-01-23T11:23:24.984Z-autolyse"/>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="g_04">
+		<core:hasComponent rdf:resource="fs:2021-01-23T11:23:24.984Z-gist"/>
+		<core:weight>10g</core:weight>
+	</rdf:Description>
+
+	
+
+	
+
+	<rdf:Description rdf:about="fs:2021-01-23T11:23:24.984Z-gist">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>gist</skos:prefLabel>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="e_list5">
+		<rdfs:member rdf:resource="Boule-Blanc2021-01-23T11:23:24.984Z-vormen"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="Boule-Blanc2021-01-23T11:23:24.984Z-vormen">
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_05"/>
+		<core:hasMethod rdf:resource="fs:2021-01-23T11:23:24.984Z-vormen"/>
+		<core:direction>bol</core:direction>
+		<core:depVariationInstruction rdf:resource="Boule-Blanc2021-01-23T11:23:24.984Z-autolyse"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="fs:2021-01-23T11:23:24.984Z-vormen">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>vormen</skos:prefLabel>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="e_list6">
+		<rdfs:member rdf:resource="Boule-Blanc2021-01-23T11:23:24.984Z-narijs"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="Boule-Blanc2021-01-23T11:23:24.984Z-narijs">
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_06"/>
+		<core:hasMethod rdf:resource="fs:2021-01-23T11:23:24.984Z-narijs"/>
+		<core:time>45 min.</core:time>
+		<core:direction>ondertussen oven verwarmen</core:direction>
+		<core:depVariationInstruction rdf:resource="Boule-Blanc2021-01-23T11:23:24.984Z-vormen"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="fs:2021-01-23T11:23:24.984Z-narijs">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>narijs</skos:prefLabel>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="e_list7">
+		<rdfs:member rdf:resource="Boule-Blanc2021-01-23T11:23:24.984Z-bakken"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="Boule-Blanc2021-01-23T11:23:24.984Z-bakken">
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_07"/>
+		<core:hasMethod rdf:resource="fs:2021-01-23T11:23:24.984Z-bakken"/>
+		<core:time>35 min.</core:time>
+		<core:direction>240ºC</core:direction>
+		<core:depVariationInstruction rdf:resource="Boule-Blanc2021-01-23T11:23:24.984Z-narijs"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="fs:2021-01-23T11:23:24.984Z-bakken">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>bakken</skos:prefLabel>
+	</rdf:Description>
+</rdf:RDF>

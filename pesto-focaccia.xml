@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://flow.recipes/flow-visualizer/flow-visualiser.xsl"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:core="https://flow.recipes/ns/core#" xmlns:skos="http://www.w3.org/2008/05/skos#">
+
+	<rdf:Description rdf:about="pesto-focaccia2021-01-23T11:36:38.426Z">
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list0"/>
+		<rdfs:label>pesto focaccia</rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list1"/>
+		<rdfs:label>pesto focaccia</rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list2"/>
+		<rdfs:label>pesto focaccia</rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list3"/>
+		<rdfs:label>pesto focaccia</rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list4"/>
+		<rdfs:label>pesto focaccia</rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list5"/>
+		<rdfs:label>pesto focaccia</rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list6"/>
+		<rdfs:label>pesto focaccia</rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list7"/>
+		<rdfs:label>pesto focaccia</rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list8"/>
+		<rdfs:label>pesto focaccia</rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list9"/>
+		<rdfs:label>pesto focaccia</rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list10"/>
+		<rdfs:label>pesto focaccia</rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list11"/>
+		<rdfs:label>pesto focaccia</rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list12"/>
+		<rdfs:label>pesto focaccia</rdfs:label>
+	</rdf:Description>
+
+	<rdf:Description rdf:nodeID="e_list0">
+		<rdfs:member rdf:resource="pesto-focaccia2021-01-23T11:36:38.426Z-autolyse"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="pesto-focaccia2021-01-23T11:36:38.426Z-autolyse">
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_00"/>
+	
+		<core:hasMethod rdf:resource="fs:2021-01-23T11:36:38.426Z-autolyse"/>
+		<core:time>12u</core:time>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_01"/>
+	
+		
+		<core:time>12u</core:time>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_02"/>
+	
+		
+		<core:time>12u</core:time>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_03"/>
+	
+		
+		<core:time>12u</core:time>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_04"/>
+	
+		
+		<core:time>12u</core:time>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_05"/>
+	
+		
+		<core:time>12u</core:time>
+	</rdf:Description>
+
+	<rdf:Description rdf:nodeID="g_00">
+		<core:hasComponent rdf:resource="fs:2021-01-23T11:36:38.426Z-bloem"/>
+		<core:weight>500g</core:weight>
+		<core:componentAddition>tipo 00 </core:componentAddition>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:about="fs:2021-01-23T11:36:38.426Z-autolyse">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>autolyse</skos:prefLabel>
+	
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>autolyse</skos:prefLabel>
+	
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>autolyse</skos:prefLabel>
+	
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>autolyse</skos:prefLabel>
+	
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>autolyse</skos:prefLabel>
+	
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>autolyse</skos:prefLabel>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="fs:2021-01-23T11:36:38.426Z-bloem">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>bloem</skos:prefLabel>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="e_list1">
+		<rdfs:member rdf:resource="pesto-focaccia2021-01-23T11:36:38.426Z-autolyse"/>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="g_01">
+		<core:hasComponent rdf:resource="fs:2021-01-23T11:36:38.426Z-water"/>
+		<core:weight>300g</core:weight>
+	</rdf:Description>
+
+	
+
+	
+
+	<rdf:Description rdf:about="fs:2021-01-23T11:36:38.426Z-water">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>water</skos:prefLabel>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="e_list2">
+		<rdfs:member rdf:resource="pesto-focaccia2021-01-23T11:36:38.426Z-autolyse"/>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="g_02">
+		<core:hasComponent rdf:resource="fs:2021-01-23T11:36:38.426Z-olijfolie"/>
+		<core:weight>20g</core:weight>
+		<core:componentAddition>extra virgin</core:componentAddition>
+	</rdf:Description>
+
+	
+
+	
+
+	<rdf:Description rdf:about="fs:2021-01-23T11:36:38.426Z-olijfolie">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>olijfolie</skos:prefLabel>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="e_list3">
+		<rdfs:member rdf:resource="pesto-focaccia2021-01-23T11:36:38.426Z-autolyse"/>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="g_03">
+		<core:hasComponent rdf:resource="fs:2021-01-23T11:36:38.426Z-gist"/>
+		<core:weight>5g</core:weight>
+	</rdf:Description>
+
+	
+
+	
+
+	<rdf:Description rdf:about="fs:2021-01-23T11:36:38.426Z-gist">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>gist</skos:prefLabel>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="e_list4">
+		<rdfs:member rdf:resource="pesto-focaccia2021-01-23T11:36:38.426Z-autolyse"/>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="g_04">
+		<core:hasComponent rdf:resource="fs:2021-01-23T11:36:38.426Z-zout"/>
+		<core:weight>10g</core:weight>
+	</rdf:Description>
+
+	
+
+	
+
+	<rdf:Description rdf:about="fs:2021-01-23T11:36:38.426Z-zout">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>zout</skos:prefLabel>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="e_list5">
+		<rdfs:member rdf:resource="pesto-focaccia2021-01-23T11:36:38.426Z-autolyse"/>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="g_05">
+		<core:hasComponent rdf:resource="fs:2021-01-23T11:36:38.426Z-tijm"/>
+		<core:weight>3</core:weight>
+		<core:componentAddition>takjes</core:componentAddition>
+	</rdf:Description>
+
+	
+
+	
+
+	<rdf:Description rdf:about="fs:2021-01-23T11:36:38.426Z-tijm">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>tijm</skos:prefLabel>
+	
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>tijm</skos:prefLabel>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="e_list6">
+		<rdfs:member rdf:resource="pesto-focaccia2021-01-23T11:36:38.426Z-verdelen"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="pesto-focaccia2021-01-23T11:36:38.426Z-verdelen">
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_06"/>
+		<core:hasMethod rdf:resource="fs:2021-01-23T11:36:38.426Z-verdelen"/>
+		<core:direction>op bakplaat</core:direction>
+		<core:depVariationInstruction rdf:resource="pesto-focaccia2021-01-23T11:36:38.426Z-autolyse"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="fs:2021-01-23T11:36:38.426Z-verdelen">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>verdelen</skos:prefLabel>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="e_list7">
+		<rdfs:member rdf:resource="pesto-focaccia2021-01-23T11:36:38.426Z-beleggen"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="pesto-focaccia2021-01-23T11:36:38.426Z-beleggen">
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_07"/>
+	
+		<core:hasMethod rdf:resource="fs:2021-01-23T11:36:38.426Z-beleggen"/>
+		<core:depVariationInstruction rdf:resource="pesto-focaccia2021-01-23T11:36:38.426Z-verdelen"/>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_08"/>
+	
+		
+		
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_09"/>
+	
+		
+		
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_010"/>
+	
+		
+		
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_011"/>
+	
+		
+		
+	</rdf:Description>
+
+	<rdf:Description rdf:nodeID="g_07">
+		<core:hasComponent rdf:resource="fs:2021-01-23T11:36:38.426Z-pesto"/>
+		<core:weight>20g</core:weight>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:about="fs:2021-01-23T11:36:38.426Z-beleggen">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>beleggen</skos:prefLabel>
+	
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>beleggen</skos:prefLabel>
+	
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>beleggen</skos:prefLabel>
+	
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>beleggen</skos:prefLabel>
+	
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>beleggen</skos:prefLabel>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="fs:2021-01-23T11:36:38.426Z-pesto">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>pesto</skos:prefLabel>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="e_list8">
+		<rdfs:member rdf:resource="pesto-focaccia2021-01-23T11:36:38.426Z-beleggen"/>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="g_08">
+		<core:hasComponent rdf:resource="fs:2021-01-23T11:36:38.426Z-feta"/>
+		<core:weight>50g</core:weight>
+	</rdf:Description>
+
+	
+
+	
+
+	<rdf:Description rdf:about="fs:2021-01-23T11:36:38.426Z-feta">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>feta</skos:prefLabel>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="e_list9">
+		<rdfs:member rdf:resource="pesto-focaccia2021-01-23T11:36:38.426Z-beleggen"/>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="g_09">
+		<core:hasComponent rdf:resource="fs:2021-01-23T11:36:38.426Z-tomaten"/>
+		<core:weight>25g</core:weight>
+		<core:componentAddition>zongedroogde</core:componentAddition>
+	</rdf:Description>
+
+	
+
+	
+
+	<rdf:Description rdf:about="fs:2021-01-23T11:36:38.426Z-tomaten">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>tomaten</skos:prefLabel>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="e_list10">
+		<rdfs:member rdf:resource="pesto-focaccia2021-01-23T11:36:38.426Z-beleggen"/>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="g_010">
+		<core:hasComponent rdf:resource="fs:2021-01-23T11:36:38.426Z-tijm"/>
+		<core:weight>5</core:weight>
+		<core:componentAddition>takjes</core:componentAddition>
+	</rdf:Description>
+
+	
+
+	
+
+	
+
+	
+
+	<rdf:Description rdf:nodeID="e_list11">
+		<rdfs:member rdf:resource="pesto-focaccia2021-01-23T11:36:38.426Z-beleggen"/>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="g_011">
+		<core:hasComponent rdf:resource="fs:2021-01-23T11:36:38.426Z-trostomaat"/>
+		<core:weight>1</core:weight>
+		<core:componentAddition>in plakken</core:componentAddition>
+	</rdf:Description>
+
+	
+
+	
+
+	<rdf:Description rdf:about="fs:2021-01-23T11:36:38.426Z-trostomaat">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>trostomaat</skos:prefLabel>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="e_list12">
+		<rdfs:member rdf:resource="pesto-focaccia2021-01-23T11:36:38.426Z-bakken"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="pesto-focaccia2021-01-23T11:36:38.426Z-bakken">
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_012"/>
+		<core:hasMethod rdf:resource="fs:2021-01-23T11:36:38.426Z-bakken"/>
+		<core:time>25min</core:time>
+		<core:direction> 220°C</core:direction>
+		<core:depVariationInstruction rdf:resource="pesto-focaccia2021-01-23T11:36:38.426Z-beleggen"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="fs:2021-01-23T11:36:38.426Z-bakken">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>bakken</skos:prefLabel>
+	</rdf:Description>
+</rdf:RDF>
