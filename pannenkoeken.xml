@@ -9,7 +9,7 @@
     <ns1:instructions rdf:nodeID="fcac4792d581f4f5c8507a2eb9272af78b3"/>
     <rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
     <ns1:instructions rdf:nodeID="fcac4792d581f4f5c8507a2eb9272af78b1"/>
-    <rdfs:label>[object HTMLInputElement]</rdfs:label>
+    <rdfs:label>pannenkoeken</rdfs:label>
     <ns1:instructions rdf:nodeID="fcac4792d581f4f5c8507a2eb9272af78b9"/>
     <ns1:instructions rdf:nodeID="fcac4792d581f4f5c8507a2eb9272af78b5"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
