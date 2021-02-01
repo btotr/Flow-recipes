@@ -12,7 +12,7 @@
   </rdf:Description>
   <rdf:Description rdf:nodeID="faad8d57a4036449baccadafbc634a03bb8">
     <core:hasComponent rdf:resource="fs:Mon,%2014%20Oct%202019%2007:59:01%20GMT-Noodmuskaat"/>
-    <core:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</core:weight>
+    <core:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></core:weight>
   </rdf:Description>
   <rdf:Description rdf:about="fs:Mon,%2014%20Oct%202019%2007:59:01%20GMT-doorroeren">
     <skos:prefLabel>doorroeren</skos:prefLabel>
@@ -37,15 +37,15 @@
   <rdf:Description rdf:nodeID="faad8d57a4036449baccadafbc634a03bb4">
     <core:hasComponent rdf:resource="fs:Mon,%2014%20Oct%202019%2007:59:01%20GMT-kaas"/>
     <core:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300</core:weight>
-    <core:componentAddition>Langzaam in delen</core:componentAddition>
+    <core:componentAddition>in delen</core:componentAddition>
   </rdf:Description>
   <rdf:Description rdf:about="fs:Mon,%2014%20Oct%202019%2007:59:01%20GMT-Noodmuskaat">
     <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
-    <skos:prefLabel>Noodmuskaat</skos:prefLabel>
+    <skos:prefLabel>noodmuskaat</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:nodeID="faad8d57a4036449baccadafbc634a03bb2">
     <core:hasComponent rdf:resource="fs:Mon,%2014%20Oct%202019%2007:59:01%20GMT-witte%20wijn"/>
-    <core:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">150</core:weight>
+    <core:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">150g</core:weight>
   </rdf:Description>
   <rdf:Description rdf:about="fs:Mon,%2014%20Oct%202019%2007:59:01%20GMT-maizena">
     <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
@@ -53,7 +53,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="risottomon14oct201907:59:01%20GMT">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdfs:label>Risotto</rdfs:label>
+    <rdfs:label>kaasfondue</rdfs:label>
     <core:instructions rdf:nodeID="faad8d57a4036449baccadafbc634a03bb7"/>
     <core:instructions rdf:nodeID="faad8d57a4036449baccadafbc634a03bb5"/>
     <core:instructions rdf:nodeID="faad8d57a4036449baccadafbc634a03bb3"/>
@@ -99,11 +99,11 @@
     <rdfs:member rdf:resource="risottomon14oct201907:59:01%20GMT-doorroeren"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="faad8d57a4036449baccadafbc634a03bb10">
-    <core:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</core:weight>
+    <core:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10g</core:weight>
     <core:hasComponent rdf:resource="fs:Mon,%2014%20Oct%202019%2007:59:01%20GMT-maizena"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="faad8d57a4036449baccadafbc634a03bb6">
     <core:hasComponent rdf:resource="fs:Mon,%2014%20Oct%202019%2007:59:01%20GMT-peper"/>
-    <core:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</core:weight>
+    <core:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></core:weight>
   </rdf:Description>
 </rdf:RDF>
