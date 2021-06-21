@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://flow.recipes/flow-visualizer/flow-visualiser.xsl"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:core="https://flow.recipes/ns/core#" xmlns:skos="http://www.w3.org/2008/05/skos#">
+
+	<rdf:Description rdf:about="Kolokythopita2021-06-21T10:39:26.100Z">
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list0"/>
+		<rdfs:label>Kolokythopita</rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list1"/>
+		<rdfs:label>Kolokythopita</rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list2"/>
+		<rdfs:label>Kolokythopita</rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list3"/>
+		<rdfs:label>Kolokythopita</rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list4"/>
+		<rdfs:label>Kolokythopita</rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list5"/>
+		<rdfs:label>Kolokythopita</rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list6"/>
+		<rdfs:label>Kolokythopita</rdfs:label>
+	</rdf:Description>
+
+	<rdf:Description rdf:nodeID="e_list0">
+		<rdfs:member rdf:resource="Kolokythopita2021-06-21T10:39:26.100Z-invetten"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="Kolokythopita2021-06-21T10:39:26.100Z-invetten">
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_00"/>
+	
+		<core:hasMethod rdf:resource="fs:2021-06-21T10:39:26.100Z-invetten"/>
+		<core:direction>1 voor 1 in springvorm van 23 cm</core:direction>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_01"/>
+	
+		
+		<core:direction>1 voor 1 in springvorm van 23 cm</core:direction>
+	</rdf:Description>
+
+	<rdf:Description rdf:nodeID="g_00">
+		<core:hasComponent rdf:resource="fs:2021-06-21T10:39:26.100Z-filodeeg"/>
+		<core:weight>270g</core:weight>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:about="fs:2021-06-21T10:39:26.100Z-invetten">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>invetten</skos:prefLabel>
+	
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>invetten</skos:prefLabel>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="fs:2021-06-21T10:39:26.100Z-filodeeg">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>filodeeg</skos:prefLabel>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="e_list1">
+		<rdfs:member rdf:resource="Kolokythopita2021-06-21T10:39:26.100Z-invetten"/>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="g_01">
+		<core:hasComponent rdf:resource="fs:2021-06-21T10:39:26.100Z-olijfolie"/>
+	</rdf:Description>
+
+	
+
+	
+
+	<rdf:Description rdf:about="fs:2021-06-21T10:39:26.100Z-olijfolie">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>olijfolie</skos:prefLabel>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="e_list2">
+		<rdfs:member rdf:resource="Kolokythopita2021-06-21T10:39:26.100Z-Toevoegen"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="Kolokythopita2021-06-21T10:39:26.100Z-Toevoegen">
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_02"/>
+	
+		<core:hasMethod rdf:resource="fs:2021-06-21T10:39:26.100Z-Toevoegen"/>
+		<core:depVariationInstruction rdf:resource="Kolokythopita2021-06-21T10:39:26.100Z-invetten"/>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_03"/>
+		
+		
+	</rdf:Description>
+
+	<rdf:Description rdf:nodeID="g_02">
+		<core:hasComponent rdf:resource="fs:2021-06-21T10:39:26.100Z-pompoen_bulger_salade"/>
+		<core:weight>1kg</core:weight>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:about="fs:2021-06-21T10:39:26.100Z-Toevoegen">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>Toevoegen</skos:prefLabel>
+	
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>Toevoegen</skos:prefLabel>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="fs:2021-06-21T10:39:26.100Z-pompoen_bulger_salade">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>pompoen_bulger_salade</skos:prefLabel>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="e_list3">
+		<rdfs:member rdf:resource="Kolokythopita2021-06-21T10:39:26.100Z-Toevoegen"/>
+	</rdf:Description>
+
+	
+
+	
+
+	
+
+	<rdf:Description rdf:nodeID="e_list4">
+		<rdfs:member rdf:resource="Kolokythopita2021-06-21T10:39:26.100Z-dichtvouwen"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="Kolokythopita2021-06-21T10:39:26.100Z-dichtvouwen">
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_04"/>
+		<core:hasMethod rdf:resource="fs:2021-06-21T10:39:26.100Z-dichtvouwen"/>
+		<core:direction>filodeeg</core:direction>
+		<core:depVariationInstruction rdf:resource="Kolokythopita2021-06-21T10:39:26.100Z-Toevoegen"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="fs:2021-06-21T10:39:26.100Z-dichtvouwen">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>dichtvouwen</skos:prefLabel>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="e_list5">
+		<rdfs:member rdf:resource="Kolokythopita2021-06-21T10:39:26.100Z-bestrooien"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="Kolokythopita2021-06-21T10:39:26.100Z-bestrooien">
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_05"/>
+	
+		<core:hasMethod rdf:resource="fs:2021-06-21T10:39:26.100Z-bestrooien"/>
+		<core:depVariationInstruction rdf:resource="Kolokythopita2021-06-21T10:39:26.100Z-dichtvouwen"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:nodeID="g_05">
+		<core:hasComponent rdf:resource="fs:2021-06-21T10:39:26.100Z-pompoenpitten"/>
+		<core:weight>20g</core:weight>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:about="fs:2021-06-21T10:39:26.100Z-bestrooien">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>bestrooien</skos:prefLabel>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="fs:2021-06-21T10:39:26.100Z-pompoenpitten">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>pompoenpitten</skos:prefLabel>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="e_list6">
+		<rdfs:member rdf:resource="Kolokythopita2021-06-21T10:39:26.100Z-bakken"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="Kolokythopita2021-06-21T10:39:26.100Z-bakken">
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_06"/>
+		<core:hasMethod rdf:resource="fs:2021-06-21T10:39:26.100Z-bakken"/>
+		<core:time>40 min.</core:time>
+		<core:direction>180°C</core:direction>
+		<core:depVariationInstruction rdf:resource="Kolokythopita2021-06-21T10:39:26.100Z-bestrooien"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="fs:2021-06-21T10:39:26.100Z-bakken">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>bakken</skos:prefLabel>
+	</rdf:Description>
+</rdf:RDF>
