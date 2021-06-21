@@ -1,5 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://flow.recipes/flow-visualizer/flow-visualiser.xsl"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:core="https://flow.recipes/ns/core#" xmlns:skos="http://www.w3.org/2008/05/skos#">
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://flow.recipes/flow-visualizer/flow-visualiser.xsl"?><rdf:RDF xmlns:prov="http://www.w3.org/ns/prov#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:core="https://flow.recipes/ns/core#" xmlns:skos="http://www.w3.org/2008/05/skos#">
 
+	<prov:wasDerivedFrom>
+<prov:generatedEntity prov:ref="Kolokythopita2021-06-21T10:39:26.100Z"/>
+<prov:usedEntity prov:ref="https://georginahayden.com/taverna/"/>
+</prov:wasDerivedFrom>
+	
 	<rdf:Description rdf:about="Kolokythopita2021-06-21T10:39:26.100Z">
 		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
 		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
