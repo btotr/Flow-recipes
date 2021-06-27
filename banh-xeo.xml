@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://flow.recipes/flow-visualizer/flow-visualiser.xsl"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:core="https://flow.recipes/ns/core#" xmlns:skos="http://www.w3.org/2008/05/skos#">
+
+	<prov:wasDerivedFrom>
+<prov:generatedEntity prov:ref="Bánh-xèo2021-06-27T18:54:08.645Z"/>
+<prov:usedEntity prov:ref="https://miljuschka.nl/mijn-kookboeken/"/>
+</prov:wasDerivedFrom>
+	<rdf:Description rdf:about="Bánh-xèo2021-06-27T18:54:08.645Z">
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list0"/>
+		<rdfs:label>Bánh xèo</rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list1"/>
+		<rdfs:label>Bánh xèo</rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list2"/>
+		<rdfs:label>Bánh xèo</rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list3"/>
+		<rdfs:label>Bánh xèo</rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list4"/>
+		<rdfs:label>Bánh xèo</rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list5"/>
+		<rdfs:label>Bánh xèo</rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list6"/>
+		<rdfs:label>Bánh xèo</rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list7"/>
+		<rdfs:label>Bánh xèo</rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list8"/>
+		<rdfs:label>Bánh xèo</rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list9"/>
+		<rdfs:label>Bánh xèo</rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list10"/>
+		<rdfs:label>Bánh xèo</rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list11"/>
+		<rdfs:label>Bánh xèo</rdfs:label>
+	</rdf:Description>
+
+	<rdf:Description rdf:nodeID="e_list0">
+		<rdfs:member rdf:resource="Bánh-xèo2021-06-27T18:54:08.645Z-mengen"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="Bánh-xèo2021-06-27T18:54:08.645Z-mengen">
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_00"/>
+	
+		<core:hasMethod rdf:resource="fs:2021-06-27T18:54:08.645Z-mengen"/>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_01"/>
+	
+		
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_02"/>
+	
+		
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_03"/>
+	
+		
+	</rdf:Description>
+
+	<rdf:Description rdf:nodeID="g_00">
+		<core:hasComponent rdf:resource="fs:2021-06-27T18:54:08.645Z-rijstebloem"/>
+		<core:weight>150g</core:weight>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:about="fs:2021-06-27T18:54:08.645Z-mengen">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>mengen</skos:prefLabel>
+	
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>mengen</skos:prefLabel>
+	
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>mengen</skos:prefLabel>
+	
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>mengen</skos:prefLabel>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="fs:2021-06-27T18:54:08.645Z-rijstebloem">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>rijstebloem</skos:prefLabel>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="e_list1">
+		<rdfs:member rdf:resource="Bánh-xèo2021-06-27T18:54:08.645Z-mengen"/>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="g_01">
+		<core:hasComponent rdf:resource="fs:2021-06-27T18:54:08.645Z-kurkuma"/>
+		<core:weight>10g</core:weight>
+	</rdf:Description>
+
+	
+
+	
+
+	<rdf:Description rdf:about="fs:2021-06-27T18:54:08.645Z-kurkuma">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>kurkuma</skos:prefLabel>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="e_list2">
+		<rdfs:member rdf:resource="Bánh-xèo2021-06-27T18:54:08.645Z-mengen"/>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="g_02">
+		<core:hasComponent rdf:resource="fs:2021-06-27T18:54:08.645Z-kokosmelk"/>
+		<core:weight>125ml</core:weight>
+	</rdf:Description>
+
+	
+
+	
+
+	<rdf:Description rdf:about="fs:2021-06-27T18:54:08.645Z-kokosmelk">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>kokosmelk</skos:prefLabel>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="e_list3">
+		<rdfs:member rdf:resource="Bánh-xèo2021-06-27T18:54:08.645Z-mengen"/>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="g_03">
+		<core:hasComponent rdf:resource="fs:2021-06-27T18:54:08.645Z-bruiswater"/>
+		<core:weight>250ml</core:weight>
+	</rdf:Description>
+
+	
+
+	
+
+	<rdf:Description rdf:about="fs:2021-06-27T18:54:08.645Z-bruiswater">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>bruiswater</skos:prefLabel>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="e_list4">
+		<rdfs:member rdf:resource="Bánh-xèo2021-06-27T18:54:08.645Z-rusten"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="Bánh-xèo2021-06-27T18:54:08.645Z-rusten">
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_04"/>
+		<core:hasMethod rdf:resource="fs:2021-06-27T18:54:08.645Z-rusten"/>
+		<core:time>20 min.</core:time>
+		<core:depVariationInstruction rdf:resource="Bánh-xèo2021-06-27T18:54:08.645Z-mengen"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="fs:2021-06-27T18:54:08.645Z-rusten">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>rusten</skos:prefLabel>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="e_list5">
+		<rdfs:member rdf:resource="Bánh-xèo2021-06-27T18:54:08.645Z-bakken"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="Bánh-xèo2021-06-27T18:54:08.645Z-bakken">
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_05"/>
+		<core:hasMethod rdf:resource="fs:2021-06-27T18:54:08.645Z-bakken"/>
+		<core:time>2 min.</core:time>
+		<core:direction>65g per pannenkoek</core:direction>
+		<core:depVariationInstruction rdf:resource="Bánh-xèo2021-06-27T18:54:08.645Z-rusten"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="fs:2021-06-27T18:54:08.645Z-bakken">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>bakken</skos:prefLabel>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="e_list6">
+		<rdfs:member rdf:resource="Bánh-xèo2021-06-27T18:54:08.645Z-toevoegen"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="Bánh-xèo2021-06-27T18:54:08.645Z-toevoegen">
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_06"/>
+	
+		<core:hasMethod rdf:resource="fs:2021-06-27T18:54:08.645Z-toevoegen"/>
+		<core:direction>verdeel de ingrediënten over 8 pannenkoeken</core:direction>
+		<core:depVariationInstruction rdf:resource="Bánh-xèo2021-06-27T18:54:08.645Z-bakken"/>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_07"/>
+	
+		
+		<core:direction>verdeel de ingrediënten over 8 pannenkoeken</core:direction>
+		
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_08"/>
+	
+		
+		<core:direction>verdeel de ingrediënten over 8 pannenkoeken</core:direction>
+		
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_09"/>
+	
+		
+		<core:direction>verdeel de ingrediënten over 8 pannenkoeken</core:direction>
+		
+	</rdf:Description>
+
+	<rdf:Description rdf:nodeID="g_06">
+		<core:hasComponent rdf:resource="fs:2021-06-27T18:54:08.645Z-ijsbergsla"/>
+		<core:weight>200g</core:weight>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:about="fs:2021-06-27T18:54:08.645Z-toevoegen">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>toevoegen</skos:prefLabel>
+	
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>toevoegen</skos:prefLabel>
+	
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>toevoegen</skos:prefLabel>
+	
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>toevoegen</skos:prefLabel>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="fs:2021-06-27T18:54:08.645Z-ijsbergsla">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>ijsbergsla</skos:prefLabel>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="e_list7">
+		<rdfs:member rdf:resource="Bánh-xèo2021-06-27T18:54:08.645Z-toevoegen"/>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="g_07">
+		<core:hasComponent rdf:resource="fs:2021-06-27T18:54:08.645Z-Taugé"/>
+		<core:weight>200g</core:weight>
+	</rdf:Description>
+
+	
+
+	
+
+	<rdf:Description rdf:about="fs:2021-06-27T18:54:08.645Z-Taugé">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>Taugé</skos:prefLabel>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="e_list8">
+		<rdfs:member rdf:resource="Bánh-xèo2021-06-27T18:54:08.645Z-toevoegen"/>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="g_08">
+		<core:hasComponent rdf:resource="fs:2021-06-27T18:54:08.645Z-garnalen"/>
+		<core:weight>250g</core:weight>
+		<core:componentAddition>gekookt</core:componentAddition>
+	</rdf:Description>
+
+	
+
+	
+
+	<rdf:Description rdf:about="fs:2021-06-27T18:54:08.645Z-garnalen">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>garnalen</skos:prefLabel>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="e_list9">
+		<rdfs:member rdf:resource="Bánh-xèo2021-06-27T18:54:08.645Z-toevoegen"/>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="g_09">
+		<core:hasComponent rdf:resource="fs:2021-06-27T18:54:08.645Z-lenteui"/>
+		<core:weight>2</core:weight>
+	</rdf:Description>
+
+	
+
+	
+
+	<rdf:Description rdf:about="fs:2021-06-27T18:54:08.645Z-lenteui">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>lenteui</skos:prefLabel>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="e_list10">
+		<rdfs:member rdf:resource="Bánh-xèo2021-06-27T18:54:08.645Z-afbakken"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="Bánh-xèo2021-06-27T18:54:08.645Z-afbakken">
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_010"/>
+		<core:hasMethod rdf:resource="fs:2021-06-27T18:54:08.645Z-afbakken"/>
+		<core:time>2 min.</core:time>
+		<core:depVariationInstruction rdf:resource="Bánh-xèo2021-06-27T18:54:08.645Z-toevoegen"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="fs:2021-06-27T18:54:08.645Z-afbakken">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>afbakken</skos:prefLabel>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="e_list11">
+		<rdfs:member rdf:resource="Bánh-xèo2021-06-27T18:54:08.645Z-vouwen"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="Bánh-xèo2021-06-27T18:54:08.645Z-vouwen">
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_011"/>
+		<core:hasMethod rdf:resource="fs:2021-06-27T18:54:08.645Z-vouwen"/>
+		<core:direction>dubbel</core:direction>
+		<core:depVariationInstruction rdf:resource="Bánh-xèo2021-06-27T18:54:08.645Z-afbakken"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="fs:2021-06-27T18:54:08.645Z-vouwen">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>vouwen</skos:prefLabel>
+	</rdf:Description>
+</rdf:RDF>

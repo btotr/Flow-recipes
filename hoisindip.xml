@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://flow.recipes/flow-visualizer/flow-visualiser.xsl"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:core="https://flow.recipes/ns/core#" xmlns:skos="http://www.w3.org/2008/05/skos#">
+	<prov:wasDerivedFrom>
+<prov:generatedEntity prov:ref="hoisindip2021-06-27T19:02:51.308Z"/>
+<prov:usedEntity prov:ref="https://miljuschka.nl/mijn-kookboeken/"/>
+</prov:wasDerivedFrom>
+
+	<rdf:Description rdf:about="hoisindip2021-06-27T19:02:51.308Z">
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list0"/>
+		<rdfs:label>hoisindip</rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list1"/>
+		<rdfs:label>hoisindip</rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list2"/>
+		<rdfs:label>hoisindip</rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list3"/>
+		<rdfs:label>hoisindip</rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list4"/>
+		<rdfs:label>hoisindip</rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list5"/>
+		<rdfs:label>hoisindip</rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list6"/>
+		<rdfs:label>hoisindip</rdfs:label>
+	</rdf:Description>
+
+	<rdf:Description rdf:nodeID="e_list0">
+		<rdfs:member rdf:resource="hoisindip2021-06-27T19:02:51.308Z-bakken"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="hoisindip2021-06-27T19:02:51.308Z-bakken">
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_00"/>
+	
+		<core:hasMethod rdf:resource="fs:2021-06-27T19:02:51.308Z-bakken"/>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_01"/>
+	
+		
+	</rdf:Description>
+
+	<rdf:Description rdf:nodeID="g_00">
+		<core:hasComponent rdf:resource="fs:2021-06-27T19:02:51.308Z-knoflook"/>
+		<core:weight>2el</core:weight>
+		<core:componentAddition>fijngesneden</core:componentAddition>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:about="fs:2021-06-27T19:02:51.308Z-bakken">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>bakken</skos:prefLabel>
+	
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>bakken</skos:prefLabel>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="fs:2021-06-27T19:02:51.308Z-knoflook">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>knoflook</skos:prefLabel>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="e_list1">
+		<rdfs:member rdf:resource="hoisindip2021-06-27T19:02:51.308Z-bakken"/>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="g_01">
+		<core:hasComponent rdf:resource="fs:2021-06-27T19:02:51.308Z-olie"/>
+		<core:weight>1el</core:weight>
+	</rdf:Description>
+
+	
+
+	
+
+	<rdf:Description rdf:about="fs:2021-06-27T19:02:51.308Z-olie">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>olie</skos:prefLabel>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="e_list2">
+		<rdfs:member rdf:resource="hoisindip2021-06-27T19:02:51.308Z-toevoegen"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="hoisindip2021-06-27T19:02:51.308Z-toevoegen">
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_02"/>
+	
+		<core:hasMethod rdf:resource="fs:2021-06-27T19:02:51.308Z-toevoegen"/>
+		<core:time>1 min.</core:time>
+		<core:depVariationInstruction rdf:resource="hoisindip2021-06-27T19:02:51.308Z-bakken"/>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_03"/>
+	
+		
+		<core:time>1 min.</core:time>
+		
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_04"/>
+	
+		
+		<core:time>1 min.</core:time>
+		
+	</rdf:Description>
+
+	<rdf:Description rdf:nodeID="g_02">
+		<core:hasComponent rdf:resource="fs:2021-06-27T19:02:51.308Z-hoisinsaus"/>
+		<core:weight>125g</core:weight>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:about="fs:2021-06-27T19:02:51.308Z-toevoegen">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>toevoegen</skos:prefLabel>
+	
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>toevoegen</skos:prefLabel>
+	
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>toevoegen</skos:prefLabel>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="fs:2021-06-27T19:02:51.308Z-hoisinsaus">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>hoisinsaus</skos:prefLabel>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="e_list3">
+		<rdfs:member rdf:resource="hoisindip2021-06-27T19:02:51.308Z-toevoegen"/>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="g_03">
+		<core:hasComponent rdf:resource="fs:2021-06-27T19:02:51.308Z-pindakaas"/>
+		<core:weight>1el</core:weight>
+	</rdf:Description>
+
+	
+
+	
+
+	<rdf:Description rdf:about="fs:2021-06-27T19:02:51.308Z-pindakaas">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>pindakaas</skos:prefLabel>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="e_list4">
+		<rdfs:member rdf:resource="hoisindip2021-06-27T19:02:51.308Z-toevoegen"/>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="g_04">
+		<core:hasComponent rdf:resource="fs:2021-06-27T19:02:51.308Z-water"/>
+		<core:weight>40ml</core:weight>
+	</rdf:Description>
+
+	
+
+	
+
+	<rdf:Description rdf:about="fs:2021-06-27T19:02:51.308Z-water">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>water</skos:prefLabel>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="e_list5">
+		<rdfs:member rdf:resource="hoisindip2021-06-27T19:02:51.308Z-bestrooien"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="hoisindip2021-06-27T19:02:51.308Z-bestrooien">
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_05"/>
+	
+		<core:hasMethod rdf:resource="fs:2021-06-27T19:02:51.308Z-bestrooien"/>
+		<core:depVariationInstruction rdf:resource="hoisindip2021-06-27T19:02:51.308Z-toevoegen"/>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_06"/>
+	
+		
+		
+	</rdf:Description>
+
+	<rdf:Description rdf:nodeID="g_05">
+		<core:hasComponent rdf:resource="fs:2021-06-27T19:02:51.308Z-chillipeper"/>
+		<core:weight>1</core:weight>
+		<core:componentAddition>fijngesneden</core:componentAddition>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:about="fs:2021-06-27T19:02:51.308Z-bestrooien">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>bestrooien</skos:prefLabel>
+	
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>bestrooien</skos:prefLabel>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="fs:2021-06-27T19:02:51.308Z-chillipeper">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>chillipeper</skos:prefLabel>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="e_list6">
+		<rdfs:member rdf:resource="hoisindip2021-06-27T19:02:51.308Z-bestrooien"/>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="g_06">
+		<core:hasComponent rdf:resource="fs:2021-06-27T19:02:51.308Z-pinda"/>
+		<core:weight>2el</core:weight>
+		<core:componentAddition>gemalen</core:componentAddition>
+	</rdf:Description>
+
+	
+
+	
+
+	<rdf:Description rdf:about="fs:2021-06-27T19:02:51.308Z-pinda">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>pinda</skos:prefLabel>
+	</rdf:Description>
+</rdf:RDF>

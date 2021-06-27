@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://flow.recipes/flow-visualizer/flow-visualiser.xsl"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:core="https://flow.recipes/ns/core#" xmlns:skos="http://www.w3.org/2008/05/skos#">
+
+	<rdf:Description rdf:about="gebakken-buikspek-2021-06-27T19:09:56.522Z">
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list0"/>
+		<rdfs:label>gebakken buikspek </rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list1"/>
+		<rdfs:label>gebakken buikspek </rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list2"/>
+		<rdfs:label>gebakken buikspek </rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list3"/>
+		<rdfs:label>gebakken buikspek </rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list4"/>
+		<rdfs:label>gebakken buikspek </rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list5"/>
+		<rdfs:label>gebakken buikspek </rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list6"/>
+		<rdfs:label>gebakken buikspek </rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list7"/>
+		<rdfs:label>gebakken buikspek </rdfs:label>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Recipe"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:instructions rdf:nodeID="e_list8"/>
+		<rdfs:label>gebakken buikspek </rdfs:label>
+	</rdf:Description>
+
+	<rdf:Description rdf:nodeID="e_list0">
+		<rdfs:member rdf:resource="gebakken-buikspek-2021-06-27T19:09:56.522Z-marineren"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="gebakken-buikspek-2021-06-27T19:09:56.522Z-marineren">
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_00"/>
+	
+		<core:hasMethod rdf:resource="fs:2021-06-27T19:09:56.522Z-marineren"/>
+		<core:time>1u</core:time>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_01"/>
+	
+		
+		<core:time>1u</core:time>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_02"/>
+	
+		
+		<core:time>1u</core:time>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_03"/>
+	
+		
+		<core:time>1u</core:time>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_04"/>
+	
+		
+		<core:time>1u</core:time>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_05"/>
+	
+		
+		<core:time>1u</core:time>
+	
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_06"/>
+	
+		
+		<core:time>1u</core:time>
+	</rdf:Description>
+
+	<rdf:Description rdf:nodeID="g_00">
+		<core:hasComponent rdf:resource="fs:2021-06-27T19:09:56.522Z-buikspek"/>
+		<core:weight>600g</core:weight>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:about="fs:2021-06-27T19:09:56.522Z-marineren">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>marineren</skos:prefLabel>
+	
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>marineren</skos:prefLabel>
+	
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>marineren</skos:prefLabel>
+	
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>marineren</skos:prefLabel>
+	
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>marineren</skos:prefLabel>
+	
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>marineren</skos:prefLabel>
+	
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>marineren</skos:prefLabel>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="fs:2021-06-27T19:09:56.522Z-buikspek">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>buikspek</skos:prefLabel>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="e_list1">
+		<rdfs:member rdf:resource="gebakken-buikspek-2021-06-27T19:09:56.522Z-marineren"/>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="g_01">
+		<core:hasComponent rdf:resource="fs:2021-06-27T19:09:56.522Z-paprikapoeder"/>
+		<core:weight>1tl</core:weight>
+	</rdf:Description>
+
+	
+
+	
+
+	<rdf:Description rdf:about="fs:2021-06-27T19:09:56.522Z-paprikapoeder">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>paprikapoeder</skos:prefLabel>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="e_list2">
+		<rdfs:member rdf:resource="gebakken-buikspek-2021-06-27T19:09:56.522Z-marineren"/>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="g_02">
+		<core:hasComponent rdf:resource="fs:2021-06-27T19:09:56.522Z-kurkuma"/>
+		<core:weight>1tl</core:weight>
+	</rdf:Description>
+
+	
+
+	
+
+	<rdf:Description rdf:about="fs:2021-06-27T19:09:56.522Z-kurkuma">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>kurkuma</skos:prefLabel>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="e_list3">
+		<rdfs:member rdf:resource="gebakken-buikspek-2021-06-27T19:09:56.522Z-marineren"/>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="g_03">
+		<core:hasComponent rdf:resource="fs:2021-06-27T19:09:56.522Z-knoflook"/>
+		<core:weight>1</core:weight>
+		<core:componentAddition>teen fijngesneden</core:componentAddition>
+	</rdf:Description>
+
+	
+
+	
+
+	<rdf:Description rdf:about="fs:2021-06-27T19:09:56.522Z-knoflook">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>knoflook</skos:prefLabel>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="e_list4">
+		<rdfs:member rdf:resource="gebakken-buikspek-2021-06-27T19:09:56.522Z-marineren"/>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="g_04">
+		<core:hasComponent rdf:resource="fs:2021-06-27T19:09:56.522Z-nootmuskaat"/>
+		<core:weight>1tl</core:weight>
+	</rdf:Description>
+
+	
+
+	
+
+	<rdf:Description rdf:about="fs:2021-06-27T19:09:56.522Z-nootmuskaat">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>nootmuskaat</skos:prefLabel>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="e_list5">
+		<rdfs:member rdf:resource="gebakken-buikspek-2021-06-27T19:09:56.522Z-marineren"/>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="g_05">
+		<core:hasComponent rdf:resource="fs:2021-06-27T19:09:56.522Z-peper"/>
+	</rdf:Description>
+
+	
+
+	
+
+	<rdf:Description rdf:about="fs:2021-06-27T19:09:56.522Z-peper">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>peper</skos:prefLabel>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="e_list6">
+		<rdfs:member rdf:resource="gebakken-buikspek-2021-06-27T19:09:56.522Z-marineren"/>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="g_06">
+		<core:hasComponent rdf:resource="fs:2021-06-27T19:09:56.522Z-zout"/>
+	</rdf:Description>
+
+	
+
+	
+
+	<rdf:Description rdf:about="fs:2021-06-27T19:09:56.522Z-zout">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>zout</skos:prefLabel>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="e_list7">
+		<rdfs:member rdf:resource="gebakken-buikspek-2021-06-27T19:09:56.522Z-bakken"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="gebakken-buikspek-2021-06-27T19:09:56.522Z-bakken">
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_07"/>
+		<core:hasMethod rdf:resource="fs:2021-06-27T19:09:56.522Z-bakken"/>
+		<core:time>1u</core:time>
+		<core:direction>170ºC</core:direction>
+		<core:depVariationInstruction rdf:resource="gebakken-buikspek-2021-06-27T19:09:56.522Z-marineren"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="fs:2021-06-27T19:09:56.522Z-bakken">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>bakken</skos:prefLabel>
+	</rdf:Description>
+
+	
+
+	<rdf:Description rdf:nodeID="e_list8">
+		<rdfs:member rdf:resource="gebakken-buikspek-2021-06-27T19:09:56.522Z-rusten"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="gebakken-buikspek-2021-06-27T19:09:56.522Z-rusten">
+		<rdf:type rdf:resource="https://flow.recipes/ns/core#Instruction"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+		<core:hasComponentUnit rdf:nodeID="g_08"/>
+		<core:hasMethod rdf:resource="fs:2021-06-27T19:09:56.522Z-rusten"/>
+		<core:time>30min.</core:time>
+		<core:depVariationInstruction rdf:resource="gebakken-buikspek-2021-06-27T19:09:56.522Z-bakken"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="fs:2021-06-27T19:09:56.522Z-rusten">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+		<skos:prefLabel>rusten</skos:prefLabel>
+	</rdf:Description>
+</rdf:RDF>
